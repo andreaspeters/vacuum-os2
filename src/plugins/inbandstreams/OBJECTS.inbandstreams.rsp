@@ -1,0 +1,6 @@
+inbandoptions.obj
+inbandstream.obj
+inbandstreams.obj
+moc_inbandoptions.obj
+moc_inbandstream.obj
+moc_inbandstreams.obj

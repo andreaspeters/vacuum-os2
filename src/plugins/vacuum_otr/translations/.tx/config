@@ -1,0 +1,6 @@
+[main]
+host = https://www.transifex.com
+
+[vacuum-im.otre2ets]
+file_filter = <lang>/otre2e.ts
+source_lang = ru

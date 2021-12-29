@@ -1,0 +1,6 @@
+statuschanger.obj
+editstatusdialog.obj
+modifystatusdialog.obj
+moc_statuschanger.obj
+moc_editstatusdialog.obj
+moc_modifystatusdialog.obj

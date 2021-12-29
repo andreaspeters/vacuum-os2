@@ -1,0 +1,4 @@
+qxtglobal.obj
+qxtglobalshortcut.obj
+qxtglobalshortcut_os2.obj
+moc_qxtglobalshortcut.obj

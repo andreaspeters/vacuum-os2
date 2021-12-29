@@ -1,0 +1,11 @@
+affentry.obj
+affixmgr.obj
+csutil.obj
+dictmgr.obj
+filemgr.obj
+hashmgr.obj
+hunspell.obj
+hunzip.obj
+phonet.obj
+replist.obj
+suggestmgr.obj

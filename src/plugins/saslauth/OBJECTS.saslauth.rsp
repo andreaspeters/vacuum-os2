@@ -1,0 +1,8 @@
+saslauth.obj
+saslbind.obj
+saslsession.obj
+saslplugin.obj
+moc_saslauth.obj
+moc_saslbind.obj
+moc_saslsession.obj
+moc_saslplugin.obj

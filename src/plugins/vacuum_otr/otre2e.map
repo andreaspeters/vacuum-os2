@@ -1,0 +1,1119 @@
+
+IBM(R) Linker for OS/2(R), Version 5.0 
+Copyright (C) IBM Corporation 1988, 2003.
+Copyright (C) Microsoft Corp. 1988, 1989.
+All rights reserved.
+
+Current option settings:
+	DLL	CODE:RX	DATA:RW
+	Alignfile:0x00000010	ALIGNAddr:0x00010000	NOBASe
+	BRowse	DBgpack	DEbug:none	DEFaultlibrarysearch	NOEXEPACK
+	NOEXTdictionary	NOFIxed	NOFReeformat	NOIGnorecase	NOLinenumbers
+	NOLOgo	MAP:otre2e.map	OCache:0x02000000	NOOLDcpp
+	NOOPTFunc	PACKCode:0xffffffff	PACKData:0xffffffff
+	PMTYPE:VIO	SEGMENTS:256 	SEGOrder	NOSTRictwarnings
+	NONOSTRictwarnings	STUB:U:\USR\BIN\os2stub.bin	NOVERBose
+	VERSION:00.00
+
+
+
+ OTRE2E
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000081B0H TEXT32                 CODE 32-bit
+	at offset 00000000 000A0H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+	at offset 000000A0 00340H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj (OtrMessaging.obj)
+	at offset 000003E0 03FF0H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\PsiOtrConfig.obj (PsiOtrConfig.obj)
+	at offset 000043D0 00790H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj (moc_otre2e.obj)
+	at offset 00004B60 00E90H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_PsiOtrConfig.obj (moc_PsiOtrConfig.obj)
+	at offset 000059F0 00590H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj (moc_optionswidget.obj)
+	at offset 00005F80 00018H bytes from U:\usr\lib\libstdc++.lib (del_op.obj)
+	at offset 00005FA0 000F8H bytes from U:\usr\lib\libstdc++.lib (eh_catch.obj)
+	at offset 000060A0 00878H bytes from U:\usr\lib\libstdc++.lib (eh_personality.obj)
+	at offset 00006920 000E0H bytes from U:\usr\lib\libstdc++.lib (eh_throw.obj)
+	at offset 00006A00 000A0H bytes from U:\usr\lib\libstdc++.lib (new_op.obj)
+	at offset 00006AA0 00F00H bytes from U:\usr\lib\libstdc++.lib (tinfo.obj)
+	at offset 000079A0 002D0H bytes from U:\usr\lib\libstdc++.lib (eh_alloc.obj)
+	at offset 00007C70 000F0H bytes from U:\usr\lib\libstdc++.lib (eh_exception.obj)
+	at offset 00007D60 001F0H bytes from U:\usr\lib\libstdc++.lib (eh_globals.obj)
+	at offset 00007F50 00068H bytes from U:\usr\lib\libstdc++.lib (eh_terminate.obj)
+	at offset 00007FC0 000B0H bytes from U:\usr\lib\libstdc++.lib (new_handler.obj)
+	at offset 00008070 00080H bytes from C:\var\temp\ldconv_libgcc_so_d_a_52815103345a12ee0.lib (emx-eh.obj)
+	at offset 000080F0 00038H bytes from U:\usr\lib\libc_dll.lib (D:\CODING\LIBC\0.6\src\emx\src\lib\startup\dllinit.c)
+	at offset 00008130 00080H bytes from C:\var\temp\ldconv_libgcc_so_d_a_52815103345a12ee0.lib (emx-ctordtor.obj)
+
+ 0001:000081B0 000000000H ________TEXT           CODE 32-bit
+
+ 0002:00000000 000001C08H DATA32                 DATA 32-bit
+	at offset 00000000 00048H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+	at offset 00000050 00238H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj (OtrMessaging.obj)
+	at offset 00000290 00B48H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\PsiOtrConfig.obj (PsiOtrConfig.obj)
+	at offset 00000DE0 00070H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj (moc_otre2e.obj)
+	at offset 00000E50 00250H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_PsiOtrConfig.obj (moc_PsiOtrConfig.obj)
+	at offset 000010A0 000D0H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj (moc_optionswidget.obj)
+	at offset 00001170 00088H bytes from U:\usr\lib\libstdc++.lib (eh_catch.obj)
+	at offset 00001200 00278H bytes from U:\usr\lib\libstdc++.lib (eh_personality.obj)
+	at offset 00001480 000C0H bytes from U:\usr\lib\libstdc++.lib (eh_throw.obj)
+	at offset 00001540 00088H bytes from U:\usr\lib\libstdc++.lib (new_op.obj)
+	at offset 000015D0 00238H bytes from U:\usr\lib\libstdc++.lib (tinfo.obj)
+	at offset 00001810 00130H bytes from U:\usr\lib\libstdc++.lib (eh_alloc.obj)
+	at offset 00001940 00168H bytes from U:\usr\lib\libstdc++.lib (eh_globals.obj)
+	at offset 00001AB0 000B8H bytes from U:\usr\lib\libstdc++.lib (eh_terminate.obj)
+	at offset 00001B70 00048H bytes from C:\var\temp\ldconv_libgcc_so_d_a_52815103345a12ee0.lib (emx-eh.obj)
+	at offset 00001BC0 00048H bytes from C:\var\temp\ldconv_libgcc_so_d_a_52815103345a12ee0.lib (emx-ctordtor.obj)
+
+ 0002:00001C08 000000004H SET1__os2dll           DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C0C 000000000H SET2__os2dll           DATA 32-bit
+
+ 0002:00001C0C 000000004H SET3__os2dll           DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C10 000000004H SET1___CTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C14 00000000CH SET2___CTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj (moc_otre2e.obj)
+	at offset 00000004 00004H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_PsiOtrConfig.obj (moc_PsiOtrConfig.obj)
+	at offset 00000008 00004H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj (moc_optionswidget.obj)
+
+ 0002:00001C20 000000004H SET3___CTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C24 000000004H SET1___DTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C28 000000000H SET2___DTOR_LIST__     DATA 32-bit
+
+ 0002:00001C28 000000004H SET3___DTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C2C 000000004H SET1___crtinit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C30 000000000H SET2___crtinit1__      DATA 32-bit
+
+ 0002:00001C30 000000004H SET3___crtinit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C34 000000004H SET1___crtexit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C38 000000000H SET2___crtexit1__      DATA 32-bit
+
+ 0002:00001C38 000000004H SET3___crtexit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C3C 000000004H SET1___eh_frame__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C40 00000003CH SET2___eh_frame__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj (OtrMessaging.obj)
+	at offset 00000004 00004H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\PsiOtrConfig.obj (PsiOtrConfig.obj)
+	at offset 00000008 00004H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj (moc_otre2e.obj)
+	at offset 0000000C 00004H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_PsiOtrConfig.obj (moc_PsiOtrConfig.obj)
+	at offset 00000010 00004H bytes from U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj (moc_optionswidget.obj)
+	at offset 00000014 00004H bytes from U:\usr\lib\libstdc++.lib (eh_catch.obj)
+	at offset 00000018 00004H bytes from U:\usr\lib\libstdc++.lib (eh_personality.obj)
+	at offset 0000001C 00004H bytes from U:\usr\lib\libstdc++.lib (eh_throw.obj)
+	at offset 00000020 00004H bytes from U:\usr\lib\libstdc++.lib (new_op.obj)
+	at offset 00000024 00004H bytes from U:\usr\lib\libstdc++.lib (tinfo.obj)
+	at offset 00000028 00004H bytes from U:\usr\lib\libstdc++.lib (eh_alloc.obj)
+	at offset 0000002C 00004H bytes from U:\usr\lib\libstdc++.lib (eh_globals.obj)
+	at offset 00000030 00004H bytes from U:\usr\lib\libstdc++.lib (eh_terminate.obj)
+	at offset 00000034 00004H bytes from C:\var\temp\ldconv_libgcc_so_d_a_52815103345a12ee0.lib (emx-eh.obj)
+	at offset 00000038 00004H bytes from C:\var\temp\ldconv_libgcc_so_d_a_52815103345a12ee0.lib (emx-ctordtor.obj)
+
+ 0002:00001C7C 000000004H SET3___eh_frame__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C80 000000004H SET1___eh_init__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C84 000000004H SET2___eh_init__       DATA 32-bit
+	at offset 00000000 00004H bytes from C:\var\temp\ldconv_libgcc_so_d_a_52815103345a12ee0.lib (emx-eh.obj)
+
+ 0002:00001C88 000000004H SET3___eh_init__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C8C 000000004H SET1___eh_term__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C90 000000004H SET2___eh_term__       DATA 32-bit
+	at offset 00000000 00004H bytes from C:\var\temp\ldconv_libgcc_so_d_a_52815103345a12ee0.lib (emx-eh.obj)
+
+ 0002:00001C94 000000004H SET3___eh_term__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C98 000000004H SET1___fork_parent1__  DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001C9C 000000000H SET2___fork_parent1__  DATA 32-bit
+
+ 0002:00001C9C 000000004H SET3___fork_parent1__  DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001CA0 000000004H SET1___fork_child1__   DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001CA4 000000000H SET2___fork_child1__   DATA 32-bit
+
+ 0002:00001CA4 000000004H SET3___fork_child1__   DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\dll0hi.obj ({standard input})
+
+ 0002:00001CB0 000000000H ________DATA           DATA 32-bit
+
+ 0002:00001CB0 000004090H BSS32                  BSS 32-bit
+	at offset 00000000 04030H bytes from U:\usr\lib\libstdc++.lib (eh_alloc.obj)
+	at offset 00004030 00030H bytes from U:\usr\lib\libstdc++.lib (eh_globals.obj)
+	at offset 00004060 00008H bytes from U:\usr\lib\libstdc++.lib (new_handler.obj)
+	at offset 00004070 00010H bytes from C:\var\temp\ldconv_libgcc_so_d_a_52815103345a12ee0.lib (emx-eh.obj)
+	at offset 00004080 00010H bytes from C:\var\temp\ldconv_libgcc_so_d_a_52815103345a12ee0.lib (emx-ctordtor.obj)
+
+ 0002:00005D40 000000000H c_common               BSS 32-bit
+
+ 0002:00005D40 000000000H ________BSS            BSS 32-bit
+
+
+ Origin   Group
+ 0000:0   FLAT
+ 0001:0   CGROUP
+ 0002:0   DGROUP
+
+
+ Address         Publics by Name
+ 0000:00000000  Abs  WEAK$ZERO
+ 0001:000080F0       _DLL_InitTerm
+ 0002:00001CB0       _edata
+ 0002:00005D40       _end
+ 0001:000081B0       _etext
+ 0000:00000000  Imp  __atfork_callback    (libc065.445)
+ 0000:00000000  Imp  __CRT_init           (libc065.167)
+ 0000:00000000  Imp  __CRT_term           (libc065.168)
+ 0002:00000000       __data
+ 0002:00001CB0       __edata
+ 0002:00005D40       __end
+ 0000:00000000  Imp  __errno              (libc065.541)
+ 0001:000081B0       __etext
+ 0000:00000000  Imp  __fmutex_create      (libc065.559)
+ 0002:00001C08       __os2dll
+ 0000:00000000  Imp  __std_abort          (libc065.653)
+ 0000:00000000  Imp  __std_free           (libc065.768)
+ 0000:00000000  Imp  __std_malloc         (libc065.856)
+ 0000:00000000  Imp  __std_memcpy         (libc065.864)
+ 0000:00000000  Imp  __std_memset         (libc065.867)
+ 0000:00000000  Imp  __std_strcmp         (libc065.1000)
+ 0001:00000000       __text
+ 0000:00000000  Imp  __Unwind_DeleteException (gcc446.__Unwind_DeleteException)
+ 0000:00000000  Imp  __Unwind_GetDataRelBase (gcc446.__Unwind_GetDataRelBase)
+ 0000:00000000  Imp  __Unwind_GetIP       (gcc446.__Unwind_GetIP)
+ 0000:00000000  Imp  __Unwind_GetLanguageSpecificData (gcc446.__Unwind_GetLanguageSpecificData)
+ 0000:00000000  Imp  __Unwind_GetRegionStart (gcc446.__Unwind_GetRegionStart)
+ 0000:00000000  Imp  __Unwind_GetTextRelBase (gcc446.__Unwind_GetTextRelBase)
+ 0000:00000000  Imp  __Unwind_RaiseException (gcc446.__Unwind_RaiseException)
+ 0000:00000000  Imp  __Unwind_Resume      (gcc446.__Unwind_Resume)
+ 0000:00000000  Imp  __Unwind_Resume_or_Rethrow (gcc446.__Unwind_Resume_or_Rethrow)
+ 0000:00000000  Imp  __Unwind_SetGR       (gcc446.__Unwind_SetGR)
+ 0000:00000000  Imp  __Unwind_SetIP       (gcc446.__Unwind_SetIP)
+ 0000:00000000  Imp  __Z5qFreePv          (QtCore4.__Z5qFreePv)
+ 0001:00005F80       __ZdlPv
+ 0000:00000000  Imp  __ZN10QBoxLayout10addStretchEi (QtGui4.__ZN10QBoxLayout10addStretchEi)
+ 0000:00000000  Imp  __ZN10QBoxLayout9addLayoutEP7QLayouti (QtGui4.__ZN10QBoxLayout9addLayoutEP7QLayouti)
+ 0000:00000000  Imp  __ZN10QBoxLayout9addWidgetEP7QWidgeti6QFlagsIN2Qt13AlignmentFlagEE (QtGui4.__ZN10QBoxLayout9addWidgetEP7QWidgeti6QFlagsIN2Qt13AlignmentFlagEE)
+ 0000:00000000  Imp  __ZN10QTableView11setShowGridEb (QtGui4.__ZN10QTableView11setShowGridEb)
+ 0000:00000000  Imp  __ZN10QTableView14setColumnWidthEii (QtGui4.__ZN10QTableView14setColumnWidthEii)
+ 0000:00000000  Imp  __ZN10QTableViewC1EP7QWidget (QtGui4.__ZN10QTableViewC1EP7QWidget)
+ 0000:00000000  Imp  __ZN10QTabWidget6addTabEP7QWidgetRK7QString (QtGui4.__ZN10QTabWidget6addTabEP7QWidgetRK7QString)
+ 0000:00000000  Imp  __ZN10QTabWidgetC1EP7QWidget (QtGui4.__ZN10QTabWidgetC1EP7QWidget)
+ 0001:00007F50       __ZN10__cxxabiv111__terminateEPFvvE
+ 0001:00007F72       __ZN10__cxxabiv112__unexpectedEPFvvE
+ 0001:00006C08       __ZN10__cxxabiv117__class_type_infoD0Ev
+ 0001:00006BF0       __ZN10__cxxabiv117__class_type_infoD1Ev
+ 0001:00006BD8       __ZN10__cxxabiv117__class_type_infoD2Ev
+ 0002:00001AB0       __ZN10__cxxabiv119__terminate_handlerE
+ 0001:00006C5A       __ZN10__cxxabiv120__si_class_type_infoD0Ev
+ 0001:00006C42       __ZN10__cxxabiv120__si_class_type_infoD1Ev
+ 0001:00006C2A       __ZN10__cxxabiv120__si_class_type_infoD2Ev
+ 0002:00001AB4       __ZN10__cxxabiv120__unexpected_handlerE
+ 0001:00006CAC       __ZN10__cxxabiv121__vmi_class_type_infoD0Ev
+ 0001:00006C94       __ZN10__cxxabiv121__vmi_class_type_infoD1Ev
+ 0001:00006C7C       __ZN10__cxxabiv121__vmi_class_type_infoD2Ev
+ 0000:00000000  Imp  __ZN11QHBoxLayoutC1Ev (QtGui4.__ZN11QHBoxLayoutC1Ev)
+ 0000:00000000  Imp  __ZN11QMessageBoxC1ENS_4IconERK7QStringS3_6QFlagsINS_14StandardButtonEEP7QWidgetS4_IN2Qt10WindowTypeEE (QtGui4.__ZN11QMessageBoxC1ENS_4IconERK7QStringS3_6QFlagsINS_14StandardButtonEEP7QWidgetS4_IN2Qt10WindowTypeEE)
+ 0000:00000000  Imp  __ZN11QMessageBoxD1Ev (QtGui4.__ZN11QMessageBoxD1Ev)
+ 0000:00000000  Imp  __ZN11QMetaObject8activateEP7QObjectPKS_iPPv (QtCore4.__ZN11QMetaObject8activateEP7QObjectPKS_iPPv)
+ 0000:00000000  Imp  __ZN11QPushButtonC1ERK7QStringP7QWidget (QtGui4.__ZN11QPushButtonC1ERK7QStringP7QWidget)
+ 0001:000007D0       __ZN11QStringListD1Ev$w$fAk0jVmgfD6bZ3Z10
+ 0000:00000000  Imp  __ZN11QVBoxLayoutC1EP7QWidget (QtGui4.__ZN11QVBoxLayoutC1EP7QWidget)
+ 0001:00005A90       __ZN13OptionsWidget10childApplyEv
+ 0001:00005A50       __ZN13OptionsWidget10childResetEv
+ 0001:00005B00       __ZN13OptionsWidget11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00005C10       __ZN13OptionsWidget11qt_metacastEPKc
+ 0002:000010A0       __ZN13OptionsWidget16staticMetaObjectE
+ 0001:00005A00       __ZN13OptionsWidget8instanceEv$w$7M2hoAugfD6iLgba3
+ 0001:00005AD0       __ZN13OptionsWidget8modifiedEv
+ 0000:00000000  Imp  __ZN13QStandardItemC1ERK7QString (QtGui4.__ZN13QStandardItemC1ERK7QString)
+ 0000:00000000  Imp  __ZN17QAbstractItemView15setEditTriggersE6QFlagsINS_11EditTriggerEE (QtGui4.__ZN17QAbstractItemView15setEditTriggersE6QFlagsINS_11EditTriggerEE)
+ 0000:00000000  Imp  __ZN17QAbstractItemView20setSelectionBehaviorENS_17SelectionBehaviorE (QtGui4.__ZN17QAbstractItemView20setSelectionBehaviorENS_17SelectionBehaviorE)
+ 0000:00000000  Imp  __ZN18QStandardItemModel14setColumnCountEi (QtGui4.__ZN18QStandardItemModel14setColumnCountEi)
+ 0000:00000000  Imp  __ZN18QStandardItemModel25setHorizontalHeaderLabelsERK11QStringList (QtGui4.__ZN18QStandardItemModel25setHorizontalHeaderLabelsERK11QStringList)
+ 0000:00000000  Imp  __ZN18QStandardItemModel5clearEv (QtGui4.__ZN18QStandardItemModel5clearEv)
+ 0000:00000000  Imp  __ZN18QStandardItemModel9appendRowERK5QListIP13QStandardItemE (QtGui4.__ZN18QStandardItemModel9appendRowERK5QListIP13QStandardItemE)
+ 0000:00000000  Imp  __ZN18QStandardItemModelC1EP7QObject (QtGui4.__ZN18QStandardItemModelC1EP7QObject)
+ 0001:000015A0       __ZN3otr11FingerprintD1Ev$w$fAk0jVmgfD6bZ3Z10
+ 0001:00004D70       __ZN3otr12ConfigDialog11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00004EA0       __ZN3otr12ConfigDialog11qt_metacastEPKc
+ 0002:00000EA0       __ZN3otr12ConfigDialog16staticMetaObjectE
+ 0001:00003460       __ZN3otr12ConfigDialogC1EPNS_12OtrMessagingEP14IOTRDataSourceP7QWidget
+ 0001:00003720       __ZN3otr12ConfigDialogC2EPNS_12OtrMessagingEP14IOTRDataSourceP7QWidget
+ 0001:00004CB0       __ZN3otr12ConfigDialogD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004C20       __ZN3otr12ConfigDialogD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00000160       __ZN3otr12OtrMessaging10endSessionERK7QStringS3_
+ 0001:000000C0       __ZN3otr12OtrMessaging12getSessionIdERK7QStringS3_
+ 0001:00000180       __ZN3otr12OtrMessaging12startSessionERK7QStringS3_
+ 0001:00000240       __ZN3otr12OtrMessaging14decryptMessageERK7QStringS3_S3_
+ 0001:00000280       __ZN3otr12OtrMessaging14encryptMessageERK7QStringS3_S3_
+ 0001:000001A0       __ZN3otr12OtrMessaging14getPrivateKeysEv
+ 0001:00000210       __ZN3otr12OtrMessaging15getFingerprintsEv
+ 0001:00000140       __ZN3otr12OtrMessaging15getMessageStateERK7QStringS3_
+ 0001:000001D0       __ZN3otr12OtrMessaging17deleteFingerprintERKNS_11FingerprintE
+ 0001:000001F0       __ZN3otr12OtrMessaging17verifyFingerprintERKNS_11FingerprintEb
+ 0001:00000100       __ZN3otr12OtrMessaging21getMessageStateStringERK7QStringS3_
+ 0001:000000B0       __ZN3otr12OtrMessaging9getPolicyEv
+ 0001:000000A0       __ZN3otr12OtrMessaging9setPolicyENS_9OtrPolicyE
+ 0001:00000320       __ZN3otr12OtrMessagingC1EP14IOTRDataSourceNS_9OtrPolicyE
+ 0001:00000380       __ZN3otr12OtrMessagingC2EP14IOTRDataSourceNS_9OtrPolicyE
+ 0001:000002C0       __ZN3otr12OtrMessagingD1Ev
+ 0001:000002F0       __ZN3otr12OtrMessagingD2Ev
+ 0001:00004D60       __ZN3otr13PrivKeyWidget11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00004D80       __ZN3otr13PrivKeyWidget11qt_metacastEPKc
+ 0002:00000ED0       __ZN3otr13PrivKeyWidget16staticMetaObjectE
+ 0001:000016B0       __ZN3otr13PrivKeyWidgetC1EPNS_12OtrMessagingEP7QWidget
+ 0001:00001C80       __ZN3otr13PrivKeyWidgetC2EPNS_12OtrMessagingEP7QWidget
+ 0001:00004D30       __ZN3otr13PrivKeyWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004C80       __ZN3otr13PrivKeyWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004FA0       __ZN3otr15ConfigOtrWidget11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00004E40       __ZN3otr15ConfigOtrWidget11qt_metacastEPKc
+ 0002:00000EB0       __ZN3otr15ConfigOtrWidget16staticMetaObjectE
+ 0001:000004A0       __ZN3otr15ConfigOtrWidget18handlePolicyChangeEv
+ 0001:00000A80       __ZN3otr15ConfigOtrWidgetC1EP14IOTRDataSourcePNS_12OtrMessagingEP7QWidget
+ 0001:00001010       __ZN3otr15ConfigOtrWidgetC2EP14IOTRDataSourcePNS_12OtrMessagingEP7QWidget
+ 0001:00004CF0       __ZN3otr15ConfigOtrWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004C50       __ZN3otr15ConfigOtrWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00002530       __ZN3otr17FingerprintWidget10updateDataEv
+ 0001:00004F00       __ZN3otr17FingerprintWidget11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00004DE0       __ZN3otr17FingerprintWidget11qt_metacastEPKc
+ 0001:000003E0       __ZN3otr17FingerprintWidget12tableClickedERK11QModelIndex
+ 0002:00000EC0       __ZN3otr17FingerprintWidget16staticMetaObjectE
+ 0001:00002CD0       __ZN3otr17FingerprintWidget17forgetFingerprintEv
+ 0001:00003E80       __ZN3otr17FingerprintWidget17verifyFingerprintEv
+ 0001:00003000       __ZN3otr17FingerprintWidgetC1EPNS_12OtrMessagingEP7QWidget
+ 0001:000039E0       __ZN3otr17FingerprintWidgetC2EPNS_12OtrMessagingEP7QWidget
+ 0001:00005180       __ZN3otr17FingerprintWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00005220       __ZN3otr17FingerprintWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0000:00000000  Imp  __ZN5QHashI7QStringS0_E11deleteNode2EPN9QHashData4NodeE (vacuumu.301)
+ 0001:00000970       __ZN5QHashI7QStringS0_E11deleteNode2EPN9QHashData4NodeE$w$fAk0jVmgfD6bZ3Z10
+ 0000:00000000  Imp  __ZN5QHashI7QStringS0_E13duplicateNodeEPN9QHashData4NodeEPv (vacuumu.293)
+ 0001:00000410       __ZN5QHashI7QStringS0_E13duplicateNodeEPN9QHashData4NodeEPv$w$fAk0jVmgfD6bZ3Z10
+ 0001:00000770       __ZN5QListI7QStringE4freeEPN9QListData4DataE$w$fAk0jVmgfD6bZ3Z10
+ 0000:00000000  Imp  __ZN5QListI7QStringE6appendERKS0_ (vacuumu.316)
+ 0001:00000800       __ZN5QListI7QStringE6appendERKS0_$w$fAk0jVmgfD6bZ3Z10
+ 0001:000023C0       __ZN5QListIN3otr11FingerprintEE13detach_helperEi$w$fAk0jVmgfD6bZ3Z10
+ 0001:00002250       __ZN5QListIN3otr11FingerprintEE4freeEPN9QListData4DataE$w$fAk0jVmgfD6bZ3Z10
+ 0001:00005000       __ZN5QListIN3otr11FingerprintEE4freeEPN9QListData4DataE$w$v2V1fqugfD6HCnBp0
+ 0001:00002390       __ZN5QListIN3otr11FingerprintEED1Ev$w$fAk0jVmgfD6bZ3Z10
+ 0001:00000610       __ZN5QListIP13QStandardItemE6appendERKS1_$w$fAk0jVmgfD6bZ3Z10
+ 0001:00000440       __ZN5QListIP13QStandardItemED1Ev$w$fAk0jVmgfD6bZ3Z10
+ 0001:00004400       __ZN6OtrE2E11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00004630       __ZN6OtrE2E11qt_metacastEPKc
+ 0002:00000DE0       __ZN6OtrE2E16staticMetaObjectE
+ 0000:00000000  Imp  __ZN6QLabelC1ERK7QStringP7QWidget6QFlagsIN2Qt10WindowTypeEE (QtGui4.__ZN6QLabelC1ERK7QStringP7QWidget6QFlagsIN2Qt10WindowTypeEE)
+ 0000:00000000  Imp  __ZN7QDialog4execEv  (QtGui4.__ZN7QDialog4execEv)
+ 0000:00000000  Imp  __ZN7QObject10childEventEP11QChildEvent (QtCore4.__ZN7QObject10childEventEP11QChildEvent)
+ 0000:00000000  Imp  __ZN7QObject10timerEventEP11QTimerEvent (QtCore4.__ZN7QObject10timerEventEP11QTimerEvent)
+ 0000:00000000  Imp  __ZN7QObject11customEventEP6QEvent (QtCore4.__ZN7QObject11customEventEP6QEvent)
+ 0000:00000000  Imp  __ZN7QObject11eventFilterEPS_P6QEvent (QtCore4.__ZN7QObject11eventFilterEPS_P6QEvent)
+ 0000:00000000  Imp  __ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv (QtCore4.__ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv)
+ 0000:00000000  Imp  __ZN7QObject11qt_metacastEPKc (QtCore4.__ZN7QObject11qt_metacastEPKc)
+ 0000:00000000  Imp  __ZN7QObject13connectNotifyEPKc (QtCore4.__ZN7QObject13connectNotifyEPKc)
+ 0000:00000000  Imp  __ZN7QObject16disconnectNotifyEPKc (QtCore4.__ZN7QObject16disconnectNotifyEPKc)
+ 0000:00000000  Imp  __ZN7QObject16staticMetaObjectE (QtCore4.__ZN7QObject16staticMetaObjectE)
+ 0000:00000000  Imp  __ZN7QObject5eventEP6QEvent (QtCore4.__ZN7QObject5eventEP6QEvent)
+ 0000:00000000  Imp  __ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE (QtCore4.__ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE)
+ 0000:00000000  Imp  __ZN7QString16fromAscii_helperEPKci (QtCore4.__ZN7QString16fromAscii_helperEPKci)
+ 0000:00000000  Imp  __ZN7QString4freeEPNS_4DataE (QtCore4.__ZN7QString4freeEPNS_4DataE)
+ 0000:00000000  Imp  __ZN7QString6appendERKS_ (QtCore4.__ZN7QString6appendERKS_)
+ 0000:00000000  Imp  __ZN7QString9fromAsciiEPKci (QtCore4.__ZN7QString9fromAsciiEPKci)
+ 0000:00000000  Imp  __ZN7QStringD1Ev     (vacuumu.19)
+ 0001:00000470       __ZN7QStringD1Ev$w$fAk0jVmgfD6bZ3Z10
+ 0000:00000000  Imp  __ZN7QWidget10closeEventEP11QCloseEvent (QtGui4.__ZN7QWidget10closeEventEP11QCloseEvent)
+ 0000:00000000  Imp  __ZN7QWidget10enterEventEP6QEvent (QtGui4.__ZN7QWidget10enterEventEP6QEvent)
+ 0000:00000000  Imp  __ZN7QWidget10fontChangeERK5QFont (QtGui4.__ZN7QWidget10fontChangeERK5QFont)
+ 0000:00000000  Imp  __ZN7QWidget10leaveEventEP6QEvent (QtGui4.__ZN7QWidget10leaveEventEP6QEvent)
+ 0000:00000000  Imp  __ZN7QWidget10paintEventEP11QPaintEvent (QtGui4.__ZN7QWidget10paintEventEP11QPaintEvent)
+ 0000:00000000  Imp  __ZN7QWidget10setEnabledEb (QtGui4.__ZN7QWidget10setEnabledEb)
+ 0000:00000000  Imp  __ZN7QWidget10setVisibleEb (QtGui4.__ZN7QWidget10setVisibleEb)
+ 0000:00000000  Imp  __ZN7QWidget10wheelEventEP11QWheelEvent (QtGui4.__ZN7QWidget10wheelEventEP11QWheelEvent)
+ 0000:00000000  Imp  __ZN7QWidget11actionEventEP12QActionEvent (QtGui4.__ZN7QWidget11actionEventEP12QActionEvent)
+ 0000:00000000  Imp  __ZN7QWidget11changeEventEP6QEvent (QtGui4.__ZN7QWidget11changeEventEP6QEvent)
+ 0000:00000000  Imp  __ZN7QWidget11qt_metacallEN11QMetaObject4CallEiPPv (QtGui4.__ZN7QWidget11qt_metacallEN11QMetaObject4CallEiPPv)
+ 0000:00000000  Imp  __ZN7QWidget11qt_metacastEPKc (QtGui4.__ZN7QWidget11qt_metacastEPKc)
+ 0000:00000000  Imp  __ZN7QWidget11resizeEventEP12QResizeEvent (QtGui4.__ZN7QWidget11resizeEventEP12QResizeEvent)
+ 0000:00000000  Imp  __ZN7QWidget11styleChangeER6QStyle (QtGui4.__ZN7QWidget11styleChangeER6QStyle)
+ 0000:00000000  Imp  __ZN7QWidget11tabletEventEP12QTabletEvent (QtGui4.__ZN7QWidget11tabletEventEP12QTabletEvent)
+ 0000:00000000  Imp  __ZN7QWidget12focusInEventEP11QFocusEvent (QtGui4.__ZN7QWidget12focusInEventEP11QFocusEvent)
+ 0000:00000000  Imp  __ZN7QWidget13dragMoveEventEP14QDragMoveEvent (QtGui4.__ZN7QWidget13dragMoveEventEP14QDragMoveEvent)
+ 0000:00000000  Imp  __ZN7QWidget13enabledChangeEb (QtGui4.__ZN7QWidget13enabledChangeEb)
+ 0000:00000000  Imp  __ZN7QWidget13focusOutEventEP11QFocusEvent (QtGui4.__ZN7QWidget13focusOutEventEP11QFocusEvent)
+ 0000:00000000  Imp  __ZN7QWidget13keyPressEventEP9QKeyEvent (QtGui4.__ZN7QWidget13keyPressEventEP9QKeyEvent)
+ 0000:00000000  Imp  __ZN7QWidget13paletteChangeERK8QPalette (QtGui4.__ZN7QWidget13paletteChangeERK8QPalette)
+ 0000:00000000  Imp  __ZN7QWidget14dragEnterEventEP15QDragEnterEvent (QtGui4.__ZN7QWidget14dragEnterEventEP15QDragEnterEvent)
+ 0000:00000000  Imp  __ZN7QWidget14dragLeaveEventEP15QDragLeaveEvent (QtGui4.__ZN7QWidget14dragLeaveEventEP15QDragLeaveEvent)
+ 0000:00000000  Imp  __ZN7QWidget14languageChangeEv (QtGui4.__ZN7QWidget14languageChangeEv)
+ 0000:00000000  Imp  __ZN7QWidget14mouseMoveEventEP11QMouseEvent (QtGui4.__ZN7QWidget14mouseMoveEventEP11QMouseEvent)
+ 0000:00000000  Imp  __ZN7QWidget15keyReleaseEventEP9QKeyEvent (QtGui4.__ZN7QWidget15keyReleaseEventEP9QKeyEvent)
+ 0000:00000000  Imp  __ZN7QWidget15mousePressEventEP11QMouseEvent (QtGui4.__ZN7QWidget15mousePressEventEP11QMouseEvent)
+ 0000:00000000  Imp  __ZN7QWidget16contextMenuEventEP17QContextMenuEvent (QtGui4.__ZN7QWidget16contextMenuEventEP17QContextMenuEvent)
+ 0000:00000000  Imp  __ZN7QWidget16inputMethodEventEP17QInputMethodEvent (QtGui4.__ZN7QWidget16inputMethodEventEP17QInputMethodEvent)
+ 0000:00000000  Imp  __ZN7QWidget16staticMetaObjectE (QtGui4.__ZN7QWidget16staticMetaObjectE)
+ 0000:00000000  Imp  __ZN7QWidget17mouseReleaseEventEP11QMouseEvent (QtGui4.__ZN7QWidget17mouseReleaseEventEP11QMouseEvent)
+ 0000:00000000  Imp  __ZN7QWidget18focusNextPrevChildEb (QtGui4.__ZN7QWidget18focusNextPrevChildEb)
+ 0000:00000000  Imp  __ZN7QWidget21mouseDoubleClickEventEP11QMouseEvent (QtGui4.__ZN7QWidget21mouseDoubleClickEventEP11QMouseEvent)
+ 0000:00000000  Imp  __ZN7QWidget22windowActivationChangeEb (QtGui4.__ZN7QWidget22windowActivationChangeEb)
+ 0000:00000000  Imp  __ZN7QWidget5eventEP6QEvent (QtGui4.__ZN7QWidget5eventEP6QEvent)
+ 0000:00000000  Imp  __ZN7QWidget7pmEventEP5_QMSGPPv (QtGui4.__ZN7QWidget7pmEventEP5_QMSGPPv)
+ 0000:00000000  Imp  __ZN7QWidget9dropEventEP10QDropEvent (QtGui4.__ZN7QWidget9dropEventEP10QDropEvent)
+ 0000:00000000  Imp  __ZN7QWidget9hideEventEP10QHideEvent (QtGui4.__ZN7QWidget9hideEventEP10QHideEvent)
+ 0000:00000000  Imp  __ZN7QWidget9moveEventEP10QMoveEvent (QtGui4.__ZN7QWidget9moveEventEP10QMoveEvent)
+ 0000:00000000  Imp  __ZN7QWidget9setLayoutEP7QLayout (QtGui4.__ZN7QWidget9setLayoutEP7QLayout)
+ 0000:00000000  Imp  __ZN7QWidget9showEventEP10QShowEvent (QtGui4.__ZN7QWidget9showEventEP10QShowEvent)
+ 0000:00000000  Imp  __ZN7QWidgetC2EPS_6QFlagsIN2Qt10WindowTypeEE (QtGui4.__ZN7QWidgetC2EPS_6QFlagsIN2Qt10WindowTypeEE)
+ 0000:00000000  Imp  __ZN7QWidgetD2Ev     (QtGui4.__ZN7QWidgetD2Ev)
+ 0000:00000000  Imp  __ZN8QVariantC1Ei    (QtCore4.__ZN8QVariantC1Ei)
+ 0000:00000000  Imp  __ZN8QVariantD1Ev    (QtCore4.__ZN8QVariantD1Ev)
+ 0000:00000000  Imp  __ZN9QCheckBox13setCheckStateEN2Qt10CheckStateE (QtGui4.__ZN9QCheckBox13setCheckStateEN2Qt10CheckStateE)
+ 0000:00000000  Imp  __ZN9QCheckBoxC1ERK7QStringP7QWidget (QtGui4.__ZN9QCheckBoxC1ERK7QStringP7QWidget)
+ 0000:00000000  Imp  __ZN9QGroupBoxC1ERK7QStringP7QWidget (QtGui4.__ZN9QGroupBoxC1ERK7QStringP7QWidget)
+ 0000:00000000  Imp  __ZN9QHashData11free_helperEPFvPNS_4NodeEE (QtCore4.__ZN9QHashData11free_helperEPFvPNS_4NodeEE)
+ 0000:00000000  Imp  __ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii (QtCore4.__ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii)
+ 0000:00000000  Imp  __ZN9QHashData8nextNodeEPNS_4NodeE (QtCore4.__ZN9QHashData8nextNodeEPNS_4NodeE)
+ 0000:00000000  Imp  __ZN9QListData11detach_growEPii (QtCore4.__ZN9QListData11detach_growEPii)
+ 0000:00000000  Imp  __ZN9QListData11shared_nullE (QtCore4.__ZN9QListData11shared_nullE)
+ 0000:00000000  Imp  __ZN9QListData6appendEv (QtCore4.__ZN9QListData6appendEv)
+ 0000:00000000  Imp  __ZN9QListData6detachEi (QtCore4.__ZN9QListData6detachEi)
+ 0001:00006CCE       __ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+ 0001:000073B6       __ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+ 0001:00006D0E       __ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+ 0001:00006E88       __ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+ 0001:00006D6C       __ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+ 0001:000073F4       __ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+ 0001:00006EDE       __ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+ 0001:00006D84       __ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+ 0001:0000743E       __ZNK10__cxxabiv121__vmi_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+ 0001:00006F84       __ZNK10__cxxabiv121__vmi_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+ 0001:00006DD2       __ZNK10__cxxabiv121__vmi_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+ 0000:00000000  Imp  __ZNK11QMetaObject2trEPKcS1_ (QtCore4.__ZNK11QMetaObject2trEPKcS1_)
+ 0001:00005A10       __ZNK13OptionsWidget10metaObjectEv
+ 0001:00004B60       __ZNK3otr12ConfigDialog10metaObjectEv
+ 0001:00004BC0       __ZNK3otr13PrivKeyWidget10metaObjectEv
+ 0001:00004B80       __ZNK3otr15ConfigOtrWidget10metaObjectEv
+ 0001:00004BA0       __ZNK3otr17FingerprintWidget10metaObjectEv
+ 0001:000043D0       __ZNK6OtrE2E10metaObjectEv
+ 0000:00000000  Imp  __ZNK7QString8multiArgEiPPKS_ (QtCore4.__ZNK7QString8multiArgEiPPKS_)
+ 0000:00000000  Imp  __ZNK7QWidget11paintEngineEv (QtGui4.__ZNK7QWidget11paintEngineEv)
+ 0000:00000000  Imp  __ZNK7QWidget14heightForWidthEi (QtGui4.__ZNK7QWidget14heightForWidthEi)
+ 0000:00000000  Imp  __ZNK7QWidget15minimumSizeHintEv (QtGui4.__ZNK7QWidget15minimumSizeHintEv)
+ 0000:00000000  Imp  __ZNK7QWidget16inputMethodQueryEN2Qt16InputMethodQueryE (QtGui4.__ZNK7QWidget16inputMethodQueryEN2Qt16InputMethodQueryE)
+ 0000:00000000  Imp  __ZNK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE (QtGui4.__ZNK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE)
+ 0000:00000000  Imp  __ZNK7QWidget7devTypeEv (QtGui4.__ZNK7QWidget7devTypeEv)
+ 0000:00000000  Imp  __ZNK7QWidget8sizeHintEv (QtGui4.__ZNK7QWidget8sizeHintEv)
+ 0000:00000000  Imp  __ZNK8QVariant5toIntEPb (QtCore4.__ZNK8QVariant5toIntEPb)
+ 0000:00000000  Imp  __ZNK9QCheckBox10checkStateEv (QtGui4.__ZNK9QCheckBox10checkStateEv)
+ 0001:00007CF0       __ZNKSt9exception4whatEv
+ 0001:00006BB4       __ZNKSt9type_info10__do_catchEPKS_PPvj
+ 0001:00006BD0       __ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+ 0001:00006BA4       __ZNKSt9type_info14__is_pointer_pEv
+ 0001:00006BAC       __ZNKSt9type_info15__is_function_pEv
+ 0001:00006B72       __ZNKSt9type_infoeqERKS_
+ 0001:00006B50       __ZNSt10bad_typeidD0Ev
+ 0001:00006B38       __ZNSt10bad_typeidD1Ev
+ 0001:00006B20       __ZNSt10bad_typeidD2Ev
+ 0001:00007CCE       __ZNSt13bad_exceptionD0Ev
+ 0001:00007CB6       __ZNSt13bad_exceptionD1Ev
+ 0001:00007C9E       __ZNSt13bad_exceptionD2Ev
+ 0001:00006AFE       __ZNSt8bad_castD0Ev
+ 0001:00006AE6       __ZNSt8bad_castD1Ev
+ 0001:00006ACE       __ZNSt8bad_castD2Ev
+ 0001:00008006       __ZNSt9bad_allocD0Ev
+ 0001:00007FEE       __ZNSt9bad_allocD1Ev
+ 0001:00007FD6       __ZNSt9bad_allocD2Ev
+ 0001:00007C8C       __ZNSt9exceptionD0Ev
+ 0001:00007C7E       __ZNSt9exceptionD1Ev
+ 0001:00007C70       __ZNSt9exceptionD2Ev
+ 0001:00006ABC       __ZNSt9type_infoD0Ev
+ 0001:00006AAE       __ZNSt9type_infoD1Ev
+ 0001:00006AA0       __ZNSt9type_infoD2Ev
+ 0001:00006A00       __Znwj
+ 0001:00007F7E       __ZSt10unexpectedv
+ 0001:00007F8E       __ZSt13set_terminatePFvvE
+ 0001:00007FA2       __ZSt14set_unexpectedPFvvE
+ 0001:00007FC2       __ZSt15set_new_handlerPFvvE
+ 0001:0000607C       __ZSt18uncaught_exceptionv
+ 0001:00007FC0       __ZSt7nothrow
+ 0001:00007F64       __ZSt9terminatev
+ 0001:00005A80       __ZThn20_N13OptionsWidget10childApplyEv
+ 0001:00005A40       __ZThn20_N13OptionsWidget10childResetEv
+ 0001:000059F0       __ZThn20_N13OptionsWidget8instanceEv$w$7M2hoAugfD6iLgba3
+ 0001:00005AC0       __ZThn20_N13OptionsWidget8modifiedEv
+ 0001:00004CA0       __ZThn8_N3otr12ConfigDialogD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004C10       __ZThn8_N3otr12ConfigDialogD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004D20       __ZThn8_N3otr13PrivKeyWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004C70       __ZThn8_N3otr13PrivKeyWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004CE0       __ZThn8_N3otr15ConfigOtrWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004C40       __ZThn8_N3otr15ConfigOtrWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00005170       __ZThn8_N3otr17FingerprintWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00005210       __ZThn8_N3otr17FingerprintWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0000:00000000  Imp  __ZThn8_NK7QWidget11paintEngineEv (QtGui4.__ZThn8_NK7QWidget11paintEngineEv)
+ 0000:00000000  Imp  __ZThn8_NK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE (QtGui4.__ZThn8_NK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE)
+ 0000:00000000  Imp  __ZThn8_NK7QWidget7devTypeEv (QtGui4.__ZThn8_NK7QWidget7devTypeEv)
+ 0000:00000000  Imp  __ZTI12QPaintDevice  (vacuumu.768)
+ 0001:00005E9C       __ZTI12QPaintDevice$w$7M2hoAugfD6iLgba3
+ 0001:00005874       __ZTI12QPaintDevice$w$v2V1fqugfD6HCnBp0
+ 0001:00005DF0       __ZTI13OptionsWidget$w$7M2hoAugfD6iLgba3
+ 0001:000049D8       __ZTI14IOptionsHolder$w$519uHgugfD6nlMUj3
+ 0001:00005E80       __ZTI14IOptionsWidget$w$7M2hoAugfD6iLgba3
+ 0001:000049E8       __ZTI14IOTRDataSource$w$519uHgugfD6nlMUj3
+ 0001:000049E0       __ZTI15IArchiveHandler$w$519uHgugfD6nlMUj3
+ 0001:00004830       __ZTI6OtrE2E$w$519uHgugfD6nlMUj3
+ 0001:000049D0       __ZTI7IPlugin$w$519uHgugfD6nlMUj3
+ 0000:00000000  Imp  __ZTI7QObject        (vacuumu.387)
+ 0001:000049C8       __ZTI7QObject$w$519uHgugfD6nlMUj3
+ 0001:00005E94       __ZTI7QObject$w$7M2hoAugfD6iLgba3
+ 0001:0000586C       __ZTI7QObject$w$v2V1fqugfD6HCnBp0
+ 0000:00000000  Imp  __ZTI7QWidget        (vacuumu.765)
+ 0001:00005E60       __ZTI7QWidget$w$7M2hoAugfD6iLgba3
+ 0001:00005840       __ZTI7QWidget$w$v2V1fqugfD6HCnBp0
+ 0001:00007860       __ZTIN10__cxxabiv117__class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:0000786C       __ZTIN10__cxxabiv120__si_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:00007878       __ZTIN10__cxxabiv121__vmi_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:00005748       __ZTIN3otr12ConfigDialogE$w$v2V1fqugfD6HCnBp0
+ 0001:000056B8       __ZTIN3otr13PrivKeyWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:00005718       __ZTIN3otr15ConfigOtrWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:000056EC       __ZTIN3otr17FingerprintWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:00007854       __ZTISt10bad_typeid$w$RUHCpMm3xL5NesEi0
+ 0001:00007D34       __ZTISt13bad_exception$w$HAICpMm3xL5geb6z3
+ 0001:000068E0       __ZTISt13bad_exception$w$nJICpMm3xL5lR80S0
+ 0001:00007848       __ZTISt8bad_cast$w$RUHCpMm3xL5NesEi0
+ 0001:00006A6C       __ZTISt9bad_alloc$w$dsICpMm3xL5lcI0i0
+ 0001:0000803C       __ZTISt9bad_alloc$w$NJHCpMm3xL5w0PgS3
+ 0001:00006A88       __ZTISt9exception$w$dsICpMm3xL5lcI0i0
+ 0001:00007D2C       __ZTISt9exception$w$HAICpMm3xL5geb6z3
+ 0001:00008058       __ZTISt9exception$w$NJHCpMm3xL5w0PgS3
+ 0001:00006900       __ZTISt9exception$w$nJICpMm3xL5lR80S0
+ 0001:0000796C       __ZTISt9exception$w$RUHCpMm3xL5NesEi0
+ 0001:00007840       __ZTISt9type_info$w$RUHCpMm3xL5NesEi0
+ 0000:00000000  Imp  __ZTS12QPaintDevice  (vacuumu.770)
+ 0001:00005ECA       __ZTS12QPaintDevice$w$7M2hoAugfD6iLgba3
+ 0001:00005885       __ZTS12QPaintDevice$w$v2V1fqugfD6HCnBp0
+ 0001:00005DE0       __ZTS13OptionsWidget$w$7M2hoAugfD6iLgba3
+ 0001:00004A10       __ZTS14IOptionsHolder$w$519uHgugfD6nlMUj3
+ 0001:00005EB0       __ZTS14IOptionsWidget$w$7M2hoAugfD6iLgba3
+ 0001:00004A50       __ZTS14IOTRDataSource$w$519uHgugfD6nlMUj3
+ 0001:00004A30       __ZTS15IArchiveHandler$w$519uHgugfD6nlMUj3
+ 0001:0000481C       __ZTS6OtrE2E$w$519uHgugfD6nlMUj3
+ 0001:000049F9       __ZTS7IPlugin$w$519uHgugfD6nlMUj3
+ 0000:00000000  Imp  __ZTS7QObject        (vacuumu.388)
+ 0001:000049F0       __ZTS7QObject$w$519uHgugfD6nlMUj3
+ 0001:00005EC1       __ZTS7QObject$w$7M2hoAugfD6iLgba3
+ 0001:0000587C       __ZTS7QObject$w$v2V1fqugfD6HCnBp0
+ 0000:00000000  Imp  __ZTS7QWidget        (vacuumu.766)
+ 0001:00005E88       __ZTS7QWidget$w$7M2hoAugfD6iLgba3
+ 0001:00005860       __ZTS7QWidget$w$v2V1fqugfD6HCnBp0
+ 0001:00007920       __ZTSN10__cxxabiv117__class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:000078E0       __ZTSN10__cxxabiv120__si_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:000078A0       __ZTSN10__cxxabiv121__vmi_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:00005730       __ZTSN3otr12ConfigDialogE$w$v2V1fqugfD6HCnBp0
+ 0001:000056A0       __ZTSN3otr13PrivKeyWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:00005700       __ZTSN3otr15ConfigOtrWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:000056D0       __ZTSN3otr17FingerprintWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:00007942       __ZTSSt10bad_typeid$w$RUHCpMm3xL5NesEi0
+ 0001:00007D40       __ZTSSt13bad_exception$w$HAICpMm3xL5geb6z3
+ 0001:000068EC       __ZTSSt13bad_exception$w$nJICpMm3xL5lR80S0
+ 0001:00007951       __ZTSSt8bad_cast$w$RUHCpMm3xL5NesEi0
+ 0001:00006A78       __ZTSSt9bad_alloc$w$dsICpMm3xL5lcI0i0
+ 0001:00008048       __ZTSSt9bad_alloc$w$NJHCpMm3xL5w0PgS3
+ 0001:00006A90       __ZTSSt9exception$w$dsICpMm3xL5lcI0i0
+ 0001:00007D52       __ZTSSt9exception$w$HAICpMm3xL5geb6z3
+ 0001:00008060       __ZTSSt9exception$w$NJHCpMm3xL5w0PgS3
+ 0001:00006908       __ZTSSt9exception$w$nJICpMm3xL5lR80S0
+ 0001:00007974       __ZTSSt9exception$w$RUHCpMm3xL5NesEi0
+ 0001:0000795D       __ZTSSt9type_info$w$RUHCpMm3xL5NesEi0
+ 0001:00005CA0       __ZTV13OptionsWidget$w$7M2hoAugfD6iLgba3
+ 0001:00004730       __ZTV6OtrE2E$w$519uHgugfD6nlMUj3
+ 0000:00000000  Imp  __ZTVN10__cxxabiv117__class_type_infoE (libc065.5132)
+ 0001:000077C0       __ZTVN10__cxxabiv117__class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0000:00000000  Imp  __ZTVN10__cxxabiv120__si_class_type_infoE (libc065.5136)
+ 0001:00007780       __ZTVN10__cxxabiv120__si_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0000:00000000  Imp  __ZTVN10__cxxabiv121__vmi_class_type_infoE (libc065.5140)
+ 0001:00007740       __ZTVN10__cxxabiv121__vmi_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:000055A0       __ZTVN3otr12ConfigDialogE$w$v2V1fqugfD6HCnBp0
+ 0001:000052A0       __ZTVN3otr13PrivKeyWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:000054A0       __ZTVN3otr15ConfigOtrWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:000053A0       __ZTVN3otr17FingerprintWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:000077F0       __ZTVSt10bad_typeid$w$RUHCpMm3xL5NesEi0
+ 0001:00007D00       __ZTVSt13bad_exception$w$HAICpMm3xL5geb6z3
+ 0001:00007808       __ZTVSt8bad_cast$w$RUHCpMm3xL5NesEi0
+ 0001:00008028       __ZTVSt9bad_alloc$w$NJHCpMm3xL5w0PgS3
+ 0001:00007D18       __ZTVSt9exception$w$HAICpMm3xL5geb6z3
+ 0001:00007820       __ZTVSt9type_info$w$RUHCpMm3xL5NesEi0
+ 0002:00001CB0       ___bss_start
+ 0002:00001C34       ___crtexit1__
+ 0002:00001C2C       ___crtinit1__
+ 0001:00008170       ___ctordtorInit
+ 0000:00000000  Imp  ___ctordtorInit1     (libc065.231)
+ 0001:00008130       ___ctordtorTerm
+ 0000:00000000  Imp  ___ctordtorTerm1     (libc065.232)
+ 0002:00001C10       ___CTOR_LIST__
+ 0001:000079B6       ___cxa_allocate_exception
+ 0001:00005FA0       ___cxa_begin_catch
+ 0001:0000681A       ___cxa_call_unexpected
+ 0001:0000600A       ___cxa_end_catch
+ 0001:00007AF2       ___cxa_free_exception
+ 0001:00007E3C       ___cxa_get_globals
+ 0001:00007E16       ___cxa_get_globals_fast
+ 0001:000069B4       ___cxa_rethrow
+ 0001:00006958       ___cxa_throw
+ 0002:00000000       ___data_start
+ 0000:00000000  Imp  ___deregister_frame  (gcc446.___deregister_frame)
+ 0002:00001C24       ___DTOR_LIST__
+ 0001:00007646       ___dynamic_cast
+ 0001:000080B0       ___ehInit
+ 0001:00008070       ___ehTerm
+ 0002:00001C3C       ___eh_frame__
+ 0002:00001C80       ___eh_init__
+ 0002:00001C8C       ___eh_term__
+ 0000:00000000  Imp  ___fmutex_release_internal (libc065.247)
+ 0000:00000000  Imp  ___fmutex_release_internal_must_complete (libc065.248)
+ 0000:00000000  Imp  ___fmutex_request_internal (libc065.249)
+ 0000:00000000  Imp  ___fmutex_request_internal_must_complete (libc065.250)
+ 0002:00001CA0       ___fork_child1__
+ 0002:00001C98       ___fork_parent1__
+ 0001:0000644A       ___gxx_personality_v0
+ 0000:00000000  Imp  ___init_dll          (libc065.266)
+ 0000:00000000  Imp  ___libc_Back_termDll (libc065.1953)
+ 0000:00000000  Imp  ___libc_Back_threadSleep (libc065.1490)
+ 0000:00000000  Imp  ___libc_ForkDeregisterModule (libc065.1954)
+ 0000:00000000  Imp  ___libc_ForkRegisterModule (libc065.343)
+ 0000:00000000  Imp  ___libc_GpFIBLIS     (libc065.5)
+ 0000:00000000  Imp  ___libc_TLSAlloc     (libc065.369)
+ 0000:00000000  Imp  ___libc_TLSDestructor (libc065.370)
+ 0000:00000000  Imp  ___libc_TLSGet       (libc065.372)
+ 0000:00000000  Imp  ___libc_TLSSet       (libc065.374)
+ 0002:00005D10       ___new_handler
+ 0000:00000000  Imp  ___register_frame_table (gcc446.___register_frame_table)
+
+
+ Address         Publics by Value
+ 0000:00000000  Imp  __ZN7QWidget17mouseReleaseEventEP11QMouseEvent (QtGui4.__ZN7QWidget17mouseReleaseEventEP11QMouseEvent)
+ 0000:00000000  Imp  __ZThn8_NK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE (QtGui4.__ZThn8_NK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE)
+ 0000:00000000  Imp  __ZN7QStringD1Ev     (vacuumu.19)
+ 0000:00000000  Imp  __ZNK7QWidget11paintEngineEv (QtGui4.__ZNK7QWidget11paintEngineEv)
+ 0000:00000000  Imp  __ZN6QLabelC1ERK7QStringP7QWidget6QFlagsIN2Qt10WindowTypeEE (QtGui4.__ZN6QLabelC1ERK7QStringP7QWidget6QFlagsIN2Qt10WindowTypeEE)
+ 0000:00000000  Imp  __ZN7QWidget11qt_metacastEPKc (QtGui4.__ZN7QWidget11qt_metacastEPKc)
+ 0000:00000000  Imp  __fmutex_create      (libc065.559)
+ 0000:00000000  Imp  __ZN17QAbstractItemView15setEditTriggersE6QFlagsINS_11EditTriggerEE (QtGui4.__ZN17QAbstractItemView15setEditTriggersE6QFlagsINS_11EditTriggerEE)
+ 0000:00000000  Imp  __ZN7QWidget18focusNextPrevChildEb (QtGui4.__ZN7QWidget18focusNextPrevChildEb)
+ 0000:00000000  Imp  __ZN18QStandardItemModel9appendRowERK5QListIP13QStandardItemE (QtGui4.__ZN18QStandardItemModel9appendRowERK5QListIP13QStandardItemE)
+ 0000:00000000  Imp  __ZN7QWidget13keyPressEventEP9QKeyEvent (QtGui4.__ZN7QWidget13keyPressEventEP9QKeyEvent)
+ 0000:00000000  Imp  __ZN7QObject11qt_metacastEPKc (QtCore4.__ZN7QObject11qt_metacastEPKc)
+ 0000:00000000  Imp  __ZN7QWidget14dragLeaveEventEP15QDragLeaveEvent (QtGui4.__ZN7QWidget14dragLeaveEventEP15QDragLeaveEvent)
+ 0000:00000000  Imp  __ZN10QBoxLayout10addStretchEi (QtGui4.__ZN10QBoxLayout10addStretchEi)
+ 0000:00000000  Imp  ___libc_ForkRegisterModule (libc065.343)
+ 0000:00000000  Imp  __ZN7QString16fromAscii_helperEPKci (QtCore4.__ZN7QString16fromAscii_helperEPKci)
+ 0000:00000000  Imp  __ZN8QVariantD1Ev    (QtCore4.__ZN8QVariantD1Ev)
+ 0000:00000000  Imp  __ZNK7QWidget16inputMethodQueryEN2Qt16InputMethodQueryE (QtGui4.__ZNK7QWidget16inputMethodQueryEN2Qt16InputMethodQueryE)
+ 0000:00000000  Imp  __ZNK7QWidget7devTypeEv (QtGui4.__ZNK7QWidget7devTypeEv)
+ 0000:00000000  Imp  __ZNK7QWidget8sizeHintEv (QtGui4.__ZNK7QWidget8sizeHintEv)
+ 0000:00000000  Imp  __ZN9QGroupBoxC1ERK7QStringP7QWidget (QtGui4.__ZN9QGroupBoxC1ERK7QStringP7QWidget)
+ 0000:00000000  Imp  __ZN7QWidget13focusOutEventEP11QFocusEvent (QtGui4.__ZN7QWidget13focusOutEventEP11QFocusEvent)
+ 0000:00000000  Imp  __atfork_callback    (libc065.445)
+ 0000:00000000  Imp  __ZN9QHashData11free_helperEPFvPNS_4NodeEE (QtCore4.__ZN9QHashData11free_helperEPFvPNS_4NodeEE)
+ 0000:00000000  Imp  __ZN7QObject11customEventEP6QEvent (QtCore4.__ZN7QObject11customEventEP6QEvent)
+ 0000:00000000  Imp  __ZN9QListData6appendEv (QtCore4.__ZN9QListData6appendEv)
+ 0000:00000000  Imp  __ZN7QString9fromAsciiEPKci (QtCore4.__ZN7QString9fromAsciiEPKci)
+ 0000:00000000  Imp  __std_strcmp         (libc065.1000)
+ 0000:00000000  Imp  __ZN11QPushButtonC1ERK7QStringP7QWidget (QtGui4.__ZN11QPushButtonC1ERK7QStringP7QWidget)
+ 0000:00000000  Imp  __ZN7QWidget13paletteChangeERK8QPalette (QtGui4.__ZN7QWidget13paletteChangeERK8QPalette)
+ 0000:00000000  Imp  __ZN7QWidget11changeEventEP6QEvent (QtGui4.__ZN7QWidget11changeEventEP6QEvent)
+ 0000:00000000  Imp  __ZN7QWidget15mousePressEventEP11QMouseEvent (QtGui4.__ZN7QWidget15mousePressEventEP11QMouseEvent)
+ 0000:00000000  Imp  __ZN11QHBoxLayoutC1Ev (QtGui4.__ZN11QHBoxLayoutC1Ev)
+ 0000:00000000  Imp  __ZN10QBoxLayout9addLayoutEP7QLayouti (QtGui4.__ZN10QBoxLayout9addLayoutEP7QLayouti)
+ 0000:00000000  Imp  __ZN7QWidget10setEnabledEb (QtGui4.__ZN7QWidget10setEnabledEb)
+ 0000:00000000  Imp  __ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii (QtCore4.__ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii)
+ 0000:00000000  Imp  __ZN11QMessageBoxD1Ev (QtGui4.__ZN11QMessageBoxD1Ev)
+ 0000:00000000  Imp  __ZN7QWidget5eventEP6QEvent (QtGui4.__ZN7QWidget5eventEP6QEvent)
+ 0000:00000000  Imp  ___fmutex_release_internal (libc065.247)
+ 0000:00000000  Imp  __ZN7QWidget11styleChangeER6QStyle (QtGui4.__ZN7QWidget11styleChangeER6QStyle)
+ 0000:00000000  Imp  __ZN5QHashI7QStringS0_E11deleteNode2EPN9QHashData4NodeE (vacuumu.301)
+ 0000:00000000  Imp  ___libc_TLSGet       (libc065.372)
+ 0000:00000000  Imp  __Unwind_GetTextRelBase (gcc446.__Unwind_GetTextRelBase)
+ 0000:00000000  Imp  __ZN18QStandardItemModelC1EP7QObject (QtGui4.__ZN18QStandardItemModelC1EP7QObject)
+ 0000:00000000  Imp  __Unwind_DeleteException (gcc446.__Unwind_DeleteException)
+ 0000:00000000  Imp  __ZThn8_NK7QWidget7devTypeEv (QtGui4.__ZThn8_NK7QWidget7devTypeEv)
+ 0000:00000000  Imp  __ZN7QWidget9dropEventEP10QDropEvent (QtGui4.__ZN7QWidget9dropEventEP10QDropEvent)
+ 0000:00000000  Imp  __ZN9QCheckBoxC1ERK7QStringP7QWidget (QtGui4.__ZN9QCheckBoxC1ERK7QStringP7QWidget)
+ 0000:00000000  Imp  __ZN11QVBoxLayoutC1EP7QWidget (QtGui4.__ZN11QVBoxLayoutC1EP7QWidget)
+ 0000:00000000  Imp  __Unwind_GetIP       (gcc446.__Unwind_GetIP)
+ 0000:00000000  Imp  __ZN7QWidget14dragEnterEventEP15QDragEnterEvent (QtGui4.__ZN7QWidget14dragEnterEventEP15QDragEnterEvent)
+ 0000:00000000  Imp  __ZN7QWidget21mouseDoubleClickEventEP11QMouseEvent (QtGui4.__ZN7QWidget21mouseDoubleClickEventEP11QMouseEvent)
+ 0000:00000000  Imp  __Unwind_GetRegionStart (gcc446.__Unwind_GetRegionStart)
+ 0000:00000000  Imp  __ZN17QAbstractItemView20setSelectionBehaviorENS_17SelectionBehaviorE (QtGui4.__ZN17QAbstractItemView20setSelectionBehaviorENS_17SelectionBehaviorE)
+ 0000:00000000  Imp  ___register_frame_table (gcc446.___register_frame_table)
+ 0000:00000000  Imp  __ZN9QCheckBox13setCheckStateEN2Qt10CheckStateE (QtGui4.__ZN9QCheckBox13setCheckStateEN2Qt10CheckStateE)
+ 0000:00000000  Imp  __ZTVN10__cxxabiv117__class_type_infoE (libc065.5132)
+ 0000:00000000  Imp  ___libc_TLSSet       (libc065.374)
+ 0000:00000000  Imp  __Unwind_SetGR       (gcc446.__Unwind_SetGR)
+ 0000:00000000  Imp  __Unwind_SetIP       (gcc446.__Unwind_SetIP)
+ 0000:00000000  Imp  __ZN7QString6appendERKS_ (QtCore4.__ZN7QString6appendERKS_)
+ 0000:00000000  Imp  __ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv (QtCore4.__ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv)
+ 0000:00000000  Imp  __ZN7QWidget13enabledChangeEb (QtGui4.__ZN7QWidget13enabledChangeEb)
+ 0000:00000000  Imp  __ZN7QObject5eventEP6QEvent (QtCore4.__ZN7QObject5eventEP6QEvent)
+ 0000:00000000  Imp  __ZNK11QMetaObject2trEPKcS1_ (QtCore4.__ZNK11QMetaObject2trEPKcS1_)
+ 0000:00000000  Imp  __ZN7QWidget22windowActivationChangeEb (QtGui4.__ZN7QWidget22windowActivationChangeEb)
+ 0000:00000000  Imp  __ZN11QMessageBoxC1ENS_4IconERK7QStringS3_6QFlagsINS_14StandardButtonEEP7QWidgetS4_IN2Qt10WindowTypeEE (QtGui4.__ZN11QMessageBoxC1ENS_4IconERK7QStringS3_6QFlagsINS_14StandardButtonEEP7QWidgetS4_IN2Qt10WindowTypeEE)
+ 0000:00000000  Imp  __ZN7QWidget15keyReleaseEventEP9QKeyEvent (QtGui4.__ZN7QWidget15keyReleaseEventEP9QKeyEvent)
+ 0000:00000000  Imp  __ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE (QtCore4.__ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE)
+ 0000:00000000  Imp  __ZN7QWidgetD2Ev     (QtGui4.__ZN7QWidgetD2Ev)
+ 0000:00000000  Imp  ___libc_Back_threadSleep (libc065.1490)
+ 0000:00000000  Imp  __ZN7QWidget10closeEventEP11QCloseEvent (QtGui4.__ZN7QWidget10closeEventEP11QCloseEvent)
+ 0000:00000000  Imp  __ZN7QWidget14languageChangeEv (QtGui4.__ZN7QWidget14languageChangeEv)
+ 0000:00000000  Imp  __Unwind_RaiseException (gcc446.__Unwind_RaiseException)
+ 0000:00000000  Imp  __ZN7QWidget11qt_metacallEN11QMetaObject4CallEiPPv (QtGui4.__ZN7QWidget11qt_metacallEN11QMetaObject4CallEiPPv)
+ 0000:00000000  Imp  __ZN10QTableView14setColumnWidthEii (QtGui4.__ZN10QTableView14setColumnWidthEii)
+ 0000:00000000  Imp  __Unwind_GetDataRelBase (gcc446.__Unwind_GetDataRelBase)
+ 0000:00000000  Imp  __ZN7QString4freeEPNS_4DataE (QtCore4.__ZN7QString4freeEPNS_4DataE)
+ 0000:00000000  Imp  __ZN7QWidget9showEventEP10QShowEvent (QtGui4.__ZN7QWidget9showEventEP10QShowEvent)
+ 0000:00000000  Imp  __ZN8QVariantC1Ei    (QtCore4.__ZN8QVariantC1Ei)
+ 0000:00000000  Imp  __ZNK7QWidget14heightForWidthEi (QtGui4.__ZNK7QWidget14heightForWidthEi)
+ 0000:00000000  Imp  __ZN7QWidget11actionEventEP12QActionEvent (QtGui4.__ZN7QWidget11actionEventEP12QActionEvent)
+ 0000:00000000  Imp  __ZTVN10__cxxabiv121__vmi_class_type_infoE (libc065.5140)
+ 0000:00000000  Imp  __ZN13QStandardItemC1ERK7QString (QtGui4.__ZN13QStandardItemC1ERK7QString)
+ 0000:00000000  Imp  __ZN7QWidget7pmEventEP5_QMSGPPv (QtGui4.__ZN7QWidget7pmEventEP5_QMSGPPv)
+ 0000:00000000  Imp  __ZN7QWidgetC2EPS_6QFlagsIN2Qt10WindowTypeEE (QtGui4.__ZN7QWidgetC2EPS_6QFlagsIN2Qt10WindowTypeEE)
+ 0000:00000000  Imp  __std_memcpy         (libc065.864)
+ 0000:00000000  Imp  __ZN9QListData11shared_nullE (QtCore4.__ZN9QListData11shared_nullE)
+ 0000:00000000  Imp  __ZN7QObject16staticMetaObjectE (QtCore4.__ZN7QObject16staticMetaObjectE)
+ 0000:00000000  Imp  __ZN7QWidget14mouseMoveEventEP11QMouseEvent (QtGui4.__ZN7QWidget14mouseMoveEventEP11QMouseEvent)
+ 0000:00000000  Imp  __ZN9QListData11detach_growEPii (QtCore4.__ZN9QListData11detach_growEPii)
+ 0000:00000000  Imp  __ZN7QWidget10enterEventEP6QEvent (QtGui4.__ZN7QWidget10enterEventEP6QEvent)
+ 0000:00000000  Imp  __ZN18QStandardItemModel5clearEv (QtGui4.__ZN18QStandardItemModel5clearEv)
+ 0000:00000000  Imp  __ZN7QWidget10setVisibleEb (QtGui4.__ZN7QWidget10setVisibleEb)
+ 0000:00000000  Imp  __ZTI12QPaintDevice  (vacuumu.768)
+ 0000:00000000  Imp  __Unwind_GetLanguageSpecificData (gcc446.__Unwind_GetLanguageSpecificData)
+ 0000:00000000  Imp  ___fmutex_release_internal_must_complete (libc065.248)
+ 0000:00000000  Imp  __ZN7QObject11eventFilterEPS_P6QEvent (QtCore4.__ZN7QObject11eventFilterEPS_P6QEvent)
+ 0000:00000000  Abs  WEAK$ZERO
+ 0000:00000000  Imp  __ZN7QWidget10fontChangeERK5QFont (QtGui4.__ZN7QWidget10fontChangeERK5QFont)
+ 0000:00000000  Imp  ___libc_TLSDestructor (libc065.370)
+ 0000:00000000  Imp  __ZN7QWidget11resizeEventEP12QResizeEvent (QtGui4.__ZN7QWidget11resizeEventEP12QResizeEvent)
+ 0000:00000000  Imp  __std_free           (libc065.768)
+ 0000:00000000  Imp  __ZN7QWidget10leaveEventEP6QEvent (QtGui4.__ZN7QWidget10leaveEventEP6QEvent)
+ 0000:00000000  Imp  __ZN7QWidget12focusInEventEP11QFocusEvent (QtGui4.__ZN7QWidget12focusInEventEP11QFocusEvent)
+ 0000:00000000  Imp  ___ctordtorInit1     (libc065.231)
+ 0000:00000000  Imp  __ZN7QWidget16inputMethodEventEP17QInputMethodEvent (QtGui4.__ZN7QWidget16inputMethodEventEP17QInputMethodEvent)
+ 0000:00000000  Imp  __ZN10QBoxLayout9addWidgetEP7QWidgeti6QFlagsIN2Qt13AlignmentFlagEE (QtGui4.__ZN10QBoxLayout9addWidgetEP7QWidgeti6QFlagsIN2Qt13AlignmentFlagEE)
+ 0000:00000000  Imp  __ZN18QStandardItemModel14setColumnCountEi (QtGui4.__ZN18QStandardItemModel14setColumnCountEi)
+ 0000:00000000  Imp  __ZTVN10__cxxabiv120__si_class_type_infoE (libc065.5136)
+ 0000:00000000  Imp  ___deregister_frame  (gcc446.___deregister_frame)
+ 0000:00000000  Imp  __ZNK7QWidget15minimumSizeHintEv (QtGui4.__ZNK7QWidget15minimumSizeHintEv)
+ 0000:00000000  Imp  __ZN10QTableView11setShowGridEb (QtGui4.__ZN10QTableView11setShowGridEb)
+ 0000:00000000  Imp  ___libc_ForkDeregisterModule (libc065.1954)
+ 0000:00000000  Imp  __errno              (libc065.541)
+ 0000:00000000  Imp  __ZN7QObject13connectNotifyEPKc (QtCore4.__ZN7QObject13connectNotifyEPKc)
+ 0000:00000000  Imp  __CRT_term           (libc065.168)
+ 0000:00000000  Imp  ___ctordtorTerm1     (libc065.232)
+ 0000:00000000  Imp  __ZN7QWidget16contextMenuEventEP17QContextMenuEvent (QtGui4.__ZN7QWidget16contextMenuEventEP17QContextMenuEvent)
+ 0000:00000000  Imp  __ZTS12QPaintDevice  (vacuumu.770)
+ 0000:00000000  Imp  ___fmutex_request_internal (libc065.249)
+ 0000:00000000  Imp  __ZNK7QString8multiArgEiPPKS_ (QtCore4.__ZNK7QString8multiArgEiPPKS_)
+ 0000:00000000  Imp  __ZN10QTableViewC1EP7QWidget (QtGui4.__ZN10QTableViewC1EP7QWidget)
+ 0000:00000000  Imp  __ZN7QWidget16staticMetaObjectE (QtGui4.__ZN7QWidget16staticMetaObjectE)
+ 0000:00000000  Imp  __ZN9QListData6detachEi (QtCore4.__ZN9QListData6detachEi)
+ 0000:00000000  Imp  __Z5qFreePv          (QtCore4.__Z5qFreePv)
+ 0000:00000000  Imp  __ZNK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE (QtGui4.__ZNK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE)
+ 0000:00000000  Imp  ___libc_GpFIBLIS     (libc065.5)
+ 0000:00000000  Imp  __ZN5QListI7QStringE6appendERKS0_ (vacuumu.316)
+ 0000:00000000  Imp  __std_abort          (libc065.653)
+ 0000:00000000  Imp  __ZN10QTabWidget6addTabEP7QWidgetRK7QString (QtGui4.__ZN10QTabWidget6addTabEP7QWidgetRK7QString)
+ 0000:00000000  Imp  __ZN11QMetaObject8activateEP7QObjectPKS_iPPv (QtCore4.__ZN11QMetaObject8activateEP7QObjectPKS_iPPv)
+ 0000:00000000  Imp  __ZN9QHashData8nextNodeEPNS_4NodeE (QtCore4.__ZN9QHashData8nextNodeEPNS_4NodeE)
+ 0000:00000000  Imp  __ZTS7QWidget        (vacuumu.766)
+ 0000:00000000  Imp  __ZNK8QVariant5toIntEPb (QtCore4.__ZNK8QVariant5toIntEPb)
+ 0000:00000000  Imp  __std_malloc         (libc065.856)
+ 0000:00000000  Imp  __ZN7QObject16disconnectNotifyEPKc (QtCore4.__ZN7QObject16disconnectNotifyEPKc)
+ 0000:00000000  Imp  __std_memset         (libc065.867)
+ 0000:00000000  Imp  __Unwind_Resume      (gcc446.__Unwind_Resume)
+ 0000:00000000  Imp  __ZTS7QObject        (vacuumu.388)
+ 0000:00000000  Imp  __ZTI7QWidget        (vacuumu.765)
+ 0000:00000000  Imp  ___init_dll          (libc065.266)
+ 0000:00000000  Imp  __ZTI7QObject        (vacuumu.387)
+ 0000:00000000  Imp  __ZN7QObject10childEventEP11QChildEvent (QtCore4.__ZN7QObject10childEventEP11QChildEvent)
+ 0000:00000000  Imp  ___libc_TLSAlloc     (libc065.369)
+ 0000:00000000  Imp  __ZN7QWidget10paintEventEP11QPaintEvent (QtGui4.__ZN7QWidget10paintEventEP11QPaintEvent)
+ 0000:00000000  Imp  __ZN7QWidget11tabletEventEP12QTabletEvent (QtGui4.__ZN7QWidget11tabletEventEP12QTabletEvent)
+ 0000:00000000  Imp  __ZN7QWidget9hideEventEP10QHideEvent (QtGui4.__ZN7QWidget9hideEventEP10QHideEvent)
+ 0000:00000000  Imp  __ZN7QWidget9moveEventEP10QMoveEvent (QtGui4.__ZN7QWidget9moveEventEP10QMoveEvent)
+ 0000:00000000  Imp  ___fmutex_request_internal_must_complete (libc065.250)
+ 0000:00000000  Imp  __ZNK9QCheckBox10checkStateEv (QtGui4.__ZNK9QCheckBox10checkStateEv)
+ 0000:00000000  Imp  __ZN18QStandardItemModel25setHorizontalHeaderLabelsERK11QStringList (QtGui4.__ZN18QStandardItemModel25setHorizontalHeaderLabelsERK11QStringList)
+ 0000:00000000  Imp  __ZN7QWidget13dragMoveEventEP14QDragMoveEvent (QtGui4.__ZN7QWidget13dragMoveEventEP14QDragMoveEvent)
+ 0000:00000000  Imp  __ZThn8_NK7QWidget11paintEngineEv (QtGui4.__ZThn8_NK7QWidget11paintEngineEv)
+ 0000:00000000  Imp  __ZN7QWidget10wheelEventEP11QWheelEvent (QtGui4.__ZN7QWidget10wheelEventEP11QWheelEvent)
+ 0000:00000000  Imp  __ZN10QTabWidgetC1EP7QWidget (QtGui4.__ZN10QTabWidgetC1EP7QWidget)
+ 0000:00000000  Imp  __Unwind_Resume_or_Rethrow (gcc446.__Unwind_Resume_or_Rethrow)
+ 0000:00000000  Imp  __ZN7QObject10timerEventEP11QTimerEvent (QtCore4.__ZN7QObject10timerEventEP11QTimerEvent)
+ 0000:00000000  Imp  __CRT_init           (libc065.167)
+ 0000:00000000  Imp  __ZN7QDialog4execEv  (QtGui4.__ZN7QDialog4execEv)
+ 0000:00000000  Imp  ___libc_Back_termDll (libc065.1953)
+ 0000:00000000  Imp  __ZN5QHashI7QStringS0_E13duplicateNodeEPN9QHashData4NodeEPv (vacuumu.293)
+ 0000:00000000  Imp  __ZN7QWidget9setLayoutEP7QLayout (QtGui4.__ZN7QWidget9setLayoutEP7QLayout)
+ 0001:00000000       __text
+ 0001:000000A0       __ZN3otr12OtrMessaging9setPolicyENS_9OtrPolicyE
+ 0001:000000B0       __ZN3otr12OtrMessaging9getPolicyEv
+ 0001:000000C0       __ZN3otr12OtrMessaging12getSessionIdERK7QStringS3_
+ 0001:00000100       __ZN3otr12OtrMessaging21getMessageStateStringERK7QStringS3_
+ 0001:00000140       __ZN3otr12OtrMessaging15getMessageStateERK7QStringS3_
+ 0001:00000160       __ZN3otr12OtrMessaging10endSessionERK7QStringS3_
+ 0001:00000180       __ZN3otr12OtrMessaging12startSessionERK7QStringS3_
+ 0001:000001A0       __ZN3otr12OtrMessaging14getPrivateKeysEv
+ 0001:000001D0       __ZN3otr12OtrMessaging17deleteFingerprintERKNS_11FingerprintE
+ 0001:000001F0       __ZN3otr12OtrMessaging17verifyFingerprintERKNS_11FingerprintEb
+ 0001:00000210       __ZN3otr12OtrMessaging15getFingerprintsEv
+ 0001:00000240       __ZN3otr12OtrMessaging14decryptMessageERK7QStringS3_S3_
+ 0001:00000280       __ZN3otr12OtrMessaging14encryptMessageERK7QStringS3_S3_
+ 0001:000002C0       __ZN3otr12OtrMessagingD1Ev
+ 0001:000002F0       __ZN3otr12OtrMessagingD2Ev
+ 0001:00000320       __ZN3otr12OtrMessagingC1EP14IOTRDataSourceNS_9OtrPolicyE
+ 0001:00000380       __ZN3otr12OtrMessagingC2EP14IOTRDataSourceNS_9OtrPolicyE
+ 0001:000003E0       __ZN3otr17FingerprintWidget12tableClickedERK11QModelIndex
+ 0001:00000410       __ZN5QHashI7QStringS0_E13duplicateNodeEPN9QHashData4NodeEPv$w$fAk0jVmgfD6bZ3Z10
+ 0001:00000440       __ZN5QListIP13QStandardItemED1Ev$w$fAk0jVmgfD6bZ3Z10
+ 0001:00000470       __ZN7QStringD1Ev$w$fAk0jVmgfD6bZ3Z10
+ 0001:000004A0       __ZN3otr15ConfigOtrWidget18handlePolicyChangeEv
+ 0001:00000610       __ZN5QListIP13QStandardItemE6appendERKS1_$w$fAk0jVmgfD6bZ3Z10
+ 0001:00000770       __ZN5QListI7QStringE4freeEPN9QListData4DataE$w$fAk0jVmgfD6bZ3Z10
+ 0001:000007D0       __ZN11QStringListD1Ev$w$fAk0jVmgfD6bZ3Z10
+ 0001:00000800       __ZN5QListI7QStringE6appendERKS0_$w$fAk0jVmgfD6bZ3Z10
+ 0001:00000970       __ZN5QHashI7QStringS0_E11deleteNode2EPN9QHashData4NodeE$w$fAk0jVmgfD6bZ3Z10
+ 0001:00000A80       __ZN3otr15ConfigOtrWidgetC1EP14IOTRDataSourcePNS_12OtrMessagingEP7QWidget
+ 0001:00001010       __ZN3otr15ConfigOtrWidgetC2EP14IOTRDataSourcePNS_12OtrMessagingEP7QWidget
+ 0001:000015A0       __ZN3otr11FingerprintD1Ev$w$fAk0jVmgfD6bZ3Z10
+ 0001:000016B0       __ZN3otr13PrivKeyWidgetC1EPNS_12OtrMessagingEP7QWidget
+ 0001:00001C80       __ZN3otr13PrivKeyWidgetC2EPNS_12OtrMessagingEP7QWidget
+ 0001:00002250       __ZN5QListIN3otr11FingerprintEE4freeEPN9QListData4DataE$w$fAk0jVmgfD6bZ3Z10
+ 0001:00002390       __ZN5QListIN3otr11FingerprintEED1Ev$w$fAk0jVmgfD6bZ3Z10
+ 0001:000023C0       __ZN5QListIN3otr11FingerprintEE13detach_helperEi$w$fAk0jVmgfD6bZ3Z10
+ 0001:00002530       __ZN3otr17FingerprintWidget10updateDataEv
+ 0001:00002CD0       __ZN3otr17FingerprintWidget17forgetFingerprintEv
+ 0001:00003000       __ZN3otr17FingerprintWidgetC1EPNS_12OtrMessagingEP7QWidget
+ 0001:00003460       __ZN3otr12ConfigDialogC1EPNS_12OtrMessagingEP14IOTRDataSourceP7QWidget
+ 0001:00003720       __ZN3otr12ConfigDialogC2EPNS_12OtrMessagingEP14IOTRDataSourceP7QWidget
+ 0001:000039E0       __ZN3otr17FingerprintWidgetC2EPNS_12OtrMessagingEP7QWidget
+ 0001:00003E80       __ZN3otr17FingerprintWidget17verifyFingerprintEv
+ 0001:000043D0       __ZNK6OtrE2E10metaObjectEv
+ 0001:00004400       __ZN6OtrE2E11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00004630       __ZN6OtrE2E11qt_metacastEPKc
+ 0001:00004730       __ZTV6OtrE2E$w$519uHgugfD6nlMUj3
+ 0001:0000481C       __ZTS6OtrE2E$w$519uHgugfD6nlMUj3
+ 0001:00004830       __ZTI6OtrE2E$w$519uHgugfD6nlMUj3
+ 0001:000049C8       __ZTI7QObject$w$519uHgugfD6nlMUj3
+ 0001:000049D0       __ZTI7IPlugin$w$519uHgugfD6nlMUj3
+ 0001:000049D8       __ZTI14IOptionsHolder$w$519uHgugfD6nlMUj3
+ 0001:000049E0       __ZTI15IArchiveHandler$w$519uHgugfD6nlMUj3
+ 0001:000049E8       __ZTI14IOTRDataSource$w$519uHgugfD6nlMUj3
+ 0001:000049F0       __ZTS7QObject$w$519uHgugfD6nlMUj3
+ 0001:000049F9       __ZTS7IPlugin$w$519uHgugfD6nlMUj3
+ 0001:00004A10       __ZTS14IOptionsHolder$w$519uHgugfD6nlMUj3
+ 0001:00004A30       __ZTS15IArchiveHandler$w$519uHgugfD6nlMUj3
+ 0001:00004A50       __ZTS14IOTRDataSource$w$519uHgugfD6nlMUj3
+ 0001:00004B60       __ZNK3otr12ConfigDialog10metaObjectEv
+ 0001:00004B80       __ZNK3otr15ConfigOtrWidget10metaObjectEv
+ 0001:00004BA0       __ZNK3otr17FingerprintWidget10metaObjectEv
+ 0001:00004BC0       __ZNK3otr13PrivKeyWidget10metaObjectEv
+ 0001:00004C10       __ZThn8_N3otr12ConfigDialogD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004C20       __ZN3otr12ConfigDialogD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004C40       __ZThn8_N3otr15ConfigOtrWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004C50       __ZN3otr15ConfigOtrWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004C70       __ZThn8_N3otr13PrivKeyWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004C80       __ZN3otr13PrivKeyWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004CA0       __ZThn8_N3otr12ConfigDialogD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004CB0       __ZN3otr12ConfigDialogD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004CE0       __ZThn8_N3otr15ConfigOtrWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004CF0       __ZN3otr15ConfigOtrWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004D20       __ZThn8_N3otr13PrivKeyWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004D30       __ZN3otr13PrivKeyWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00004D60       __ZN3otr13PrivKeyWidget11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00004D70       __ZN3otr12ConfigDialog11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00004D80       __ZN3otr13PrivKeyWidget11qt_metacastEPKc
+ 0001:00004DE0       __ZN3otr17FingerprintWidget11qt_metacastEPKc
+ 0001:00004E40       __ZN3otr15ConfigOtrWidget11qt_metacastEPKc
+ 0001:00004EA0       __ZN3otr12ConfigDialog11qt_metacastEPKc
+ 0001:00004F00       __ZN3otr17FingerprintWidget11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00004FA0       __ZN3otr15ConfigOtrWidget11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00005000       __ZN5QListIN3otr11FingerprintEE4freeEPN9QListData4DataE$w$v2V1fqugfD6HCnBp0
+ 0001:00005170       __ZThn8_N3otr17FingerprintWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00005180       __ZN3otr17FingerprintWidgetD0Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00005210       __ZThn8_N3otr17FingerprintWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:00005220       __ZN3otr17FingerprintWidgetD1Ev$w$v2V1fqugfD6HCnBp0
+ 0001:000052A0       __ZTVN3otr13PrivKeyWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:000053A0       __ZTVN3otr17FingerprintWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:000054A0       __ZTVN3otr15ConfigOtrWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:000055A0       __ZTVN3otr12ConfigDialogE$w$v2V1fqugfD6HCnBp0
+ 0001:000056A0       __ZTSN3otr13PrivKeyWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:000056B8       __ZTIN3otr13PrivKeyWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:000056D0       __ZTSN3otr17FingerprintWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:000056EC       __ZTIN3otr17FingerprintWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:00005700       __ZTSN3otr15ConfigOtrWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:00005718       __ZTIN3otr15ConfigOtrWidgetE$w$v2V1fqugfD6HCnBp0
+ 0001:00005730       __ZTSN3otr12ConfigDialogE$w$v2V1fqugfD6HCnBp0
+ 0001:00005748       __ZTIN3otr12ConfigDialogE$w$v2V1fqugfD6HCnBp0
+ 0001:00005840       __ZTI7QWidget$w$v2V1fqugfD6HCnBp0
+ 0001:00005860       __ZTS7QWidget$w$v2V1fqugfD6HCnBp0
+ 0001:0000586C       __ZTI7QObject$w$v2V1fqugfD6HCnBp0
+ 0001:00005874       __ZTI12QPaintDevice$w$v2V1fqugfD6HCnBp0
+ 0001:0000587C       __ZTS7QObject$w$v2V1fqugfD6HCnBp0
+ 0001:00005885       __ZTS12QPaintDevice$w$v2V1fqugfD6HCnBp0
+ 0001:000059F0       __ZThn20_N13OptionsWidget8instanceEv$w$7M2hoAugfD6iLgba3
+ 0001:00005A00       __ZN13OptionsWidget8instanceEv$w$7M2hoAugfD6iLgba3
+ 0001:00005A10       __ZNK13OptionsWidget10metaObjectEv
+ 0001:00005A40       __ZThn20_N13OptionsWidget10childResetEv
+ 0001:00005A50       __ZN13OptionsWidget10childResetEv
+ 0001:00005A80       __ZThn20_N13OptionsWidget10childApplyEv
+ 0001:00005A90       __ZN13OptionsWidget10childApplyEv
+ 0001:00005AC0       __ZThn20_N13OptionsWidget8modifiedEv
+ 0001:00005AD0       __ZN13OptionsWidget8modifiedEv
+ 0001:00005B00       __ZN13OptionsWidget11qt_metacallEN11QMetaObject4CallEiPPv
+ 0001:00005C10       __ZN13OptionsWidget11qt_metacastEPKc
+ 0001:00005CA0       __ZTV13OptionsWidget$w$7M2hoAugfD6iLgba3
+ 0001:00005DE0       __ZTS13OptionsWidget$w$7M2hoAugfD6iLgba3
+ 0001:00005DF0       __ZTI13OptionsWidget$w$7M2hoAugfD6iLgba3
+ 0001:00005E60       __ZTI7QWidget$w$7M2hoAugfD6iLgba3
+ 0001:00005E80       __ZTI14IOptionsWidget$w$7M2hoAugfD6iLgba3
+ 0001:00005E88       __ZTS7QWidget$w$7M2hoAugfD6iLgba3
+ 0001:00005E94       __ZTI7QObject$w$7M2hoAugfD6iLgba3
+ 0001:00005E9C       __ZTI12QPaintDevice$w$7M2hoAugfD6iLgba3
+ 0001:00005EB0       __ZTS14IOptionsWidget$w$7M2hoAugfD6iLgba3
+ 0001:00005EC1       __ZTS7QObject$w$7M2hoAugfD6iLgba3
+ 0001:00005ECA       __ZTS12QPaintDevice$w$7M2hoAugfD6iLgba3
+ 0001:00005F80       __ZdlPv
+ 0001:00005FA0       ___cxa_begin_catch
+ 0001:0000600A       ___cxa_end_catch
+ 0001:0000607C       __ZSt18uncaught_exceptionv
+ 0001:0000644A       ___gxx_personality_v0
+ 0001:0000681A       ___cxa_call_unexpected
+ 0001:000068E0       __ZTISt13bad_exception$w$nJICpMm3xL5lR80S0
+ 0001:000068EC       __ZTSSt13bad_exception$w$nJICpMm3xL5lR80S0
+ 0001:00006900       __ZTISt9exception$w$nJICpMm3xL5lR80S0
+ 0001:00006908       __ZTSSt9exception$w$nJICpMm3xL5lR80S0
+ 0001:00006958       ___cxa_throw
+ 0001:000069B4       ___cxa_rethrow
+ 0001:00006A00       __Znwj
+ 0001:00006A6C       __ZTISt9bad_alloc$w$dsICpMm3xL5lcI0i0
+ 0001:00006A78       __ZTSSt9bad_alloc$w$dsICpMm3xL5lcI0i0
+ 0001:00006A88       __ZTISt9exception$w$dsICpMm3xL5lcI0i0
+ 0001:00006A90       __ZTSSt9exception$w$dsICpMm3xL5lcI0i0
+ 0001:00006AA0       __ZNSt9type_infoD2Ev
+ 0001:00006AAE       __ZNSt9type_infoD1Ev
+ 0001:00006ABC       __ZNSt9type_infoD0Ev
+ 0001:00006ACE       __ZNSt8bad_castD2Ev
+ 0001:00006AE6       __ZNSt8bad_castD1Ev
+ 0001:00006AFE       __ZNSt8bad_castD0Ev
+ 0001:00006B20       __ZNSt10bad_typeidD2Ev
+ 0001:00006B38       __ZNSt10bad_typeidD1Ev
+ 0001:00006B50       __ZNSt10bad_typeidD0Ev
+ 0001:00006B72       __ZNKSt9type_infoeqERKS_
+ 0001:00006BA4       __ZNKSt9type_info14__is_pointer_pEv
+ 0001:00006BAC       __ZNKSt9type_info15__is_function_pEv
+ 0001:00006BB4       __ZNKSt9type_info10__do_catchEPKS_PPvj
+ 0001:00006BD0       __ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+ 0001:00006BD8       __ZN10__cxxabiv117__class_type_infoD2Ev
+ 0001:00006BF0       __ZN10__cxxabiv117__class_type_infoD1Ev
+ 0001:00006C08       __ZN10__cxxabiv117__class_type_infoD0Ev
+ 0001:00006C2A       __ZN10__cxxabiv120__si_class_type_infoD2Ev
+ 0001:00006C42       __ZN10__cxxabiv120__si_class_type_infoD1Ev
+ 0001:00006C5A       __ZN10__cxxabiv120__si_class_type_infoD0Ev
+ 0001:00006C7C       __ZN10__cxxabiv121__vmi_class_type_infoD2Ev
+ 0001:00006C94       __ZN10__cxxabiv121__vmi_class_type_infoD1Ev
+ 0001:00006CAC       __ZN10__cxxabiv121__vmi_class_type_infoD0Ev
+ 0001:00006CCE       __ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+ 0001:00006D0E       __ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+ 0001:00006D6C       __ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+ 0001:00006D84       __ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+ 0001:00006DD2       __ZNK10__cxxabiv121__vmi_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+ 0001:00006E88       __ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+ 0001:00006EDE       __ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+ 0001:00006F84       __ZNK10__cxxabiv121__vmi_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+ 0001:000073B6       __ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+ 0001:000073F4       __ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+ 0001:0000743E       __ZNK10__cxxabiv121__vmi_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+ 0001:00007646       ___dynamic_cast
+ 0001:00007740       __ZTVN10__cxxabiv121__vmi_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:00007780       __ZTVN10__cxxabiv120__si_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:000077C0       __ZTVN10__cxxabiv117__class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:000077F0       __ZTVSt10bad_typeid$w$RUHCpMm3xL5NesEi0
+ 0001:00007808       __ZTVSt8bad_cast$w$RUHCpMm3xL5NesEi0
+ 0001:00007820       __ZTVSt9type_info$w$RUHCpMm3xL5NesEi0
+ 0001:00007840       __ZTISt9type_info$w$RUHCpMm3xL5NesEi0
+ 0001:00007848       __ZTISt8bad_cast$w$RUHCpMm3xL5NesEi0
+ 0001:00007854       __ZTISt10bad_typeid$w$RUHCpMm3xL5NesEi0
+ 0001:00007860       __ZTIN10__cxxabiv117__class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:0000786C       __ZTIN10__cxxabiv120__si_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:00007878       __ZTIN10__cxxabiv121__vmi_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:000078A0       __ZTSN10__cxxabiv121__vmi_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:000078E0       __ZTSN10__cxxabiv120__si_class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:00007920       __ZTSN10__cxxabiv117__class_type_infoE$w$RUHCpMm3xL5NesEi0
+ 0001:00007942       __ZTSSt10bad_typeid$w$RUHCpMm3xL5NesEi0
+ 0001:00007951       __ZTSSt8bad_cast$w$RUHCpMm3xL5NesEi0
+ 0001:0000795D       __ZTSSt9type_info$w$RUHCpMm3xL5NesEi0
+ 0001:0000796C       __ZTISt9exception$w$RUHCpMm3xL5NesEi0
+ 0001:00007974       __ZTSSt9exception$w$RUHCpMm3xL5NesEi0
+ 0001:000079B6       ___cxa_allocate_exception
+ 0001:00007AF2       ___cxa_free_exception
+ 0001:00007C70       __ZNSt9exceptionD2Ev
+ 0001:00007C7E       __ZNSt9exceptionD1Ev
+ 0001:00007C8C       __ZNSt9exceptionD0Ev
+ 0001:00007C9E       __ZNSt13bad_exceptionD2Ev
+ 0001:00007CB6       __ZNSt13bad_exceptionD1Ev
+ 0001:00007CCE       __ZNSt13bad_exceptionD0Ev
+ 0001:00007CF0       __ZNKSt9exception4whatEv
+ 0001:00007D00       __ZTVSt13bad_exception$w$HAICpMm3xL5geb6z3
+ 0001:00007D18       __ZTVSt9exception$w$HAICpMm3xL5geb6z3
+ 0001:00007D2C       __ZTISt9exception$w$HAICpMm3xL5geb6z3
+ 0001:00007D34       __ZTISt13bad_exception$w$HAICpMm3xL5geb6z3
+ 0001:00007D40       __ZTSSt13bad_exception$w$HAICpMm3xL5geb6z3
+ 0001:00007D52       __ZTSSt9exception$w$HAICpMm3xL5geb6z3
+ 0001:00007E16       ___cxa_get_globals_fast
+ 0001:00007E3C       ___cxa_get_globals
+ 0001:00007F50       __ZN10__cxxabiv111__terminateEPFvvE
+ 0001:00007F64       __ZSt9terminatev
+ 0001:00007F72       __ZN10__cxxabiv112__unexpectedEPFvvE
+ 0001:00007F7E       __ZSt10unexpectedv
+ 0001:00007F8E       __ZSt13set_terminatePFvvE
+ 0001:00007FA2       __ZSt14set_unexpectedPFvvE
+ 0001:00007FC0       __ZSt7nothrow
+ 0001:00007FC2       __ZSt15set_new_handlerPFvvE
+ 0001:00007FD6       __ZNSt9bad_allocD2Ev
+ 0001:00007FEE       __ZNSt9bad_allocD1Ev
+ 0001:00008006       __ZNSt9bad_allocD0Ev
+ 0001:00008028       __ZTVSt9bad_alloc$w$NJHCpMm3xL5w0PgS3
+ 0001:0000803C       __ZTISt9bad_alloc$w$NJHCpMm3xL5w0PgS3
+ 0001:00008048       __ZTSSt9bad_alloc$w$NJHCpMm3xL5w0PgS3
+ 0001:00008058       __ZTISt9exception$w$NJHCpMm3xL5w0PgS3
+ 0001:00008060       __ZTSSt9exception$w$NJHCpMm3xL5w0PgS3
+ 0001:00008070       ___ehTerm
+ 0001:000080B0       ___ehInit
+ 0001:000080F0       _DLL_InitTerm
+ 0001:00008130       ___ctordtorTerm
+ 0001:00008170       ___ctordtorInit
+ 0001:000081B0       _etext
+ 0001:000081B0       __etext
+ 0002:00000000       __data
+ 0002:00000000       ___data_start
+ 0002:00000DE0       __ZN6OtrE2E16staticMetaObjectE
+ 0002:00000EA0       __ZN3otr12ConfigDialog16staticMetaObjectE
+ 0002:00000EB0       __ZN3otr15ConfigOtrWidget16staticMetaObjectE
+ 0002:00000EC0       __ZN3otr17FingerprintWidget16staticMetaObjectE
+ 0002:00000ED0       __ZN3otr13PrivKeyWidget16staticMetaObjectE
+ 0002:000010A0       __ZN13OptionsWidget16staticMetaObjectE
+ 0002:00001AB0       __ZN10__cxxabiv119__terminate_handlerE
+ 0002:00001AB4       __ZN10__cxxabiv120__unexpected_handlerE
+ 0002:00001C08       __os2dll
+ 0002:00001C10       ___CTOR_LIST__
+ 0002:00001C24       ___DTOR_LIST__
+ 0002:00001C2C       ___crtinit1__
+ 0002:00001C34       ___crtexit1__
+ 0002:00001C3C       ___eh_frame__
+ 0002:00001C80       ___eh_init__
+ 0002:00001C8C       ___eh_term__
+ 0002:00001C98       ___fork_parent1__
+ 0002:00001CA0       ___fork_child1__
+ 0002:00001CB0       _edata
+ 0002:00001CB0       __edata
+ 0002:00001CB0       ___bss_start
+ 0002:00005D10       ___new_handler
+ 0002:00005D40       __end
+ 0002:00005D40       _end
+
+Program entry point at 0001:00000000
+
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj(moc_optionswidget.obj) : error LNK2029: "non-virtual thunk to OptionsWidget::apply()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj(moc_optionswidget.obj) : error LNK2029: "non-virtual thunk to OptionsWidget::reset()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::OtrInternal(IOTRDataSource*, otr::OtrPolicy&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::onOtrMenuclicked(bool)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::instance()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::endSession(QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::getMessageStateString(QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::getSessionId(QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::savePolicy(otr::OtrPolicy)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::startSession(QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::contactOnline(QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::fakeMessage(QString const&, QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::sendMessage(QString const&, QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::updateContexts()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::onMenuActionTriggered(QAction*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj(moc_optionswidget.obj) : error LNK2029: "OptionsWidget::~OptionsWidget()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj(moc_optionswidget.obj) : error LNK2029: "OptionsWidget::~OptionsWidget()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::pluginUuid() const" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::getPrivateKeys()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::getFingerprints()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::deleteFingerprint(otr::Fingerprint const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::getMessageState(QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::goneSecure(QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::initObjects()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::onMessageWindowDestroyed(IMessageWindow*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::instance()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::pluginInfo(IPluginInfo*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj(moc_optionswidget.obj) : error LNK2029: "non-virtual thunk to OptionsWidget::~OptionsWidget()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj(moc_optionswidget.obj) : error LNK2029: "non-virtual thunk to OptionsWidget::~OptionsWidget()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::startPlugin()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::~OtrE2E()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::~OtrE2E()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::instance()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::onChatWindowCreated(IChatWindow*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::initConnections(IPluginManager*, int&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::dataDir() const" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::policy() const" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::verifyFingerprint(otr::Fingerprint const&, bool)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::optionsWidgets(QString const&, QWidget*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::onChatWindowDestroyed(IChatWindow*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::archiveMessageEdit(int, Jid const&, Message&, bool)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::initSettings()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::decryptMessage(QString const&, QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::encryptMessage(QString const&, QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::contactOnline(QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj(moc_optionswidget.obj) : error LNK2029: "OptionsWidget::reset()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_optionswidget.obj(moc_optionswidget.obj) : error LNK2029: "OptionsWidget::apply()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::updateContexts()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::optionsWidgets(QString const&, QWidget*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::pluginUuid() const" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::savePolicy(otr::OtrPolicy)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::initObjects()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::initConnections(IPluginManager*, int&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::goneInsecure(QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::onStreamClosed(IXmppStream*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::fakeMessage(QString const&, QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::initSettings()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::startPlugin()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\OtrMessaging.obj(OtrMessaging.obj) : error LNK2029: "OtrInternal::~OtrInternal()" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::onStreamOpened(IXmppStream*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::pluginInfo(IPluginInfo*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::sendMessage(QString const&, QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::policy() const" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::archiveMessageEdit(int, Jid const&, Message&, bool)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::onToolBarWidgetCreated(IToolBarWidget*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::onMessageWindowCreated(IMessageWindow*)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::goneSecure(QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "non-virtual thunk to OtrE2E::goneInsecure(QString const&, QString const&)" : unresolved external
+U:\Projekte\vacuum\src\plugins\vacuum_otr\moc_otre2e.obj(moc_otre2e.obj) : error LNK2029: "OtrE2E::dataDir() const" : unresolved external
+

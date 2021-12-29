@@ -1,0 +1,743 @@
+** EXPERIMENTAL (HLL) ** Open Watcom Linker Version 1.6beta1 Limited Availability
+Portions Copyright (c) 1985-2002 Sybase, Inc. All Rights Reserved.
+Created on:       13/01/26 01:37:18
+Executable Image: ..\..\vacuum.exe
+creating an OS/2 EMX executable
+
+
+                        +------------+
+                        |   Groups   |
+                        +------------+
+
+Group                           Address              Size
+=====                           =======              ====
+
+CGROUP                          0001:00000000        00013ff0
+DGROUP                          0002:00000000        00004940
+
+
+
+                        +--------------+
+                        |   Segments   |
+                        +--------------+
+
+Segment                Class          Group          Address         Size
+=======                =====          =====          =======         ====
+
+TEXT32                 CODE           CGROUP         0001:00000000   00013fe8
+________TEXT           CODE           CGROUP         0001:00013ff0   00000000
+DATA32                 DATA           DGROUP         0002:00000000   00004838
+SET1__os2dll           DATA           DGROUP         0002:00004838   00000004
+SET2__os2dll           DATA           DGROUP         0002:0000483c   00000000
+SET3__os2dll           DATA           DGROUP         0002:0000483c   00000004
+SET1___CTOR_LIST__     DATA           DGROUP         0002:00004840   00000004
+SET2___CTOR_LIST__     DATA           DGROUP         0002:00004844   0000000c
+SET3___CTOR_LIST__     DATA           DGROUP         0002:00004850   00000004
+SET1___DTOR_LIST__     DATA           DGROUP         0002:00004854   00000004
+SET2___DTOR_LIST__     DATA           DGROUP         0002:00004858   00000000
+SET3___DTOR_LIST__     DATA           DGROUP         0002:00004858   00000004
+SET1___crtinit1__      DATA           DGROUP         0002:0000485c   00000004
+SET2___crtinit1__      DATA           DGROUP         0002:00004860   00000000
+SET3___crtinit1__      DATA           DGROUP         0002:00004860   00000004
+SET1___crtexit1__      DATA           DGROUP         0002:00004864   00000004
+SET2___crtexit1__      DATA           DGROUP         0002:00004868   00000000
+SET3___crtexit1__      DATA           DGROUP         0002:00004868   00000004
+SET1___eh_frame__      DATA           DGROUP         0002:0000486c   00000004
+SET2___eh_frame__      DATA           DGROUP         0002:00004870   00000024
+SET3___eh_frame__      DATA           DGROUP         0002:00004894   00000004
+SET1___eh_init__       DATA           DGROUP         0002:00004898   00000004
+SET2___eh_init__       DATA           DGROUP         0002:0000489c   00000004
+SET3___eh_init__       DATA           DGROUP         0002:000048a0   00000004
+SET1___eh_term__       DATA           DGROUP         0002:000048a4   00000004
+SET2___eh_term__       DATA           DGROUP         0002:000048a8   00000004
+SET3___eh_term__       DATA           DGROUP         0002:000048ac   00000004
+________DATA           DATA           DGROUP         0002:000048b0   00000000
+BSS32                  BSS            DGROUP         0002:000048b0   00000090
+c_common               BSS            DGROUP         0002:00004940   00000000
+________BSS            BSS            DGROUP         0002:00004940   00000000
+STACK                  STACK          AUTO           0003:00000000   00800000
+
+
+                        +----------------+
+                        |   Memory Map   |
+                        +----------------+
+
+* = unreferenced symbol
++ = symbol only referenced locally
+
+Address        Symbol
+=======        ======
+
+Module: U:\usr\lib\crt0hinofork.obj({standard input})
+0001:00000000* __text
+0002:00000000* __data
+0002:00000000* ___data_start
+0002:000048b0* ___bss_start
+0002:00004838+ __os2dll
+0002:00004840  ___CTOR_LIST__
+0002:00004854  ___DTOR_LIST__
+0002:0000485c* ___crtinit1__
+0002:00004864* ___crtexit1__
+0002:0000486c  ___eh_frame__
+0002:00004898  ___eh_init__
+0002:000048a4  ___eh_term__
+Module: U:\Projekte\vacuum\src\loader\main.obj(main.obj)
+0001:00000050  _main
+0001:00000020* __ZN7QStringD1Ev$w$rmu0EGCsfD67Cqo51
+Module: U:\Projekte\vacuum\src\loader\pluginmanager.obj(pluginmanager.obj)
+0001:00000680  __ZNK13PluginManager7versionEv
+0001:000006b0  __ZThn8_NK13PluginManager7versionEv
+0001:000006d0  __ZNK13PluginManager12revisionDateEv
+0001:00000790  __ZThn8_NK13PluginManager12revisionDateEv
+0001:000007a0  __ZNK13PluginManager13isShutingDownEv
+0001:000007b0  __ZThn8_NK13PluginManager13isShutingDownEv
+0001:000007c0  __ZNK13PluginManager8homePathEv
+0001:000007e0  __ZThn8_NK13PluginManager8homePathEv
+0001:00000810  __ZN13PluginManager11setHomePathERK7QString
+0001:00000990  __ZThn8_N13PluginManager11setHomePathERK7QString
+0001:000009b0  __ZN13PluginManager9setLocaleEN7QLocale8LanguageENS0_7CountryE
+0001:00000c10  __ZThn8_N13PluginManager9setLocaleEN7QLocale8LanguageENS0_7CountryE
+0001:00000c20  __ZN13PluginManager13delayShutdownEv
+0001:00000c40  __ZThn8_N13PluginManager13delayShutdownEv
+0001:00000c50  __ZN13PluginManager16continueShutdownEv
+0001:00000c90  __ZThn8_N13PluginManager16continueShutdownEv
+0001:00000cb0* __ZN13PluginManager12saveSettingsEv
+0001:00000f00* __ZN13PluginManager20loadCoreTranslationsERK4QDirRK7QString
+0001:000021b0* __ZN13PluginManager15savePluginErrorERK7QStringS2_
+0001:000025e0* __ZN13PluginManager17removePluginsInfoERK11QStringList
+0001:00002960* __ZN13PluginManager16declareShortcutsEv
+0001:00002d60  __ZN13PluginManager24onShowSetupPluginsDialogEb
+0001:00002e40  __ZN13PluginManager28onSetupPluginsDialogAcceptedEv
+0001:00002e50  __ZN13PluginManager20onShowAboutBoxDialogEv
+0001:00002f60* __ZN13PluginManagerD2Ev
+0001:00002f60  __ZN13PluginManagerD1Ev
+0001:000030d0  __ZN13PluginManagerD0Ev
+0001:000031c0* __ZN13PluginManagerC2EP12QApplication
+0001:000031c0  __ZN13PluginManagerC1EP12QApplication
+0001:00003460  __ZNK13PluginManager8revisionEv
+0001:00003680  __ZThn8_NK13PluginManager8revisionEv
+0001:00003980* __ZNK13PluginManager15isPluginEnabledERK7QString
+0001:00003da0* __ZN13PluginManager17createMenuActionsEv
+0001:00004600  __ZNK13PluginManager10pluginInfoERK5QUuid
+0001:00004690  __ZThn8_NK13PluginManager10pluginInfoERK5QUuid
+0001:000046a0  __ZNK13PluginManager14pluginInstanceERK5QUuid
+0001:00004720  __ZThn8_NK13PluginManager14pluginInstanceERK5QUuid
+0001:00004c30* __ZN13PluginManager12loadSettingsEv
+0001:000076a0* __ZN13PluginManager14savePluginInfoERK7QStringPK11IPluginInfo
+0001:00008480* __ZNK13PluginManager16checkDependencesERK5QUuid
+0001:00008840* __ZN13PluginManager16removePluginItemERK5QUuidRK7QString
+0001:00008ad0* __ZN13PluginManager12unloadPluginERK5QUuidRK7QString
+0001:00008cb0  __ZN13PluginManager24onApplicationAboutToQuitEv
+0001:00008e40  __ZNK13PluginManager15pluginInterfaceERK7QString
+0001:00009130  __ZThn8_NK13PluginManager15pluginInterfaceERK7QString
+0001:00009140* __ZN13PluginManager12startPluginsEv
+0001:00009240* __ZNK13PluginManager14checkConflictsE5QUuid
+0001:00009620* __ZN13PluginManager11initPluginsEv
+0001:00009a80  __ZNK13PluginManager20pluginDependencesForERK5QUuid
+0001:00009d30  __ZThn8_NK13PluginManager20pluginDependencesForERK5QUuid
+0001:00009d40  __ZNK13PluginManager19pluginDependencesOnERK5QUuid
+0001:00009ef0  __ZThn8_NK13PluginManager19pluginDependencesOnERK5QUuid
+0001:00009fb0* __ZN13PluginManager20closeTopLevelWidgetsEv
+0001:0000a080* __ZN13PluginManager13startShutdownEv
+0001:0000a0d0  __ZN13PluginManager7restartEv
+0001:0000a0f0  __ZThn8_N13PluginManager7restartEv
+0001:0000a100  __ZN13PluginManager4quitEv
+0001:0000a120  __ZThn8_N13PluginManager4quitEv
+0001:0000a280* __ZNK13PluginManager12getConflictsERK5QUuid
+0001:0000a660* __ZN13PluginManager11loadPluginsEv
+0001:0000baa0* __ZN13PluginManager14finishShutdownEv
+0001:0000bb70  __ZN13PluginManager22onShutdownTimerTimeoutEv
+0001:0000bb80  __ZN13PluginManager32onApplicationCommitDataRequestedER15QSessionManager
+0001:00000270* __ZN5QHashI5QUuid10PluginItemE11deleteNode2EPN9QHashData4NodeE$w$P6Iii0DsfD6AULro3
+0001:00000280* __ZN5QHashI5QUuid15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE$w$P6Iii0DsfD6AULro3
+0001:00000290* __ZN5QHashI7QStringP7IPluginE13duplicateNodeEPN9QHashData4NodeEPv$w$P6Iii0DsfD6AULro3
+0001:000002c0* __ZN5QHashI5QUuid10PluginItemE13duplicateNodeEPN9QHashData4NodeEPv$w$P6Iii0DsfD6AULro3
+0001:00000300* __ZN5QHashI5QUuid15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv$w$P6Iii0DsfD6AULro3
+0001:000004b0* __ZN5QHashI7QStringP7IPluginE11deleteNode2EPN9QHashData4NodeE$w$P6Iii0DsfD6AULro3
+0001:000004e0* __ZN10QByteArrayD1Ev$w$P6Iii0DsfD6AULro3
+0001:00000510* __ZN7QStringD1Ev$w$P6Iii0DsfD6AULro3
+0001:00000540* __ZN6QDebugD1Ev$w$P6Iii0DsfD6AULro3
+0001:0000bcd4* __ZTISt9bad_alloc$w$P6Iii0DsfD6AULro3
+0001:00002ed0* __ZN5QListI7QStringED2Ev$w$P6Iii0DsfD6AULro3
+0001:00002f00* __ZN5QListI7QStringED1Ev$w$P6Iii0DsfD6AULro3
+0001:00002f30* __ZN5QHashI5QUuid10PluginItemED1Ev$w$P6Iii0DsfD6AULro3
+0001:000030f0* __ZN5QHashI7QStringP7IPluginED2Ev$w$P6Iii0DsfD6AULro3
+0001:000033d0* __ZN5QHashI7QStringP7IPluginED1Ev$w$P6Iii0DsfD6AULro3
+0001:000033f0* __ZNK5QListI7QStringE5valueEi$w$P6Iii0DsfD6AULro3
+0001:00003690* __ZN5QListIP7IPluginED1Ev$w$P6Iii0DsfD6AULro3
+0001:000036c0* __ZN5QListI5QUuidED1Ev$w$P6Iii0DsfD6AULro3
+0001:000036f0* __ZNK7QVectorI5QUuidE8containsERKS0_$w$P6Iii0DsfD6AULro3
+0001:00003760* __ZNK5QListI5QUuidE8containsERKS0_$w$P6Iii0DsfD6AULro3
+0001:000037d0* __ZNK5QListI7QStringE7indexOfERKS0_i$w$P6Iii0DsfD6AULro3
+0001:00003880* __ZN4QMapIiP7IPluginED2Ev$w$P6Iii0DsfD6AULro3
+0001:000038c0* __ZN5QListIP7QWidgetED1Ev$w$P6Iii0DsfD6AULro3
+0001:000038f0* __ZN5QHashI5QUuid15QHashDummyValueED1Ev$w$P6Iii0DsfD6AULro3
+0001:00003920* __ZNK5QListI7QStringE8containsERKS0_$w$P6Iii0DsfD6AULro3
+0001:00003c50* __ZNK5QListIP7IPluginE5valueEi$w$P6Iii0DsfD6AULro3
+0001:00004390* __ZN5QListI7QStringE18detach_helper_growEii$w$P6Iii0DsfD6AULro3
+0001:00004480* __ZN5QListI7QStringE6appendERKS0_$w$P6Iii0DsfD6AULro3
+0001:00004520* __ZNK5QHashI5QUuid10PluginItemE8findNodeERKS0_Pj$w$P6Iii0DsfD6AULro3
+0001:00004730* __ZNK5QHashI7QStringP7IPluginE8findNodeERKS0_Pj$w$P6Iii0DsfD6AULro3
+0001:000047b0* __ZN5QListI5QUuidE18detach_helper_growEii$w$P6Iii0DsfD6AULro3
+0001:000049a0* __ZN5QListI5QUuidE6appendERKS0_$w$P6Iii0DsfD6AULro3
+0001:00004a60* __ZNK4QMapIiP7IPluginE15mutableFindNodeEPPN8QMapData4NodeERKi$w$P6Iii0DsfD6AULro3
+0001:00004ad0* __ZN5QListI7QStringE13detach_helperEi$w$P6Iii0DsfD6AULro3
+0001:00004b50* __ZN5QListI7QStringE13detach_helperEv$w$P6Iii0DsfD6AULro3
+0001:00004b70* __ZN5QListI7QStringE5clearEv$w$P6Iii0DsfD6AULro3
+0001:00006cf0* __ZN5QHashI7QStringP7IPluginE13detach_helperEv$w$P6Iii0DsfD6AULro3
+0001:00006d50* __ZN5QListIP7IPluginE18detach_helper_growEii$w$P6Iii0DsfD6AULro3
+0001:00006e50* __ZN5QListIP7IPluginE6appendERKS1_$w$P6Iii0DsfD6AULro3
+0001:00006ec0* __ZNK5QHashI7QStringP7IPluginE6valuesERKS0_$w$P6Iii0DsfD6AULro3
+0001:00006f50* __ZN7QVectorI5QUuidE7reallocEii$w$P6Iii0DsfD6AULro3
+0001:00007100* __ZN7QVectorI5QUuidE6appendERKS0_$w$P6Iii0DsfD6AULro3
+0001:000071e0* __ZN7QVectorI5QUuidE6resizeEi$w$P6Iii0DsfD6AULro3
+0001:00007260* __ZN5QListI5QUuidE13detach_helperEi$w$P6Iii0DsfD6AULro3
+0001:00007360* __ZN5QListI5QUuidE7reserveEi$w$P6Iii0DsfD6AULro3
+0001:000073a0* __ZNK5QHashI5QUuid10PluginItemE4keysEv$w$P6Iii0DsfD6AULro3
+0001:00007450* __ZNK4QSetI5QUuidE6toListEv$w$P6Iii0DsfD6AULro3
+0001:00007500* __ZN5QListI5QUuidE13detach_helperEv$w$P6Iii0DsfD6AULro3
+0001:00007520* __ZN5QListI5QUuidEpLERKS1_$w$P6Iii0DsfD6AULro3
+0001:000086a0* __ZN5QHashI5QUuid10PluginItemE13detach_helperEv$w$P6Iii0DsfD6AULro3
+0001:00008710* __ZN5QHashI5QUuid10PluginItemE4takeERKS0_$w$P6Iii0DsfD6AULro3
+0001:00009530* __ZN4QMapIiP7IPluginE13detach_helperEv$w$P6Iii0DsfD6AULro3
+0001:00009a50* __ZN7QVectorI5QUuidE13detach_helperEv$w$P6Iii0DsfD6AULro3
+0001:00009f00* __ZN5QListIP7QWidgetE13detach_helperEi$w$P6Iii0DsfD6AULro3
+0001:00009f90* __ZN5QListIP7QWidgetE13detach_helperEv$w$P6Iii0DsfD6AULro3
+0001:0000a130* __ZNK5QHashI5QUuid15QHashDummyValueE8findNodeERKS0_Pj$w$P6Iii0DsfD6AULro3
+0001:0000a210* __ZN5QHashI5QUuid15QHashDummyValueE13detach_helperEv$w$P6Iii0DsfD6AULro3
+0001:0000bc80* __ZTV14IPluginManager$w$P6Iii0DsfD6AULro3
+0001:0000bce0* __ZTI14IPluginManager$w$P6Iii0DsfD6AULro3
+0001:0000bce8* __ZTSSt9bad_alloc$w$P6Iii0DsfD6AULro3
+0001:0000bcf8* __ZTISt9exception$w$P6Iii0DsfD6AULro3
+0001:0000bd00* __ZTS14IPluginManager$w$P6Iii0DsfD6AULro3
+0001:0000bd11* __ZTSSt9exception$w$P6Iii0DsfD6AULro3
+Module: U:\Projekte\vacuum\src\loader\setuppluginsdialog.obj(setuppluginsdialog.obj)
+0001:0000dcd0* __ZNK18SetupPluginsDialog16getPluginElementERK5QUuid
+0001:0000e000  __ZN18SetupPluginsDialog22onCurrentPluginChangedEP16QTableWidgetItemS1_
+0001:0000f770  __ZN18SetupPluginsDialog23onHomePageLinkActivatedERK7QString
+0001:0000f810* __ZN18SetupPluginsDialogD2Ev
+0001:0000f810  __ZN18SetupPluginsDialogD1Ev
+0001:0000f9c0  __ZThn8_N18SetupPluginsDialogD1Ev
+0001:0000f9d0  __ZN18SetupPluginsDialogD0Ev
+0001:0000f9f0  __ZThn8_N18SetupPluginsDialogD0Ev
+0001:0000fbd0* __ZN18SetupPluginsDialog13updatePluginsEv
+0001:00010950* __ZN18SetupPluginsDialog12saveSettingsEv
+0001:00010c80  __ZN18SetupPluginsDialog21onDialogButtonClickedEP15QAbstractButton
+0001:00010f10  __ZN18SetupPluginsDialog24onCurrentLanguageChangedEi
+0001:000112c0* __ZN18SetupPluginsDialog14updateLanguageEv
+0001:00011730* __ZN18SetupPluginsDialogC2EP14IPluginManager12QDomDocumentP7QWidget
+0001:00011730  __ZN18SetupPluginsDialogC1EP14IPluginManager12QDomDocumentP7QWidget
+0001:0000bdb0* __ZN10QByteArrayD1Ev$w$Rp1SdcDsfD6ffEMc0
+0001:0000bde0* __ZN7QStringD1Ev$w$Rp1SdcDsfD6ffEMc0
+0001:0000bfa0* __ZN26Ui_SetupPluginsDialogClass7setupUiEP7QDialog$w$Rp1SdcDsfD6ffEMc0
+0001:0000f7c0* __ZN4QMapIP16QTableWidgetItem11QDomElementED1Ev$w$Rp1SdcDsfD6ffEMc0
+0001:0000fa00* __ZN5QListIN7QLocale7CountryEED1Ev$w$Rp1SdcDsfD6ffEMc0
+0001:0000fa30* __ZNK4QMapIP16QTableWidgetItem11QDomElementE15mutableFindNodeEPPN8QMapData4NodeERKS1_$w$Rp1SdcDsfD6ffEMc0
+0001:0000faa0* __ZN4QMapIP16QTableWidgetItem11QDomElementE13detach_helperEv$w$Rp1SdcDsfD6ffEMc0
+0001:00010df0* __ZN5QListIN7QLocale7CountryEE13detach_helperEi$w$Rp1SdcDsfD6ffEMc0
+0001:00010ee0* __ZN5QListIN7QLocale7CountryEE13detach_helperEv$w$Rp1SdcDsfD6ffEMc0
+Module: U:\Projekte\vacuum\src\loader\aboutbox.obj(aboutbox.obj)
+0001:00012bf0* __ZN8AboutBoxC2EP14IPluginManagerP7QWidget
+0001:00012bf0  __ZN8AboutBoxC1EP14IPluginManagerP7QWidget
+0001:00012f70* __ZN8AboutBoxD2Ev
+0001:00012f70  __ZN8AboutBoxD1Ev
+0001:00012f90  __ZThn8_N8AboutBoxD1Ev
+0001:00012fa0  __ZN8AboutBoxD0Ev
+0001:00012fd0  __ZThn8_N8AboutBoxD0Ev
+0001:00012fe0  __ZN8AboutBox20onLabelLinkActivatedERK7QString
+0001:00011b20* __ZN7QStringD1Ev$w$V18sTiDsfD6855om2
+0001:00011d10* __ZN16Ui_AboutBoxClass7setupUiEP7QDialog$w$V18sTiDsfD6855om2
+Module: U:\Projekte\vacuum\src\loader\moc_pluginmanager.obj(moc_pluginmanager.obj)
+0001:00013050* __ZNK13PluginManager10metaObjectEv
+0001:00013070* __ZN13PluginManager15shutdownStartedEv
+0001:000130a0* __ZThn8_N13PluginManager15shutdownStartedEv
+0001:000130b0* __ZN13PluginManager11aboutToQuitEv
+0001:000130e0* __ZThn8_N13PluginManager11aboutToQuitEv
+0001:000130f0* __ZN13PluginManager11qt_metacallEN11QMetaObject4CallEiPPv
+0001:000132a0* __ZN13PluginManager11qt_metacastEPKc
+0002:000045b0  __ZN13PluginManager16staticMetaObjectE
+0001:00013030* __ZN13PluginManager8instanceEv$w$xdQUNADsfD6qmuQT1
+0001:00013040* __ZThn8_N13PluginManager8instanceEv$w$xdQUNADsfD6qmuQT1
+0001:00013350* __ZTV13PluginManager$w$xdQUNADsfD6qmuQT1
+0001:00013440* __ZTI13PluginManager$w$xdQUNADsfD6qmuQT1
+0001:00013430* __ZTS13PluginManager$w$xdQUNADsfD6qmuQT1
+0001:000136bc* __ZTI7QObject$w$xdQUNADsfD6qmuQT1
+0001:000136c4* __ZTI14IPluginManager$w$xdQUNADsfD6qmuQT1
+0001:000136cc* __ZTS7QObject$w$xdQUNADsfD6qmuQT1
+0001:000136e0* __ZTS14IPluginManager$w$xdQUNADsfD6qmuQT1
+Module: U:\Projekte\vacuum\src\loader\moc_setuppluginsdialog.obj(moc_setuppluginsdialog.obj)
+0001:00013700* __ZNK18SetupPluginsDialog10metaObjectEv
+0001:00013720* __ZN18SetupPluginsDialog11qt_metacallEN11QMetaObject4CallEiPPv
+0001:000137f0* __ZN18SetupPluginsDialog11qt_metacastEPKc
+0002:000046b0  __ZN18SetupPluginsDialog16staticMetaObjectE
+0001:00013870* __ZTV18SetupPluginsDialog$w$5V1GySDsfD6LAOIe0
+0001:00013998* __ZTI18SetupPluginsDialog$w$5V1GySDsfD6LAOIe0
+0001:00013980* __ZTS18SetupPluginsDialog$w$5V1GySDsfD6LAOIe0
+0001:00013b1c* __ZTI7QDialog$w$5V1GySDsfD6LAOIe0
+0001:00013b28* __ZTS7QDialog$w$5V1GySDsfD6LAOIe0
+0001:00013b40* __ZTI7QWidget$w$5V1GySDsfD6LAOIe0
+0001:00013b60* __ZTS7QWidget$w$5V1GySDsfD6LAOIe0
+0001:00013b6c* __ZTI7QObject$w$5V1GySDsfD6LAOIe0
+0001:00013b74* __ZTI12QPaintDevice$w$5V1GySDsfD6LAOIe0
+0001:00013b7c* __ZTS7QObject$w$5V1GySDsfD6LAOIe0
+0001:00013b85* __ZTS12QPaintDevice$w$5V1GySDsfD6LAOIe0
+Module: U:\Projekte\vacuum\src\loader\moc_aboutbox.obj(moc_aboutbox.obj)
+0001:00013ba0* __ZNK8AboutBox10metaObjectEv
+0001:00013bc0* __ZN8AboutBox11qt_metacallEN11QMetaObject4CallEiPPv
+0001:00013c20* __ZN8AboutBox11qt_metacastEPKc
+0002:00004730  __ZN8AboutBox16staticMetaObjectE
+0001:00013ca0* __ZTV8AboutBox$w$jq8LO4EsfD60w0Qd1
+0001:00013db4* __ZTI8AboutBox$w$jq8LO4EsfD60w0Qd1
+0001:00013da8* __ZTS8AboutBox$w$jq8LO4EsfD60w0Qd1
+0001:00013e40* __ZTI7QDialog$w$jq8LO4EsfD60w0Qd1
+0001:00013e4c* __ZTS7QDialog$w$jq8LO4EsfD60w0Qd1
+0001:00013e60* __ZTI7QWidget$w$jq8LO4EsfD60w0Qd1
+0001:00013e80* __ZTS7QWidget$w$jq8LO4EsfD60w0Qd1
+0001:00013e8c* __ZTI7QObject$w$jq8LO4EsfD60w0Qd1
+0001:00013e94* __ZTI12QPaintDevice$w$jq8LO4EsfD60w0Qd1
+0001:00013e9c* __ZTS7QObject$w$jq8LO4EsfD60w0Qd1
+0001:00013ea5* __ZTS12QPaintDevice$w$jq8LO4EsfD60w0Qd1
+Module: U:\usr\lib\libend.lib(src/libend/386/end.asm)
+0001:00013ff0* _etext
+0001:00013ff0* __etext
+0000:00000000* WEAK$ZERO
+0002:00004940  __end
+0002:000048b0  __edata
+Module: U:\tmp\ldconv_libgcc_so_d_a_3f5a5103253d145d30.lib(__main.obj)
+0001:00013ec0* ___do_global_ctors
+0001:00013ef7* ___do_global_dtors
+0001:00013ed8  ___main
+Module: U:\tmp\ldconv_libgcc_so_d_a_3f5a5103253d145d30.lib(emx-eh.obj)
+0001:00013f45  ___ehInit
+0001:00013f10* ___ehTerm
+Module: U:\tmp\ldconv_libgcc_so_d_a_3f5a5103253d145d30.lib(emx-ctordtor.obj)
+0001:00013f80  ___ctordtorTerm
+0001:00013fb2  ___ctordtorInit
+
+
+                        +----------------------+
+                        |   Imported Symbols   |
+                        +----------------------+
+
+Symbol                              Module
+======                              ======
+
+___init_app                         libc065
+__CRT_init                          libc065
+__ZN7QString4freeEPNS_4DataE        QtCore4
+__ZN12QApplicationC1ERiPPci         QtGui4
+__ZN12QApplication25setQuitOnLastWindowClosedEb QtGui4
+__ZN16QCoreApplication18applicationDirPathEv QtCore4
+__ZN16QCoreApplication14addLibraryPathERK7QString QtCore4
+__ZN7QString9fromAsciiEPKci         QtCore4
+__ZN7QString6appendERKS_            QtCore4
+__ZN8QLibraryC1ERK7QStringP7QObject QtCore4
+__ZN8QLibrary4loadEv                QtCore4
+__ZN12QApplication4execEv           QtGui4
+__ZN8QLibraryD1Ev                   QtCore4
+__ZN12QApplicationD1Ev              QtGui4
+__Unwind_Resume                     gcc446
+___gxx_personality_v0               libc065
+__ZN9QHashData11free_helperEPFvPNS_4NodeEE QtCore4
+__ZdlPv                             libc065
+__Z5qFreePv                         QtCore4
+__ZN11QVectorData4freeEPS_i         QtCore4
+__ZN11QTextStreamD1Ev               QtCore4
+__ZNK7QString11toLocal8BitEv        QtCore4
+__ZN10QByteArray7reallocEi          QtCore4
+__Z17qt_message_output9QtMsgTypePKc QtCore4
+___cxa_begin_catch                  libc065
+___cxa_end_catch                    libc065
+__ZN7QString16fromAscii_helperEPKci QtCore4
+__ZN9QDateTime10fromStringERK7QStringS2_ QtCore4
+__ZN9QSettingsC1ENS_6FormatENS_5ScopeERK7QStringS4_P7QObject QtCore4
+__ZN8QVariantC1ERK7QString          QtCore4
+__ZN9QSettings8setValueERK7QStringRK8QVariant QtCore4
+__ZN8QVariantD1Ev                   QtCore4
+__ZN9QSettingsD1Ev                  QtCore4
+__ZN7QLocaleC1ENS_8LanguageENS_7CountryE QtCore4
+__ZNK7QLocale4nameEv                QtCore4
+__ZN9QSettings6removeERK7QString    QtCore4
+__ZN6QTimer5startEi                 QtCore4
+__ZNK12QDomDocument15documentElementEv QtXml4
+__ZNK8QDomNode6isNullEv             QtXml4
+__ZN8QDomNodeD2Ev                   QtXml4
+__ZN4QDirC1ERK7QString              QtCore4
+__ZNK4QDir16absoluteFilePathERK7QString QtCore4
+__ZN5QFileC1ERK7QString             QtCore4
+__ZN5QFile4openE6QFlagsIN9QIODevice12OpenModeFlagEE QtCore4
+__ZNK12QDomDocument8toStringEi      QtXml4
+__ZNK7QString6toUtf8Ev              QtCore4
+__ZN9QIODevice5writeEPKcx           QtCore4
+__ZN5QFile5flushEv                  QtCore4
+__ZN5QFile5closeEv                  QtCore4
+__ZN5QFileD1Ev                      QtCore4
+__ZN4QDirD1Ev                       QtCore4
+__ZN7QString11shared_nullE          QtCore4
+__ZN11QTranslator4loadERK7QStringS2_S2_S2_ QtCore4
+__ZN12QLibraryInfo8locationENS_15LibraryLocationE QtCore4
+__ZN7QLocaleC1Ev                    QtCore4
+__ZN16QCoreApplication17installTranslatorEP11QTranslator QtCore4
+__ZNK7QString4leftEi                QtCore4
+__ZNK8QDomNode17firstChildElementERK7QString QtXml4
+__ZN12QDomDocument13createElementERK7QString QtXml4
+__ZN8QDomNode11appendChildERKS_     QtXml4
+__ZNK8QDomNode9toElementEv          QtXml4
+__ZN11QDomElementaSERKS_            QtXml4
+__ZN8QDomNodeD1Ev                   QtXml4
+__ZN8QDomNode11removeChildERKS_     QtXml4
+__ZN12QDomDocument14createTextNodeERK7QString QtXml4
+__ZNK8QDomNode10firstChildEv        QtXml4
+__ZNK8QDomNode15toCharacterDataEv   QtXml4
+__ZN17QDomCharacterData7setDataERK7QString QtXml4
+__ZNK11QDomElement7tagNameEv        QtXml4
+__ZN9QtPrivate20QStringList_containsEPK11QStringListRK7QStringN2Qt15CaseSensitivityE QtCore4
+__ZNK8QDomNode18nextSiblingElementERK7QString QtXml4
+__ZN11QDomElementC1ERKS_            QtXml4
+__ZNK8QDomNode10parentNodeEv        QtXml4
+__ZNK11QMetaObject2trEPKcS1_        QtCore4
+__ZN9Shortcuts12declareGroupERK7QStringS2_i vacuumu
+__ZN12QKeySequenceC1ENS_11StandardKeyE QtGui4
+__ZN9Shortcuts15declareShortcutERK7QStringS2_RK12QKeySequenceNS_7ContextE vacuumu
+__ZN12QKeySequenceD1Ev              QtGui4
+__ZN13WidgetManager23showActivateRaiseWindowEP7QWidget vacuumu
+__ZN12QDomDocumentC1ERKS_           QtXml4
+__Znwj                              libc065
+__ZN11QMetaObject11changeGuardEPP7QObjectS1_ QtCore4
+__ZN12QDomDocumentD1Ev              QtXml4
+__ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE QtCore4
+__ZN6QTimerD1Ev                     QtCore4
+__ZN11QMetaObject11removeGuardEPP7QObject QtCore4
+__ZN7QObjectD2Ev                    QtCore4
+__ZN7QObjectC2EPS_                  QtCore4
+__ZN6QTimerC1EP7QObject             QtCore4
+__ZN12QDomDocumentC1Ev              QtXml4
+__ZN9QListData11shared_nullE        QtCore4
+__ZN9QHashData11shared_nullE        QtCore4
+__ZN11QTranslatorC1EP7QObject       QtCore4
+___cxa_guard_acquire                libc065
+__ZN5QCharC1Ec                      QtCore4
+__ZNK7QString7indexOfE5QChariN2Qt15CaseSensitivityE QtCore4
+__ZNK7QString5splitERK5QCharNS_13SplitBehaviorEN2Qt15CaseSensitivityE QtCore4
+___cxa_guard_release                libc065
+___cxa_guard_abort                  libc065
+__ZNK7QStringeqERKS_                QtCore4
+__ZN8QMapData16continueFreeDataEi   QtCore4
+__ZNK11QDomElement9attributeERK7QStringS2_ QtXml4
+__ZN7QString16codecForCStringsE     QtCore4
+__ZNK7QStringeqERK13QLatin1String   QtCore4
+__ZN6ActionC1EP7QObject             vacuumu
+__ZN7QAction7setTextERK7QString     QtGui4
+__ZN6Action7setIconERK7QStringS2_i  vacuumu
+__ZN6Action13setShortcutIdERK7QString vacuumu
+__ZN16QCoreApplication4selfE        QtCore4
+__ZN4Menu9addActionEP6Actionib      vacuumu
+__ZN9QListData11detach_growEPii     QtCore4
+__ZN9QListData6appendEv             QtCore4
+___cxa_rethrow                      libc065
+__ZNK5QUuid8toStringEv              QtCore4
+__Z5qHashRK7QString                 QtCore4
+__ZN9QListData6detachEi             QtCore4
+__ZN16QCoreApplication9argumentsEv  QtCore4
+__ZN7QLocaleC1ERK7QString           QtCore4
+__ZN7QLocaleaSERKS_                 QtCore4
+__ZNK7QLocale8languageEv            QtCore4
+__ZN7QLocale10setDefaultERKS_       QtCore4
+__ZN7QStringaSERKS_                 QtCore4
+__ZNK4QDir6existsEv                 QtCore4
+__ZN4QDir14isRelativePathERK7QString QtCore4
+__ZN11FileStorage13resourcesDirsEv  vacuumu
+__ZN11FileStorage16setResourcesDirsERK5QListI7QStringE vacuumu
+__ZN8QDomNode5clearEv               QtXml4
+__ZNK5QFile6existsEv                QtCore4
+__ZNK4QDir12absolutePathEv          QtCore4
+__ZNK4QDir6existsERK7QString        QtCore4
+__ZN4QDir2cdERK7QString             QtCore4
+__ZN12QDomDocument10setContentEP9QIODevicebP7QStringPiS4_ QtXml4
+__ZN7QLocale6systemEv               QtCore4
+__ZNK4QDir6mkpathERK7QString        QtCore4
+__ZNK9QSettings5valueERK7QStringRK8QVariant QtCore4
+__ZNK8QVariant8toStringEv           QtCore4
+__ZN8QProcess17systemEnvironmentEv  QtCore4
+__ZNK7QString10startsWithERKS_N2Qt15CaseSensitivityE QtCore4
+__ZNK7QString5splitERKS_NS_13SplitBehaviorEN2Qt15CaseSensitivityE QtCore4
+__ZN4QDir8homePathEv                QtCore4
+__ZN9QHashData14detach_helper2EPFvPNS_4NodeEPvEPFvS1_Eii QtCore4
+__ZN11QVectorData8allocateEii       QtCore4
+__Z9qBadAllocv                      QtCore4
+__ZN11QVectorData4growEiiib         QtCore4
+__ZN9QListData7reallocEi            QtCore4
+__ZN9QHashData8nextNodeEPNS_4NodeE  QtCore4
+__ZN9QListData7append2ERKS_         QtCore4
+__ZN9QHashData8freeNodeEPv          QtCore4
+__ZN9QHashData6rehashEi             QtCore4
+__ZN16QCoreApplication16removeTranslatorEP11QTranslator QtCore4
+__ZN4QUrlD1Ev                       QtCore4
+__ZNK13QPluginLoader8fileNameEv     QtCore4
+__ZN9QFileInfoC1ERK7QString         QtCore4
+__ZNK9QFileInfo8fileNameEv          QtCore4
+__ZN9QFileInfoD1Ev                  QtCore4
+__ZNK7QString8toLatin1Ev            QtCore4
+__ZN9QHashData12allocateNodeEi      QtCore4
+__ZN8QMapData10createDataEi         QtCore4
+__ZN8QMapData11node_createEPPNS_4NodeEii QtCore4
+__ZN8QMapData11shared_nullE         QtCore4
+__ZN11QVectorData11shared_nullE     QtCore4
+__ZN12QApplication15topLevelWidgetsEv QtGui4
+__ZN7QWidget5closeEv                QtGui4
+__ZNK4QDir9entryListE6QFlagsINS_6FilterEES0_INS_8SortFlagEE QtCore4
+__ZN8QLibrary9isLibraryERK7QString  QtCore4
+__ZNK7QString3argERKS_iRK5QChar     QtCore4
+__ZN13QPluginLoaderC1ERK7QStringP7QObject QtCore4
+__ZNK7QString11lastIndexOfE5QChariN2Qt15CaseSensitivityE QtCore4
+__ZNK7QString3midEii                QtCore4
+__ZN13QPluginLoader4loadEv          QtCore4
+__ZN13QPluginLoader8instanceEv      QtCore4
+__ZN7QObject9setParentEPS_          QtCore4
+__ZN4QUrlC1Ev                       QtCore4
+__ZN11QDomElement12setAttributeERK7QStringS2_ QtXml4
+__ZNK13QPluginLoader11errorStringEv QtCore4
+__ZN11QTextStreamC1EP7QString6QFlagsIN9QIODevice12OpenModeFlagEE QtCore4
+__ZN11QTextStreamlsEc               QtCore4
+__ZN11QTextStreamlsERK7QString      QtCore4
+__ZN6QTimer4stopEv                  QtCore4
+__ZN6QTimer10singleShotEiP7QObjectPKc QtCore4
+__ZN9QDateTime15currentDateTimeEv   QtCore4
+__ZNK9QDateTime8addMSecsEx          QtCore4
+__ZN9QDateTimeD1Ev                  QtCore4
+__ZN16QCoreApplication13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE QtCore4
+__ZNK9QDateTimeltERKS_              QtCore4
+__ZN16QCoreApplication4quitEv       QtCore4
+___cxa_pure_virtual                 libc065
+__ZTVN10__cxxabiv120__si_class_type_infoE libc065
+__ZTVN10__cxxabiv117__class_type_infoE libc065
+__ZNK7QObject10objectNameEv         QtCore4
+__ZN7QString8fromUtf8EPKci          QtCore4
+__ZN7QObject13setObjectNameERK7QString QtCore4
+__ZN7QWidget6resizeERK5QSize        QtGui4
+__ZN11QVBoxLayoutC1EP7QWidget       QtGui4
+__ZN10QBoxLayout10setSpacingEi      QtGui4
+__ZN7QLayout18setContentsMarginsEiiii QtGui4
+__ZN9QSplitterC1EP7QWidget          QtGui4
+__ZNK7QWidget10sizePolicyEv         QtGui4
+__ZN7QWidget13setSizePolicyE11QSizePolicy QtGui4
+__ZN9QSplitter14setOrientationEN2Qt11OrientationE QtGui4
+__ZN9QSplitter22setChildrenCollapsibleEb QtGui4
+__ZN12QTableWidgetC1EP7QWidget      QtGui4
+__ZNK12QTableWidget11columnCountEv  QtGui4
+__ZN16QTableWidgetItemC1Ei          QtGui4
+__ZN12QTableWidget23setHorizontalHeaderItemEiP16QTableWidgetItem QtGui4
+__ZN17QAbstractItemView15setEditTriggersE6QFlagsINS_11EditTriggerEE QtGui4
+__ZN17QAbstractItemView16setSelectionModeENS_13SelectionModeE QtGui4
+__ZN17QAbstractItemView20setSelectionBehaviorENS_17SelectionBehaviorE QtGui4
+__ZN12QTableWidget17setSortingEnabledEb QtGui4
+__ZN9QSplitter9addWidgetEP7QWidget  QtGui4
+__ZNK10QTableView16horizontalHeaderEv QtGui4
+__ZN11QHeaderView20setHighlightSectionsEb QtGui4
+__ZNK10QTableView14verticalHeaderEv QtGui4
+__ZN9QGroupBoxC1EP7QWidget          QtGui4
+__ZN6QLabelC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE QtGui4
+__ZN6QLabel13setTextFormatEN2Qt10TextFormatE QtGui4
+__ZN6QLabel11setWordWrapEb          QtGui4
+__ZN6QLabel23setTextInteractionFlagsE6QFlagsIN2Qt19TextInteractionFlagEE QtGui4
+__ZN10QBoxLayout9addWidgetEP7QWidgeti6QFlagsIN2Qt13AlignmentFlagEE QtGui4
+__ZN6QLabel12setAlignmentE6QFlagsIN2Qt13AlignmentFlagEE QtGui4
+__ZN10QTabWidgetC1EP7QWidget        QtGui4
+__ZN7QWidgetC1EPS_6QFlagsIN2Qt10WindowTypeEE QtGui4
+__ZN11QListWidgetC1EP7QWidget       QtGui4
+__ZN9QListView11setWordWrapEb       QtGui4
+__ZN10QTabWidget6addTabEP7QWidgetRK7QString QtGui4
+__ZN6QFrame13setFrameShapeENS_5ShapeE QtGui4
+__ZN6QFrame14setFrameShadowENS_6ShadowE QtGui4
+__ZN11QHBoxLayoutC1EP7QWidget       QtGui4
+__ZN9QComboBoxC1EP7QWidget          QtGui4
+__ZN9QComboBox19setSizeAdjustPolicyENS_16SizeAdjustPolicyE QtGui4
+__ZTV11QSpacerItem                  QtGui4
+__ZN16QDialogButtonBoxC1EP7QWidget  QtGui4
+__ZN16QDialogButtonBox18setStandardButtonsE6QFlagsINS_14StandardButtonEE QtGui4
+__ZN6QLabel8setBuddyEP7QWidget      QtGui4
+__ZN7QWidget11setTabOrderEPS_S0_    QtGui4
+__ZN16QCoreApplication9translateEPKcS1_S1_NS_8EncodingE QtCore4
+__ZN7QWidget14setWindowTitleERK7QString QtGui4
+__ZNK12QTableWidget20horizontalHeaderItemEi QtGui4
+__ZN9QGroupBox8setTitleERK7QString  QtGui4
+__ZNK10QTabWidget7indexOfEP7QWidget QtGui4
+__ZN10QTabWidget10setTabTextEiRK7QString QtGui4
+__ZN6QLabel7setTextERK7QString      QtGui4
+__ZN10QTabWidget15setCurrentIndexEi QtGui4
+__ZN11QMetaObject18connectSlotsByNameEP7QObject QtCore4
+__ZN12QTableWidget14setColumnCountEi QtGui4
+__ZN5QUuidC1ERK7QString             QtCore4
+__ZNK12QTableWidget6columnEPK16QTableWidgetItem QtGui4
+__ZN11QDomElementC1Ev               QtXml4
+__ZNK11QDomElement4textEv           QtXml4
+__ZN2Qt6escapeERK7QString           QtGui4
+__ZNK6QLabel4textEv                 QtGui4
+__ZN11QListWidget5clearEv           QtGui4
+__ZN15QListWidgetItemC1ERK7QStringP11QListWidgeti QtGui4
+__ZNK7QWidget7paletteEv             QtGui4
+__ZNK8QPalette5brushENS_10ColorGroupENS_9ColorRoleE QtGui4
+__ZN6QBrushC1ERK6QColorN2Qt10BrushStyleE QtGui4
+__ZNK6QBrushcv8QVariantEv           QtGui4
+__ZN6QBrushD1Ev                     QtGui4
+__ZNK11QListWidget5countEv          QtGui4
+__ZN11QListWidget10insertItemEiP15QListWidgetItem QtGui4
+__ZN11QListWidget10insertItemEiRK7QString QtGui4
+__ZNK4QUrl8toStringE6QFlagsINS_16FormattingOptionEE QtCore4
+__ZNK12QTableWidget4itemEii         QtGui4
+__ZNK12QTableWidget3rowEPK16QTableWidgetItem QtGui4
+__ZSt9terminatev                    libc065
+__ZN4QUrlC1ERK7QString              QtCore4
+__ZN16QDesktopServices7openUrlERK4QUrl QtGui4
+__ZNK7QWidget12saveGeometryEv       QtGui4
+__ZN8QVariantC1ERK10QByteArray      QtCore4
+__ZN7Options12setFileValueERK8QVariantRK7QStringS5_ vacuumu
+__ZN7QDialogD2Ev                    QtGui4
+__ZN8QMapData11node_deleteEPPNS_4NodeEiS1_ QtCore4
+__ZN12QTableWidget13clearContentsEv QtGui4
+__ZN12QTableWidget11setRowCountEi   QtGui4
+__ZN16QTableWidgetItemC1ERK7QStringi QtGui4
+__ZN8QVariantC1Ei                   QtCore4
+__ZNK12QTableWidget8rowCountEv      QtGui4
+__ZN12QTableWidget7setItemEiiP16QTableWidgetItem QtGui4
+__ZN6QBrushC1EN2Qt11GlobalColorENS0_10BrushStyleE QtGui4
+__ZN12QTableWidget9sortItemsEiN2Qt9SortOrderE QtGui4
+__ZNK8QVariant5toIntEPb             QtCore4
+__ZN11QDomElement15removeAttributeERK7QString QtXml4
+__ZNK9QComboBox12currentIndexEv     QtGui4
+__ZNK9QComboBox8itemDataEii         QtGui4
+__ZNK16QDialogButtonBox14standardButtonEP15QAbstractButton QtGui4
+__ZN11QMessageBox8questionEP7QWidgetRK7QStringS4_6QFlagsINS_14StandardButtonEES6_ QtGui4
+__ZN9QComboBox5clearEv              QtGui4
+__ZN7QLocale20countriesForLanguageENS_8LanguageE QtCore4
+__ZNK9QComboBox5modelEv             QtGui4
+__ZN5QIconC1Ev                      QtGui4
+__ZN9QComboBox10insertItemEiRK5QIconRK7QStringRK8QVariant QtGui4
+__ZN5QIconD1Ev                      QtGui4
+__ZN9QComboBox15setCurrentIndexEi   QtGui4
+__ZN7QLocale15countryToStringENS_7CountryE QtCore4
+__ZNK9QComboBox5countEv             QtGui4
+__ZNK7QLocale7countryEv             QtCore4
+__ZNK9QComboBox8findDataERK8QVarianti6QFlagsIN2Qt9MatchFlagEE QtGui4
+__ZN7QLocale16languageToStringENS_8LanguageE QtCore4
+__ZNK7QLocale1dEv                   QtCore4
+__ZNK7QLocale13numberOptionsEv      QtCore4
+__ZN7QDialogC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE QtGui4
+__ZN7QWidget12setAttributeEN2Qt15WidgetAttributeEb QtGui4
+__ZN11IconStorage13staticStorageERK7QString vacuumu
+__ZN11IconStorage14insertAutoIconEP7QObjectRK7QStringiiS4_ vacuumu
+__ZN12QDomDocumentaSERKS_           QtXml4
+__ZN11QHeaderView13setResizeModeEiNS_10ResizeModeE QtGui4
+__ZN7Options9fileValueERK7QStringS2_ vacuumu
+__ZNK8QVariant11toByteArrayEv       QtCore4
+__ZN7QWidget15restoreGeometryERK10QByteArray QtGui4
+__ZN7QLayout17setSizeConstraintENS_14SizeConstraintE QtGui4
+__ZN11QHBoxLayoutC1Ev               QtGui4
+__ZN8QPaletteC1Ev                   QtGui4
+__ZN6QColor6setRgbEiiii             QtGui4
+__ZN6QBrush8setStyleEN2Qt10BrushStyleE QtGui4
+__ZN8QPalette8setBrushENS_10ColorGroupENS_9ColorRoleERK6QBrush QtGui4
+__ZN7QWidget10setPaletteERK8QPalette QtGui4
+__ZN5QFontC1Ev                      QtGui4
+__ZN5QFont12setPointSizeEi          QtGui4
+__ZN7QWidget7setFontERK5QFont       QtGui4
+__ZN10QBoxLayout9addLayoutEP7QLayouti QtGui4
+__ZN6QFrameC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE QtGui4
+__ZN5QFontD1Ev                      QtGui4
+__ZN8QPaletteD1Ev                   QtGui4
+__ZN11QMetaObject8activateEP7QObjectPKS_iPPv QtCore4
+__ZN7QObject11qt_metacallEN11QMetaObject4CallEiPPv QtCore4
+__ZN7QObject11qt_metacastEPKc       QtCore4
+__ZN7QObject16staticMetaObjectE     QtCore4
+__ZN7QObject5eventEP6QEvent         QtCore4
+__ZN7QObject11eventFilterEPS_P6QEvent QtCore4
+__ZN7QObject10timerEventEP11QTimerEvent QtCore4
+__ZN7QObject10childEventEP11QChildEvent QtCore4
+__ZN7QObject11customEventEP6QEvent  QtCore4
+__ZN7QObject13connectNotifyEPKc     QtCore4
+__ZN7QObject16disconnectNotifyEPKc  QtCore4
+__ZTVN10__cxxabiv121__vmi_class_type_infoE libc065
+__ZN7QDialog11qt_metacallEN11QMetaObject4CallEiPPv QtGui4
+__ZN7QDialog11qt_metacastEPKc       QtGui4
+__ZN7QDialog16staticMetaObjectE     QtGui4
+__ZN7QWidget5eventEP6QEvent         QtGui4
+__ZN7QDialog11eventFilterEP7QObjectP6QEvent QtGui4
+__ZNK7QWidget7devTypeEv             QtGui4
+__ZN7QDialog10setVisibleEb          QtGui4
+__ZNK7QDialog8sizeHintEv            QtGui4
+__ZNK7QDialog15minimumSizeHintEv    QtGui4
+__ZNK7QWidget14heightForWidthEi     QtGui4
+__ZNK7QWidget11paintEngineEv        QtGui4
+__ZN7QWidget15mousePressEventEP11QMouseEvent QtGui4
+__ZN7QWidget17mouseReleaseEventEP11QMouseEvent QtGui4
+__ZN7QWidget21mouseDoubleClickEventEP11QMouseEvent QtGui4
+__ZN7QWidget14mouseMoveEventEP11QMouseEvent QtGui4
+__ZN7QWidget10wheelEventEP11QWheelEvent QtGui4
+__ZN7QDialog13keyPressEventEP9QKeyEvent QtGui4
+__ZN7QWidget15keyReleaseEventEP9QKeyEvent QtGui4
+__ZN7QWidget12focusInEventEP11QFocusEvent QtGui4
+__ZN7QWidget13focusOutEventEP11QFocusEvent QtGui4
+__ZN7QWidget10enterEventEP6QEvent   QtGui4
+__ZN7QWidget10leaveEventEP6QEvent   QtGui4
+__ZN7QWidget10paintEventEP11QPaintEvent QtGui4
+__ZN7QWidget9moveEventEP10QMoveEvent QtGui4
+__ZN7QDialog11resizeEventEP12QResizeEvent QtGui4
+__ZN7QDialog10closeEventEP11QCloseEvent QtGui4
+__ZN7QDialog16contextMenuEventEP17QContextMenuEvent QtGui4
+__ZN7QWidget11tabletEventEP12QTabletEvent QtGui4
+__ZN7QWidget11actionEventEP12QActionEvent QtGui4
+__ZN7QWidget14dragEnterEventEP15QDragEnterEvent QtGui4
+__ZN7QWidget13dragMoveEventEP14QDragMoveEvent QtGui4
+__ZN7QWidget14dragLeaveEventEP15QDragLeaveEvent QtGui4
+__ZN7QWidget9dropEventEP10QDropEvent QtGui4
+__ZN7QDialog9showEventEP10QShowEvent QtGui4
+__ZN7QWidget9hideEventEP10QHideEvent QtGui4
+__ZN7QWidget7pmEventEP5_QMSGPPv     QtGui4
+__ZN7QWidget11changeEventEP6QEvent  QtGui4
+__ZNK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE QtGui4
+__ZN7QWidget16inputMethodEventEP17QInputMethodEvent QtGui4
+__ZNK7QWidget16inputMethodQueryEN2Qt16InputMethodQueryE QtGui4
+__ZN7QWidget18focusNextPrevChildEb  QtGui4
+__ZN7QWidget11styleChangeER6QStyle  QtGui4
+__ZN7QWidget13enabledChangeEb       QtGui4
+__ZN7QWidget13paletteChangeERK8QPalette QtGui4
+__ZN7QWidget10fontChangeERK5QFont   QtGui4
+__ZN7QWidget22windowActivationChangeEb QtGui4
+__ZN7QWidget14languageChangeEv      QtGui4
+__ZN7QDialog4doneEi                 QtGui4
+__ZN7QDialog6acceptEv               QtGui4
+__ZN7QDialog6rejectEv               QtGui4
+__ZThn8_NK7QWidget7devTypeEv        QtGui4
+__ZThn8_NK7QWidget11paintEngineEv   QtGui4
+__ZThn8_NK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE QtGui4
+__std_exit                          libc065
+___deregister_frame                 gcc446
+___register_frame_table             gcc446
+__std_atexit                        libc065
+__std_memcpy                        libc065
+___ctordtorTerm1                    libc065
+___ctordtorInit1                    libc065
+
+
+                        +--------------------+
+                        |   Libraries Used   |
+                        +--------------------+
+
+U:\tmp\ldconv_vacuumu_dll_3f5a5103253d13cca8.lib
+U:\usr\lib\QtXml4.lib
+U:\usr\lib\QtGui4.lib
+U:\usr\lib\QtCore4.lib
+U:\tmp\ldconv_libgcc_so_d_a_3f5a5103253d145d30.lib
+U:\usr\lib\libc_alias.lib
+U:\usr\lib\libc_dll.lib
+U:\usr\lib\libend.lib
+
+
+                        +-----------------------+
+                        |   Linker Statistics   |
+                        +-----------------------+
+
+Stack size:  00800000 (8388608.)
+Memory size:  00818930 (8489264.)
+Entry point address: 0001:00000000
+Link time: 00:00.17

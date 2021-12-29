@@ -1,0 +1,1624 @@
+LIBRARY vacuumu INITINSTANCE TERMINSTANCE
+DESCRIPTION '@#unknown:0.0#@##1##  9 Jan 2011 11:27:47    ::::::@@'
+EXPORTS
+  ; segment TEXT32
+  "__ZN6ActionC2EP7QObject"                                            @1      ; magicseg='TEXT32' len=23
+  "__ZN6ActionC1EP7QObject"                                            @2      ; magicseg='TEXT32' len=23
+  "__ZNK6Action4menuEv"                                                @3      ; magicseg='TEXT32' len=19
+  "__ZN6Action7setMenuEP4Menu"                                         @4      ; magicseg='TEXT32' len=26
+  "__ZN6Action7setIconERK7QStringS2_i"                                 @5      ; magicseg='TEXT32' len=34
+  "__ZN6Action7setIconERK5QIcon"                                       @6      ; magicseg='TEXT32' len=28
+  "__ZNK6Action4dataEi"                                                @7      ; magicseg='TEXT32' len=19
+  "__ZNK6Action10shortcutIdEv"                                         @8      ; magicseg='TEXT32' len=26
+  "__ZN6Action13setShortcutIdERK7QString"                              @9      ; magicseg='TEXT32' len=37
+  "__ZN6Action18copyStandardActionEPS_P7QAction"                       @10     ; magicseg='TEXT32' len=44
+  "__ZN6Action15onMenuDestroyedEP4Menu"                                @11     ; magicseg='TEXT32' len=35
+  "__ZN6ActionD2Ev"                                                    @12     ; magicseg='TEXT32' len=15
+  "__ZN6ActionD1Ev"                                                    @13     ; magicseg='TEXT32' len=15
+  "__ZN6ActionD0Ev"                                                    @14     ; magicseg='TEXT32' len=15
+  "__ZN6Action7setDataEiRK8QVariant"                                   @15     ; magicseg='TEXT32' len=32
+  "__ZN6Action7setDataERK5QHashIi8QVariantE"                           @16     ; magicseg='TEXT32' len=40
+  "__ZN5QHashIi8QVariantE11deleteNode2EPN9QHashData4NodeE"             @17     ; magicseg='TEXT32' len=54  weak
+  "__ZN5QHashIi8QVariantE13duplicateNodeEPN9QHashData4NodeEPv"         @18     ; magicseg='TEXT32' len=58  weak
+  "__ZN7QStringD1Ev"                                                   @19     ; magicseg='TEXT32' len=16  weak
+  "__ZN5QHashIi8QVariantED1Ev"                                         @20     ; magicseg='TEXT32' len=26  weak
+  "__ZN5QHashIi8QVariantE13detach_helperEv"                            @21     ; magicseg='TEXT32' len=39  weak
+  "__ZN5QHashIi8QVariantE6removeERKi"                                  @22     ; magicseg='TEXT32' len=33  weak
+  "__ZTISt9bad_alloc"                                                  @23     ; magicseg='TEXT32' len=17  weak
+  "__ZTSSt9bad_alloc"                                                  @24     ; magicseg='TEXT32' len=17  weak
+  "__ZTISt9exception"                                                  @25     ; magicseg='TEXT32' len=17  weak
+  "__ZTSSt9exception"                                                  @26     ; magicseg='TEXT32' len=17  weak
+
+  ; segment BSS32
+  "__ZN20AdvancedDelegateItem8BranchIdE"                               @27     ; magicseg='BSS32' len=36
+  "__ZN20AdvancedDelegateItem9DisplayIdE"                              @28     ; magicseg='BSS32' len=37
+  "__ZN20AdvancedDelegateItem12DecorationIdE"                          @29     ; magicseg='BSS32' len=41
+  "__ZN20AdvancedDelegateItem12CheckStateIdE"                          @30     ; magicseg='BSS32' len=41
+  "__ZZN11QMetaTypeIdI20AdvancedDelegateItemE14qt_metatype_idEvE11metatype_id"             @31     ; magicseg='BSS32' len=74  weak
+  "__ZZN11QMetaTypeIdI4QMapIj20AdvancedDelegateItemEE14qt_metatype_idEvE11metatype_id"     @32     ; magicseg='BSS32' len=82  weak
+
+  ; segment TEXT32
+  "__ZN25AdvancedDelegateEditProxy12createEditorEPK20AdvancedItemDelegateP7QWidgetRK20QStyleOptionViewItemRK11QModelIndex"                                    @33     ; magicseg='TEXT32' len=118
+  "__ZN25AdvancedDelegateEditProxy13setEditorDataEPK20AdvancedItemDelegateP7QWidgetRK11QModelIndex"                      @34     ; magicseg='TEXT32' len=95
+  "__ZN25AdvancedDelegateEditProxy12setModelDataEPK20AdvancedItemDelegateP7QWidgetP18QAbstractItemModelRK11QModelIndex"                                       @35     ; magicseg='TEXT32' len=115
+  "__ZNK25AdvancedDelegateEditProxy20updateEditorGeometryEPK20AdvancedItemDelegateP7QWidgetRK20QStyleOptionViewItemRK11QModelIndex"                           @36     ; magicseg='TEXT32' len=127
+  "__Z22destroyLayoutRecursiveP7QLayout"                               @37     ; magicseg='TEXT32' len=36
+  "__Z17getSingleLineTextRK7QString"                                   @38     ; magicseg='TEXT32' len=32
+  "__ZN20AdvancedDelegateItemC2ERKS_"                                  @39     ; magicseg='TEXT32' len=33
+  "__ZN20AdvancedDelegateItemC1ERKS_"                                  @40     ; magicseg='TEXT32' len=33
+  "__ZN20AdvancedDelegateItem6makeIdEhht"                              @41     ; magicseg='TEXT32' len=37
+  "__ZN20AdvancedDelegateItem13makeStretchIdEhh"                       @42     ; magicseg='TEXT32' len=44
+  "__ZN20AdvancedDelegateItem11getPositionEj"                          @43     ; magicseg='TEXT32' len=41
+  "__ZN20AdvancedDelegateItem8getFloorEj"                              @44     ; magicseg='TEXT32' len=37
+  "__ZN20AdvancedDelegateItem8getOrderEj"                              @45     ; magicseg='TEXT32' len=37
+  "__ZN20AdvancedItemDelegateC2EP7QObject"                             @46     ; magicseg='TEXT32' len=38
+  "__ZN20AdvancedItemDelegateC1EP7QObject"                             @47     ; magicseg='TEXT32' len=38
+  "__ZN20AdvancedItemDelegateD2Ev"                                     @48     ; magicseg='TEXT32' len=30
+  "__ZN20AdvancedItemDelegateD1Ev"                                     @49     ; magicseg='TEXT32' len=30
+  "__ZN20AdvancedItemDelegateD0Ev"                                     @50     ; magicseg='TEXT32' len=30
+  "__ZNK20AdvancedItemDelegate9itemsRoleEv"                            @51     ; magicseg='TEXT32' len=39
+  "__ZN20AdvancedItemDelegate12setItemsRoleEi"                         @52     ; magicseg='TEXT32' len=42
+  "__ZNK20AdvancedItemDelegate15verticalSpacingEv"                     @53     ; magicseg='TEXT32' len=46
+  "__ZN20AdvancedItemDelegate17setVertialSpacingEi"                    @54     ; magicseg='TEXT32' len=47
+  "__ZNK20AdvancedItemDelegate17horizontalSpacingEv"                   @55     ; magicseg='TEXT32' len=48
+  "__ZN20AdvancedItemDelegate20setHorizontalSpacingEi"                 @56     ; magicseg='TEXT32' len=50
+  "__ZNK20AdvancedItemDelegate16focusRectVisibleEv"                    @57     ; magicseg='TEXT32' len=47
+  "__ZN20AdvancedItemDelegate19setFocusRectVisibleEb"                  @58     ; magicseg='TEXT32' len=49
+  "__ZNK20AdvancedItemDelegate24defaultBranchItemEnabledEv"            @59     ; magicseg='TEXT32' len=55
+  "__ZN20AdvancedItemDelegate27setDefaultBranchItemEnabledEb"          @60     ; magicseg='TEXT32' len=57
+  "__ZNK20AdvancedItemDelegate15contentsMarginsEv"                     @61     ; magicseg='TEXT32' len=46
+  "__ZN20AdvancedItemDelegate19setContentsMargingsERK8QMargins"        @62     ; magicseg='TEXT32' len=59
+  "__ZNK20AdvancedItemDelegate9blinkModeEv"                            @63     ; magicseg='TEXT32' len=39
+  "__ZN20AdvancedItemDelegate12setBlinkModeENS_9BlinkModeE"            @64     ; magicseg='TEXT32' len=55
+  "__ZNK20AdvancedItemDelegate8editRoleEv"                             @65     ; magicseg='TEXT32' len=38
+  "__ZN20AdvancedItemDelegate11setEditRoleEi"                          @66     ; magicseg='TEXT32' len=41
+  "__ZNK20AdvancedItemDelegate10editItemIdEv"                          @67     ; magicseg='TEXT32' len=41
+  "__ZN20AdvancedItemDelegate13setEditItemIdEj"                        @68     ; magicseg='TEXT32' len=43
+  "__ZNK20AdvancedItemDelegate9editProxyEv"                            @69     ; magicseg='TEXT32' len=39
+  "__ZN20AdvancedItemDelegate12setEditProxyEP25AdvancedDelegateEditProxy"                  @70     ; magicseg='TEXT32' len=69
+  "__ZNK20AdvancedItemDelegate13editorFactoryEv"                       @71     ; magicseg='TEXT32' len=44
+  "__ZNK20AdvancedItemDelegate13setEditorDataEP7QWidgetRK11QModelIndex"                    @72     ; magicseg='TEXT32' len=67
+  "__ZNK20AdvancedItemDelegate12setModelDataEP7QWidgetP18QAbstractItemModelRK11QModelIndex"                              @73     ; magicseg='TEXT32' len=87
+  "__ZNK20AdvancedItemDelegate16indexStyleOptionERK20QStyleOptionViewItemRK11QModelIndexb"                               @74     ; magicseg='TEXT32' len=86
+  "__ZNK20AdvancedItemDelegate15itemStyleOptionERK20AdvancedDelegateItemRK22QStyleOptionViewItemV4"                      @75     ; magicseg='TEXT32' len=95
+  "__ZNK20AdvancedItemDelegate8itemRectEjPKNS_11ItemsLayoutERK5QRect"                      @76     ; magicseg='TEXT32' len=65
+  "__ZNK20AdvancedItemDelegate6itemAtERK6QPointPKNS_11ItemsLayoutERK5QRect"                @77     ; magicseg='TEXT32' len=71
+  "__ZN20AdvancedItemDelegate13isItemVisibleERK20AdvancedDelegateItemRK22QStyleOptionViewItemV4"                         @78     ; magicseg='TEXT32' len=92
+  "__ZN20AdvancedItemDelegate12itemSizeHintERK20AdvancedDelegateItemRK22QStyleOptionViewItemV4"                          @79     ; magicseg='TEXT32' len=91
+  "__ZNK20AdvancedItemDelegate14drawBackgroundEP8QPainterRK22QStyleOptionViewItemV4"       @80     ; magicseg='TEXT32' len=80
+  "__ZNK20AdvancedItemDelegate13drawFocusRectEP8QPainterRK22QStyleOptionViewItemV4RK5QRect"                              @81     ; magicseg='TEXT32' len=87
+  "__ZN20AdvancedItemDelegate19onBlinkTimerTimeoutEv"                  @82     ; magicseg='TEXT32' len=49
+  "__Z43registerAdvancedDelegateItemStreamOperatorsv"                  @83     ; magicseg='TEXT32' len=49
+  "__ZN20AdvancedDelegateItemC2Ej"                                     @84     ; magicseg='TEXT32' len=30
+  "__ZN20AdvancedDelegateItemC1Ej"                                     @85     ; magicseg='TEXT32' len=30
+  "__ZlsR11QDataStreamRK20AdvancedDelegateItem"                        @86     ; magicseg='TEXT32' len=43
+  "__ZN20AdvancedDelegateItemaSERKS_"                                  @87     ; magicseg='TEXT32' len=33
+  "__ZN20AdvancedDelegateItemD2Ev"                                     @88     ; magicseg='TEXT32' len=30
+  "__ZN20AdvancedDelegateItemD1Ev"                                     @89     ; magicseg='TEXT32' len=30
+  "__ZNK20AdvancedItemDelegate18destroyItemsLayoutEPNS_11ItemsLayoutE"                     @90     ; magicseg='TEXT32' len=66
+  "__ZN20AdvancedDelegateItem6detachEv"                                @91     ; magicseg='TEXT32' len=35
+  "__ZrsR11QDataStreamR20AdvancedDelegateItem"                         @92     ; magicseg='TEXT32' len=42
+  "__ZNK20AdvancedItemDelegate13getIndexItemsERK11QModelIndexRK22QStyleOptionViewItemV4"   @93     ; magicseg='TEXT32' len=84
+  "__ZNK20AdvancedItemDelegate12createEditorEP7QWidgetRK20QStyleOptionViewItemRK11QModelIndex"                           @94     ; magicseg='TEXT32' len=90
+  "__ZNK20AdvancedItemDelegate17createItemsLayoutERK4QMapIj20AdvancedDelegateItemERK22QStyleOptionViewItemV4"            @95     ; magicseg='TEXT32' len=105
+  "__ZNK20AdvancedItemDelegate6itemAtERK6QPointRK20QStyleOptionViewItemRK11QModelIndex"    @96     ; magicseg='TEXT32' len=83
+  "__ZNK20AdvancedItemDelegate8itemRectEjRK20QStyleOptionViewItemRK11QModelIndex"          @97     ; magicseg='TEXT32' len=77
+  "__ZN20AdvancedItemDelegate11editorEventEP6QEventP18QAbstractItemModelRK20QStyleOptionViewItemRK11QModelIndex"         @98     ; magicseg='TEXT32' len=108
+  "__ZNK20AdvancedItemDelegate20updateEditorGeometryEP7QWidgetRK20QStyleOptionViewItemRK11QModelIndex"                   @99     ; magicseg='TEXT32' len=98
+  "__ZNK20AdvancedItemDelegate8sizeHintERK20QStyleOptionViewItemRK11QModelIndex"           @100    ; magicseg='TEXT32' len=76
+  "__ZNK20AdvancedItemDelegate5paintEP8QPainterRK20QStyleOptionViewItemRK11QModelIndex"    @101    ; magicseg='TEXT32' len=83
+  "__ZN20AdvancedDelegateItem6NullIdE"                                 @102    ; magicseg='TEXT32' len=34
+  "__ZNK26AdvancedDelegateLayoutItem7isEmptyEv"                        @103    ; magicseg='TEXT32' len=43  weak
+  "__ZN26AdvancedDelegateLayoutItem10invalidateEv"                     @104    ; magicseg='TEXT32' len=46  weak
+  "__ZNK26AdvancedDelegateLayoutItem19expandingDirectionsEv"           @105    ; magicseg='TEXT32' len=56  weak
+  "__ZNK26AdvancedDelegateLayoutItem11minimumSizeEv"                   @106    ; magicseg='TEXT32' len=48  weak
+  "__ZNK26AdvancedDelegateLayoutItem11maximumSizeEv"                   @107    ; magicseg='TEXT32' len=48  weak
+  "__ZNK26AdvancedDelegateLayoutItem8geometryEv"                       @108    ; magicseg='TEXT32' len=44  weak
+  "__ZN26AdvancedDelegateLayoutItem11setGeometryERK5QRect"             @109    ; magicseg='TEXT32' len=54  weak
+  "__ZN10QByteArrayD1Ev"                                               @110    ; magicseg='TEXT32' len=20  weak
+  "__ZN7QStringD1Ev"                                                   @111    ; magicseg='TEXT32' len=16  weak
+  "__ZN20QStyleOptionViewItemD2Ev"                                     @112    ; magicseg='TEXT32' len=30  weak
+  "__ZN22QStyleOptionViewItemV4D1Ev"                                   @113    ; magicseg='TEXT32' len=32  weak
+  "__ZNK26AdvancedDelegateLayoutItem8sizeHintEv"                       @114    ; magicseg='TEXT32' len=44  weak
+  "__Z17qRegisterMetaTypeI20AdvancedDelegateItemEiPKcPT_"              @115    ; magicseg='TEXT32' len=53  weak
+  "__Z24qMetaTypeConstructHelperI20AdvancedDelegateItemEPvPKT_"        @116    ; magicseg='TEXT32' len=59  weak
+  "__Z21qMetaTypeDeleteHelperI20AdvancedDelegateItemEvPT_"             @117    ; magicseg='TEXT32' len=54  weak
+  "__Z17qRegisterMetaTypeI4QMapIj20AdvancedDelegateItemEEiPKcPT_"      @118    ; magicseg='TEXT32' len=61  weak
+  "__Z24qMetaTypeConstructHelperI4QMapIj20AdvancedDelegateItemEEPvPKT_"                    @119    ; magicseg='TEXT32' len=67  weak
+  "__Z21qMetaTypeDeleteHelperI4QMapIj20AdvancedDelegateItemEEvPT_"     @120    ; magicseg='TEXT32' len=62  weak
+  "__Z19qMetaTypeLoadHelperI20AdvancedDelegateItemEvR11QDataStreamPT_"                     @121    ; magicseg='TEXT32' len=66  weak
+  "__Z19qMetaTypeSaveHelperI20AdvancedDelegateItemEvR11QDataStreamPKT_"                    @122    ; magicseg='TEXT32' len=67  weak
+  "__Z19qMetaTypeLoadHelperI4QMapIj20AdvancedDelegateItemEEvR11QDataStreamPT_"             @123    ; magicseg='TEXT32' len=74  weak
+  "__Z19qMetaTypeSaveHelperI4QMapIj20AdvancedDelegateItemEEvR11QDataStreamPKT_"            @124    ; magicseg='TEXT32' len=75  weak
+  "__ZlsIi8QVariantER11QDataStreamS2_RK4QMapIT_T0_E"                   @125    ; magicseg='TEXT32' len=48  weak
+  "__ZN4QMapIi8QVariantED1Ev"                                          @126    ; magicseg='TEXT32' len=25  weak
+  "__ZN26AdvancedDelegateLayoutItemD1Ev"                               @127    ; magicseg='TEXT32' len=36  weak
+  "__ZTV26AdvancedDelegateLayoutItem"                                  @128    ; magicseg='TEXT32' len=33  weak
+  "__ZN26AdvancedDelegateLayoutItemD0Ev"                               @129    ; magicseg='TEXT32' len=36  weak
+  "__ZN4QMapIj20AdvancedDelegateItemED1Ev"                             @130    ; magicseg='TEXT32' len=38  weak
+  "__ZN4QMapIiP26AdvancedDelegateLayoutItemED2Ev"                      @131    ; magicseg='TEXT32' len=45  weak
+  "__ZN4QMapIiP26AdvancedDelegateLayoutItemED1Ev"                      @132    ; magicseg='TEXT32' len=45  weak
+  "__ZN4QMapIiP10QBoxLayoutED1Ev"                                      @133    ; magicseg='TEXT32' len=29  weak
+  "__ZN4QMapIi8QVariantE13detach_helperEv"                             @134    ; magicseg='TEXT32' len=38  weak
+  "__ZNK4QMapIj20AdvancedDelegateItemE15mutableFindNodeEPPN8QMapData4NodeERKj"             @135    ; magicseg='TEXT32' len=74  weak
+  "__ZNK4QMapIiP10QBoxLayoutE15mutableFindNodeEPPN8QMapData4NodeERKi"                      @136    ; magicseg='TEXT32' len=65  weak
+  "__ZNK4QMapIiS_IiP10QBoxLayoutEE15mutableFindNodeEPPN8QMapData4NodeERKi"                 @137    ; magicseg='TEXT32' len=70  weak
+  "__ZNK4QMapIiP26AdvancedDelegateLayoutItemE15mutableFindNodeEPPN8QMapData4NodeERKi"      @138    ; magicseg='TEXT32' len=81  weak
+  "__ZNK4QMapIiS_Ii9QMultiMapIiP26AdvancedDelegateLayoutItemEEE15mutableFindNodeEPPN8QMapData4NodeERKi"                  @139    ; magicseg='TEXT32' len=99  weak
+  "__ZN4QMapIi9QMultiMapIiP26AdvancedDelegateLayoutItemEED1Ev"         @140    ; magicseg='TEXT32' len=58  weak
+  "__ZNK4QMapIi9QMultiMapIiP26AdvancedDelegateLayoutItemEE15mutableFindNodeEPPN8QMapData4NodeERKi"                       @141    ; magicseg='TEXT32' len=94  weak
+  "__ZlsIj20AdvancedDelegateItemER11QDataStreamS2_RK4QMapIT_T0_E"      @142    ; magicseg='TEXT32' len=61  weak
+  "__ZNK4QMapIi8QVariantE15mutableFindNodeEPPN8QMapData4NodeERKi"      @143    ; magicseg='TEXT32' len=61  weak
+  "__ZrsIi8QVariantER11QDataStreamS2_R4QMapIT_T0_E"                    @144    ; magicseg='TEXT32' len=47  weak
+  "__ZN4QMapIj20AdvancedDelegateItemE13detach_helperEv"                @145    ; magicseg='TEXT32' len=51  weak
+  "__ZrsIj20AdvancedDelegateItemER11QDataStreamS2_R4QMapIT_T0_E"       @146    ; magicseg='TEXT32' len=60  weak
+  "__ZN4QMapIiP10QBoxLayoutE13detach_helperEv"                         @147    ; magicseg='TEXT32' len=42  weak
+  "__ZN4QMapIiS_IiP10QBoxLayoutEE13detach_helperEv"                    @148    ; magicseg='TEXT32' len=47  weak
+  "__ZN4QMapIiP26AdvancedDelegateLayoutItemE13detach_helperEv"         @149    ; magicseg='TEXT32' len=58  weak
+  "__ZN4QMapIi9QMultiMapIiP26AdvancedDelegateLayoutItemEE13detach_helperEv"                @150    ; magicseg='TEXT32' len=71  weak
+  "__ZN4QMapIiS_Ii9QMultiMapIiP26AdvancedDelegateLayoutItemEEE13detach_helperEv"           @151    ; magicseg='TEXT32' len=76  weak
+  "__ZTV25AdvancedDelegateEditProxy"                                   @152    ; magicseg='TEXT32' len=32  weak
+  "__ZTI25AdvancedDelegateEditProxy"                                   @153    ; magicseg='TEXT32' len=32  weak
+  "__ZTS25AdvancedDelegateEditProxy"                                   @154    ; magicseg='TEXT32' len=32  weak
+  "__ZTI26AdvancedDelegateLayoutItem"                                  @155    ; magicseg='TEXT32' len=33  weak
+  "__ZTS26AdvancedDelegateLayoutItem"                                  @156    ; magicseg='TEXT32' len=33  weak
+  "__ZTI11QLayoutItem"                                                 @157    ; magicseg='TEXT32' len=18  weak
+  "__ZTS11QLayoutItem"                                                 @158    ; magicseg='TEXT32' len=18  weak
+
+  ; segment TEXT32
+  "__ZNK19AnimatedTextBrowser10isAnimatedEv"                           @159    ; magicseg='TEXT32' len=40
+  "__ZNK19AnimatedTextBrowser23visiblePositionBoundaryEv"              @160    ; magicseg='TEXT32' len=53
+  "__ZNK19AnimatedTextBrowser20networkAccessManagerEv"                 @161    ; magicseg='TEXT32' len=50
+  "__ZN19AnimatedTextBrowser23setNetworkAccessManagerEP21QNetworkAccessManager"            @162    ; magicseg='TEXT32' len=75
+  "__ZN19AnimatedTextBrowser9showEventEP10QShowEvent"                  @163    ; magicseg='TEXT32' len=49
+  "__ZN19AnimatedTextBrowser26onVerticalScrollBarChangedEv"            @164    ; magicseg='TEXT32' len=55
+  "__ZN19AnimatedTextBrowserC2EP7QWidget"                              @165    ; magicseg='TEXT32' len=37
+  "__ZN19AnimatedTextBrowserC1EP7QWidget"                              @166    ; magicseg='TEXT32' len=37
+  "__ZNK19AnimatedTextBrowser16findUrlPositionsERK4QUrl"               @167    ; magicseg='TEXT32' len=52
+  "__ZN19AnimatedTextBrowser25onDocumentContentsChangedEiii"           @168    ; magicseg='TEXT32' len=56
+  "__ZN19AnimatedTextBrowser12addAnimationERK4QUrlRK8QVariant"         @169    ; magicseg='TEXT32' len=58
+  "__ZN19AnimatedTextBrowser12loadResourceEiRK4QUrl"                   @170    ; magicseg='TEXT32' len=48
+  "__ZN19AnimatedTextBrowser22onResourceLoadFinishedEv"                @171    ; magicseg='TEXT32' len=51
+  "__ZN19AnimatedTextBrowser25onUpdateDocumentAnimationEv"             @172    ; magicseg='TEXT32' len=54
+  "__ZN19AnimatedTextBrowser23onAnimationFrameChangedEv"               @173    ; magicseg='TEXT32' len=52
+  "__ZN19AnimatedTextBrowser16onMovieDestroyedEP7QObject"              @174    ; magicseg='TEXT32' len=53
+  "__ZN19AnimatedTextBrowser11setAnimatedEb"                           @175    ; magicseg='TEXT32' len=40
+  "__ZN5QHashIP6QMovie15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE"                  @176    ; magicseg='TEXT32' len=69  weak
+  "__ZN5QHashIP6QMovie15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv"              @177    ; magicseg='TEXT32' len=73  weak
+  "__ZN5QHashIP6QMovie4QUrlE11deleteNode2EPN9QHashData4NodeE"          @178    ; magicseg='TEXT32' len=57  weak
+  "__ZN5QHashI4QUrlP6QMovieE11deleteNode2EPN9QHashData4NodeE"          @179    ; magicseg='TEXT32' len=57  weak
+  "__ZN5QHashIP6QMovie4QUrlE13duplicateNodeEPN9QHashData4NodeEPv"      @180    ; magicseg='TEXT32' len=61  weak
+  "__ZN5QHashI4QUrlP6QMovieE13duplicateNodeEPN9QHashData4NodeEPv"      @181    ; magicseg='TEXT32' len=61  weak
+  "__ZN10QByteArrayD1Ev"                                               @182    ; magicseg='TEXT32' len=20  weak
+  "__ZN7QStringD1Ev"                                                   @183    ; magicseg='TEXT32' len=16  weak
+  "__ZN5QHashI7QString8QVariantE11deleteNode2EPN9QHashData4NodeE"      @184    ; magicseg='TEXT32' len=61  weak
+  "__ZN5QHashI7QString8QVariantE13duplicateNodeEPN9QHashData4NodeEPv"                      @185    ; magicseg='TEXT32' len=65  weak
+  "__ZN5QHashIP6QMovie15QHashDummyValueED1Ev"                          @186    ; magicseg='TEXT32' len=41  weak
+  "__ZN5QHashIP6QMovie4QUrlED1Ev"                                      @187    ; magicseg='TEXT32' len=29  weak
+  "__ZN5QHashI4QUrlP6QMovieED1Ev"                                      @188    ; magicseg='TEXT32' len=29  weak
+  "__ZN5QHashIP6QMovie5QListIiEED1Ev"                                  @189    ; magicseg='TEXT32' len=33  weak
+  "__ZN5QHashIP6QMovie5QListIiEE11deleteNode2EPN9QHashData4NodeE"      @190    ; magicseg='TEXT32' len=61  weak
+  "__ZN5QHashI7QString8QVariantED1Ev"                                  @191    ; magicseg='TEXT32' len=33  weak
+  "__ZN5QListIP6QMovieED1Ev"                                           @192    ; magicseg='TEXT32' len=24  weak
+  "__ZN5QListIiED1Ev"                                                  @193    ; magicseg='TEXT32' len=17  weak
+  "__ZN5QListIiE18detach_helper_growEii"                               @194    ; magicseg='TEXT32' len=36  weak
+  "__ZN5QListIiE6appendERKi"                                           @195    ; magicseg='TEXT32' len=24  weak
+  "__ZNK5QHashI4QUrlP6QMovieE8findNodeERKS0_Pj"                        @196    ; magicseg='TEXT32' len=43  weak
+  "__ZNK5QHashI7QString8QVariantE8findNodeERKS0_Pj"                    @197    ; magicseg='TEXT32' len=47  weak
+  "__ZN5QListIP6QMovieE18detach_helper_growEii"                        @198    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListIP6QMovieE6appendERKS1_"                                  @199    ; magicseg='TEXT32' len=33  weak
+  "__ZN5QListIP6QMovieE13detach_helperEi"                              @200    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListIP6QMovieE7reserveEi"                                     @201    ; magicseg='TEXT32' len=30  weak
+  "__ZNK5QHashIP6QMovie4QUrlE4keysEv"                                  @202    ; magicseg='TEXT32' len=33  weak
+  "__ZN5QListIP6QMovieE13detach_helperEv"                              @203    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListIiE13detach_helperEi"                                     @204    ; magicseg='TEXT32' len=30  weak
+  "__ZN5QListIiE13detach_helperEv"                                     @205    ; magicseg='TEXT32' len=30  weak
+  "__ZN5QHashIP6QMovie5QListIiEE13duplicateNodeEPN9QHashData4NodeEPv"                      @206    ; magicseg='TEXT32' len=65  weak
+  "__ZN5QHashIP6QMovie4QUrlE13detach_helperEv"                         @207    ; magicseg='TEXT32' len=42  weak
+  "__ZN5QHashIP6QMovie4QUrlE4takeERKS1_"                               @208    ; magicseg='TEXT32' len=36  weak
+  "__ZTISt9bad_alloc"                                                  @209    ; magicseg='TEXT32' len=17  weak
+  "__ZN5QHashI4QUrlP6QMovieE13detach_helperEv"                         @210    ; magicseg='TEXT32' len=42  weak
+  "__ZN5QHashI4QUrlP6QMovieE6removeERKS0_"                             @211    ; magicseg='TEXT32' len=38  weak
+  "__ZN5QHashIP6QMovie5QListIiEE13detach_helperEv"                     @212    ; magicseg='TEXT32' len=46  weak
+  "__ZN5QHashIP6QMovie5QListIiEE6removeERKS1_"                         @213    ; magicseg='TEXT32' len=42  weak
+  "__ZN5QHashI7QString8QVariantE13detach_helperEv"                     @214    ; magicseg='TEXT32' len=46  weak
+  "__ZN5QHashIP6QMovie15QHashDummyValueE13detach_helperEv"             @215    ; magicseg='TEXT32' len=54  weak
+  "__ZN5QHashIP6QMovie15QHashDummyValueE6removeERKS1_"                 @216    ; magicseg='TEXT32' len=50  weak
+  "__ZTSSt9bad_alloc"                                                  @217    ; magicseg='TEXT32' len=17  weak
+  "__ZTISt9exception"                                                  @218    ; magicseg='TEXT32' len=17  weak
+  "__ZTSSt9exception"                                                  @219    ; magicseg='TEXT32' len=17  weak
+
+  ; segment TEXT32
+  "__ZN11CloseButtonD2Ev"                                              @220    ; magicseg='TEXT32' len=21
+  "__ZN11CloseButtonD1Ev"                                              @221    ; magicseg='TEXT32' len=21
+  "__ZThn8_N11CloseButtonD1Ev"                                         @222    ; magicseg='TEXT32' len=26
+  "__ZN11CloseButtonD0Ev"                                              @223    ; magicseg='TEXT32' len=21
+  "__ZThn8_N11CloseButtonD0Ev"                                         @224    ; magicseg='TEXT32' len=26
+  "__ZNK11CloseButton8sizeHintEv"                                      @225    ; magicseg='TEXT32' len=29
+  "__ZN11CloseButtonC2EP7QWidget"                                      @226    ; magicseg='TEXT32' len=29
+  "__ZN11CloseButtonC1EP7QWidget"                                      @227    ; magicseg='TEXT32' len=29
+  "__ZN11CloseButton10enterEventEP6QEvent"                             @228    ; magicseg='TEXT32' len=38
+  "__ZN11CloseButton10leaveEventEP6QEvent"                             @229    ; magicseg='TEXT32' len=38
+  "__ZN11CloseButton10paintEventEP11QPaintEvent"                       @230    ; magicseg='TEXT32' len=44
+
+  ; segment TEXT32
+  "__ZN12DateTimeDataC2ERK9QDateTimei"                                 @231    ; magicseg='TEXT32' len=34
+  "__ZN12DateTimeDataC1ERK9QDateTimei"                                 @232    ; magicseg='TEXT32' len=34
+  "__ZN12DateTimeDataC2ERKS_"                                          @233    ; magicseg='TEXT32' len=25
+  "__ZN12DateTimeDataC1ERKS_"                                          @234    ; magicseg='TEXT32' len=25
+  "__ZN8DateTimeD2Ev"                                                  @235    ; magicseg='TEXT32' len=17
+  "__ZN8DateTimeD1Ev"                                                  @236    ; magicseg='TEXT32' len=17
+  "__ZNK8DateTime6isNullEv"                                            @237    ; magicseg='TEXT32' len=23
+  "__ZNK8DateTime7isValidEv"                                           @238    ; magicseg='TEXT32' len=24
+  "__ZNK8DateTime8timeZoneEv"                                          @239    ; magicseg='TEXT32' len=25
+  "__ZNK8DateTime8dateTimeEv"                                          @240    ; magicseg='TEXT32' len=25
+  "__ZNK8DateTime5toUTCEv"                                             @241    ; magicseg='TEXT32' len=22
+  "__ZNK8DateTime7toLocalEv"                                           @242    ; magicseg='TEXT32' len=24
+  "__ZNK8DateTime8toX85TZDEv"                                          @243    ; magicseg='TEXT32' len=25
+  "__ZNK8DateTime9toX85DateEv"                                         @244    ; magicseg='TEXT32' len=26
+  "__ZNK8DateTime9toX85TimeEv"                                         @245    ; magicseg='TEXT32' len=26
+  "__ZNK8DateTime11toX85FormatEbbb"                                    @246    ; magicseg='TEXT32' len=31
+  "__ZNK8DateTime13toX85DateTimeEv"                                    @247    ; magicseg='TEXT32' len=31
+  "__ZN8DateTime10tzdFromX85ERK7QString"                               @248    ; magicseg='TEXT32' len=36
+  "__ZN8DateTime9dtFromX85ERK7QString"                                 @249    ; magicseg='TEXT32' len=34
+  "__ZN8DateTimeC2ERK9QDateTime"                                       @250    ; magicseg='TEXT32' len=28
+  "__ZN8DateTimeC1ERK9QDateTime"                                       @251    ; magicseg='TEXT32' len=28
+  "__ZN8DateTimeC2ERK7QString"                                         @252    ; magicseg='TEXT32' len=26
+  "__ZN8DateTimeC1ERK7QString"                                         @253    ; magicseg='TEXT32' len=26
+  "__ZNK8DateTime8toX85UTCEv"                                          @254    ; magicseg='TEXT32' len=25
+  "__ZN8DateTime11setTimeZoneEi"                                       @255    ; magicseg='TEXT32' len=28
+  "__ZN8DateTime11setDateTimeERK9QDateTime"                            @256    ; magicseg='TEXT32' len=39
+  "__ZN7QStringD1Ev"                                                   @257    ; magicseg='TEXT32' len=16  weak
+  "__ZN18QSharedDataPointerI12DateTimeDataED1Ev"                       @258    ; magicseg='TEXT32' len=44  weak
+  "__ZN18QSharedDataPointerI12DateTimeDataE13detach_helperEv"          @259    ; magicseg='TEXT32' len=57  weak
+
+  ; segment BSS32
+  "__ZN11FileStorage13FResourceDirsE"                                  @260    ; magicseg='BSS32' len=33
+  "__ZN11FileStorage11FObjectTagsE"                                    @261    ; magicseg='BSS32' len=31
+  "__ZN11FileStorage9FFileTagsE"                                       @262    ; magicseg='BSS32' len=28
+  "__ZN11FileStorage8FKeyTagsE"                                        @263    ; magicseg='BSS32' len=27
+  "__ZN11FileStorage15FStaticStoragesE"                                @264    ; magicseg='BSS32' len=35
+  "__ZN11FileStorage10FInstancesE"                                     @265    ; magicseg='BSS32' len=30
+  "__ZN11FileStorage10FMimeTypesE"                                     @266    ; magicseg='BSS32' len=30
+
+  ; segment TEXT32
+  "__ZNK11FileStorage7storageEv"                                       @267    ; magicseg='TEXT32' len=28
+  "__ZNK11FileStorage10subStorageEv"                                   @268    ; magicseg='TEXT32' len=32
+  "__ZNK11FileStorage6optionERK7QString"                               @269    ; magicseg='TEXT32' len=36
+  "__ZNK11FileStorage8fileKeysEv"                                      @270    ; magicseg='TEXT32' len=29
+  "__ZN11FileStorage13resourcesDirsEv"                                 @271    ; magicseg='TEXT32' len=34
+  "__ZN11FileStorage16availSubStoragesERK7QStringb"                    @272    ; magicseg='TEXT32' len=47
+  "__ZNK11FileStorage13fileFirstKeysEv"                                @273    ; magicseg='TEXT32' len=35
+  "__ZN11FileStorage14subStorageDirsERK7QStringS2_"                    @274    ; magicseg='TEXT32' len=47
+  "__ZN11FileStorage13availStoragesEv"                                 @275    ; magicseg='TEXT32' len=34
+  "__ZN11FileStorageD2Ev"                                              @276    ; magicseg='TEXT32' len=21
+  "__ZN11FileStorageD1Ev"                                              @277    ; magicseg='TEXT32' len=21
+  "__ZN11FileStorageD0Ev"                                              @278    ; magicseg='TEXT32' len=21
+  "__ZNK11FileStorage10fileOptionERK7QStringS2_"                       @279    ; magicseg='TEXT32' len=44
+  "__ZNK11FileStorage8fileMimeERK7QStringi"                            @280    ; magicseg='TEXT32' len=39
+  "__ZNK11FileStorage8fileNameERK7QStringi"                            @281    ; magicseg='TEXT32' len=39
+  "__ZNK11FileStorage12fileCacheKeyERK7QStringi"                       @282    ; magicseg='TEXT32' len=44
+  "__ZNK11FileStorage12fileFullNameERK7QStringi"                       @283    ; magicseg='TEXT32' len=44
+  "__ZNK11FileStorage10filesCountERK7QString"                          @284    ; magicseg='TEXT32' len=41
+  "__ZN11FileStorage15loadDefinitionsERK7QStringi"                     @285    ; magicseg='TEXT32' len=46
+  "__ZN11FileStorage17updateDefinitionsEv"                             @286    ; magicseg='TEXT32' len=38
+  "__ZN11FileStorage13setSubStorageERK7QString"                        @287    ; magicseg='TEXT32' len=43
+  "__ZN11FileStorageC2ERK7QStringS2_P7QObject"                         @288    ; magicseg='TEXT32' len=42
+  "__ZN11FileStorageC1ERK7QStringS2_P7QObject"                         @289    ; magicseg='TEXT32' len=42
+  "__ZN11FileStorage13staticStorageERK7QString"                        @290    ; magicseg='TEXT32' len=43
+  "__ZN11FileStorage16setResourcesDirsERK5QListI7QStringE"             @291    ; magicseg='TEXT32' len=54
+  "__ZN5QHashI7QStringP11FileStorageE13duplicateNodeEPN9QHashData4NodeEPv"                 @292    ; magicseg='TEXT32' len=70  weak
+  "__ZN5QHashI7QStringS0_E13duplicateNodeEPN9QHashData4NodeEPv"        @293    ; magicseg='TEXT32' len=59  weak
+  "__ZN5QHashI7QStringjE13duplicateNodeEPN9QHashData4NodeEPv"          @294    ; magicseg='TEXT32' len=57  weak
+  "__ZN5QHashI7QString15QHashDummyValueE13duplicateNodeEPN9QHashData4NodeEPv"              @295    ; magicseg='TEXT32' len=73  weak
+  "__ZN5QHashI7QString15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE"                  @296    ; magicseg='TEXT32' len=69  weak
+  "__ZN5QHashI7QStringjE11deleteNode2EPN9QHashData4NodeE"              @297    ; magicseg='TEXT32' len=53  weak
+  "__ZN5QHashI7QStringP11FileStorageE11deleteNode2EPN9QHashData4NodeE"                     @298    ; magicseg='TEXT32' len=66  weak
+  "__ZN10QByteArrayD1Ev"                                               @299    ; magicseg='TEXT32' len=20  weak
+  "__ZN7QStringD1Ev"                                                   @300    ; magicseg='TEXT32' len=16  weak
+  "__ZN5QHashI7QStringS0_E11deleteNode2EPN9QHashData4NodeE"            @301    ; magicseg='TEXT32' len=55  weak
+  "__ZN5QListI7QStringED2Ev"                                           @302    ; magicseg='TEXT32' len=24  weak
+  "__ZN5QListI7QStringED1Ev"                                           @303    ; magicseg='TEXT32' len=24  weak
+  "__ZN5QHashI7QStringjED1Ev"                                          @304    ; magicseg='TEXT32' len=25  weak
+  "__ZN5QHashI7QStringS0_ED1Ev"                                        @305    ; magicseg='TEXT32' len=27  weak
+  "__ZN5QListIiED1Ev"                                                  @306    ; magicseg='TEXT32' len=17  weak
+  "__ZN11FileStorage13StorageObjectD1Ev"                               @307    ; magicseg='TEXT32' len=36  weak
+  "__ZN5QListIN11FileStorage13StorageObjectEED1Ev"                     @308    ; magicseg='TEXT32' len=46  weak
+  "__ZNK5QListI7QStringE5valueEi"                                      @309    ; magicseg='TEXT32' len=29  weak
+  "__ZNK5QListIiE5valueEi"                                             @310    ; magicseg='TEXT32' len=22  weak
+  "__ZNK5QListI7QStringE8containsERKS0_"                               @311    ; magicseg='TEXT32' len=36  weak
+  "__ZN5QListIP11FileStorageED1Ev"                                     @312    ; magicseg='TEXT32' len=30  weak
+  "__ZN5QHashI7QString15QHashDummyValueED1Ev"                          @313    ; magicseg='TEXT32' len=41  weak
+  "__ZNK5QListI7QStringE7indexOfERKS0_i"                               @314    ; magicseg='TEXT32' len=36  weak
+  "__ZN5QListI7QStringE18detach_helper_growEii"                        @315    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListI7QStringE6appendERKS0_"                                  @316    ; magicseg='TEXT32' len=33  weak
+  "__ZN5QListIP11FileStorageE18detach_helper_growEii"                  @317    ; magicseg='TEXT32' len=49  weak
+  "__ZN5QListIP11FileStorageE6appendERKS1_"                            @318    ; magicseg='TEXT32' len=39  weak
+  "__ZNK5QHashI7QStringS0_E8findNodeERKS0_Pj"                          @319    ; magicseg='TEXT32' len=41  weak
+  "__ZNK5QHashI7QStringjE8findNodeERKS0_Pj"                            @320    ; magicseg='TEXT32' len=39  weak
+  "__ZNK5QListI7QStringEeqERKS1_"                                      @321    ; magicseg='TEXT32' len=29  weak
+  "__ZNK5QHashI7QStringP11FileStorageE8findNodeERKS0_Pj"               @322    ; magicseg='TEXT32' len=52  weak
+  "__ZN5QListIiE18detach_helper_growEii"                               @323    ; magicseg='TEXT32' len=36  weak
+  "__ZN5QListIiE6appendERKi"                                           @324    ; magicseg='TEXT32' len=24  weak
+  "__ZN5QListI7QStringE13detach_helperEi"                              @325    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI7QStringE13detach_helperEv"                              @326    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI7QStringEpLERKS1_"                                       @327    ; magicseg='TEXT32' len=28  weak
+  "__ZN5QListI7QStringE9removeAllERKS0_"                               @328    ; magicseg='TEXT32' len=36  weak
+  "__ZN5QListI7QStringE5clearEv"                                       @329    ; magicseg='TEXT32' len=28  weak
+  "__ZN5QHashI7QStringP11FileStorageE13detach_helperEv"                @330    ; magicseg='TEXT32' len=51  weak
+  "__ZN5QHashI7QStringS0_E13detach_helperEv"                           @331    ; magicseg='TEXT32' len=40  weak
+  "__ZN5QHashI7QStringjE13detach_helperEv"                             @332    ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP11FileStorageE13detach_helperEi"                        @333    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListIP11FileStorageE13detach_helperEv"                        @334    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListIP11FileStorageE9removeAllERKS1_"                         @335    ; magicseg='TEXT32' len=42  weak
+  "__ZN5QListIiE13detach_helperEi"                                     @336    ; magicseg='TEXT32' len=30  weak
+  "__ZN5QListIiE13detach_helperEv"                                     @337    ; magicseg='TEXT32' len=30  weak
+  "__ZNK5QListIN11FileStorage13StorageObjectEE5valueEi"                @338    ; magicseg='TEXT32' len=51  weak
+  "__ZN5QListIN11FileStorage13StorageObjectEE18detach_helper_growEii"                      @339    ; magicseg='TEXT32' len=65  weak
+  "__ZN5QListIN11FileStorage13StorageObjectEE6appendERKS1_"            @340    ; magicseg='TEXT32' len=55  weak
+  "__ZNK5QHashI7QString15QHashDummyValueE8findNodeERKS0_Pj"            @341    ; magicseg='TEXT32' len=55  weak
+  "__ZN5QHashI7QString15QHashDummyValueE13detach_helperEv"             @342    ; magicseg='TEXT32' len=54  weak
+  "__ZNK5QListI7QStringE5toSetEv"                                      @343    ; magicseg='TEXT32' len=29  weak
+  "__ZN5QListIN11FileStorage13StorageObjectEE13detach_helperEi"        @344    ; magicseg='TEXT32' len=59  weak
+  "__ZN5QListIN11FileStorage13StorageObjectEE13detach_helperEv"        @345    ; magicseg='TEXT32' len=59  weak
+  "__ZN5QListIN11FileStorage13StorageObjectEE5clearEv"                 @346    ; magicseg='TEXT32' len=50  weak
+  "__ZN5QHashI7QString15QHashDummyValueE6removeERKS0_"                 @347    ; magicseg='TEXT32' len=50  weak
+  "__ZTISt9bad_alloc"                                                  @348    ; magicseg='TEXT32' len=17  weak
+  "__ZTSSt9bad_alloc"                                                  @349    ; magicseg='TEXT32' len=17  weak
+  "__ZTISt9exception"                                                  @350    ; magicseg='TEXT32' len=17  weak
+  "__ZTSSt9exception"                                                  @351    ; magicseg='TEXT32' len=17  weak
+
+  ; segment TEXT32
+  "__ZNK15IconsetDelegate14drawBackgroundEP8QPainterRK20QStyleOptionViewItemRK11QModelIndex"                             @352    ; magicseg='TEXT32' len=88
+  "__ZN15IconsetDelegate11editorEventEP6QEventP18QAbstractItemModelRK20QStyleOptionViewItemRK11QModelIndex"              @353    ; magicseg='TEXT32' len=103
+  "__ZN15IconsetDelegateC2EP7QObject"                                  @354    ; magicseg='TEXT32' len=33
+  "__ZN15IconsetDelegateC1EP7QObject"                                  @355    ; magicseg='TEXT32' len=33
+  "__ZN15IconsetDelegateD2Ev"                                          @356    ; magicseg='TEXT32' len=25
+  "__ZN15IconsetDelegateD1Ev"                                          @357    ; magicseg='TEXT32' len=25
+  "__ZN15IconsetDelegateD0Ev"                                          @358    ; magicseg='TEXT32' len=25
+  "__ZNK15IconsetDelegate5paintEP8QPainterRK20QStyleOptionViewItemRK11QModelIndex"         @359    ; magicseg='TEXT32' len=78
+  "__ZNK15IconsetDelegate8sizeHintERK20QStyleOptionViewItemRK11QModelIndex"                @360    ; magicseg='TEXT32' len=71
+  "__ZN5QHashI7QStringP11IconStorageE13duplicateNodeEPN9QHashData4NodeEPv"                 @361    ; magicseg='TEXT32' len=70  weak
+  "__ZN5QHashI7QStringP11IconStorageE11deleteNode2EPN9QHashData4NodeE"                     @362    ; magicseg='TEXT32' len=66  weak
+  "__ZN7QStringD1Ev"                                                   @363    ; magicseg='TEXT32' len=16  weak
+  "__ZN5QHashI7QStringS_IS0_P11IconStorageEE11deleteNode2EPN9QHashData4NodeE"              @364    ; magicseg='TEXT32' len=73  weak
+  "__ZTV15IconsetDelegate"                                             @365    ; magicseg='TEXT32' len=22  weak
+  "__ZN5QListI7QStringED1Ev"                                           @366    ; magicseg='TEXT32' len=24  weak
+  "__ZN5QHashI7QStringS_IS0_P11IconStorageEED1Ev"                      @367    ; magicseg='TEXT32' len=45  weak
+  "__ZN5QHashI7QStringP11IconStorageED1Ev"                             @368    ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListI7QStringE18detach_helper_growEii"                        @369    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListI7QStringE6appendERKS0_"                                  @370    ; magicseg='TEXT32' len=33  weak
+  "__ZNK5QHashI7QStringS_IS0_P11IconStorageEE8findNodeERKS0_Pj"        @371    ; magicseg='TEXT32' len=59  weak
+  "__Z10qDeleteAllIN5QHashI7QStringP11IconStorageE14const_iteratorEEvT_S6_"                @372    ; magicseg='TEXT32' len=71  weak
+  "__ZNK5QHashI7QStringP11IconStorageE8findNodeERKS0_Pj"               @373    ; magicseg='TEXT32' len=52  weak
+  "__ZN5QListI7QStringE13detach_helperEi"                              @374    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI7QStringE7reserveEi"                                     @375    ; magicseg='TEXT32' len=30  weak
+  "__ZNK5QHashI7QStringS_IS0_P11IconStorageEE4keysEv"                  @376    ; magicseg='TEXT32' len=49  weak
+  "__ZN5QListI7QStringE13detach_helperEv"                              @377    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QHashI7QStringS_IS0_P11IconStorageEE13detach_helperEv"         @378    ; magicseg='TEXT32' len=58  weak
+  "__ZN5QHashI7QStringS_IS0_P11IconStorageEE13duplicateNodeEPN9QHashData4NodeEPv"          @379    ; magicseg='TEXT32' len=77  weak
+  "__ZN5QHashI7QStringP11IconStorageE13detach_helperEv"                @380    ; magicseg='TEXT32' len=51  weak
+  "__ZTI15IconsetDelegate"                                             @381    ; magicseg='TEXT32' len=22  weak
+  "__ZTS15IconsetDelegate"                                             @382    ; magicseg='TEXT32' len=22  weak
+  "__ZTI13QItemDelegate"                                               @383    ; magicseg='TEXT32' len=20  weak
+  "__ZTS13QItemDelegate"                                               @384    ; magicseg='TEXT32' len=20  weak
+  "__ZTI21QAbstractItemDelegate"                                       @385    ; magicseg='TEXT32' len=28  weak
+  "__ZTS21QAbstractItemDelegate"                                       @386    ; magicseg='TEXT32' len=28  weak
+  "__ZTI7QObject"                                                      @387    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @388    ; magicseg='TEXT32' len=13  weak
+
+  ; segment BSS32
+  "__ZN11IconStorage13FAnimateCacheE"                                  @389    ; magicseg='BSS32' len=33
+  "__ZN11IconStorage14FObjectStorageE"                                 @390    ; magicseg='BSS32' len=34
+  "__ZN11IconStorage15FStaticStoragesE"                                @391    ; magicseg='BSS32' len=35
+  "__ZN11IconStorage10FIconCacheE"                                     @392    ; magicseg='BSS32' len=30
+
+  ; segment TEXT32
+  "__ZN11IconStorageC2ERK7QStringS2_P7QObject"                         @393    ; magicseg='TEXT32' len=42
+  "__ZN11IconStorageC1ERK7QStringS2_P7QObject"                         @394    ; magicseg='TEXT32' len=42
+  "__ZNK11IconStorage7getIconERK7QStringi"                             @395    ; magicseg='TEXT32' len=38
+  "__ZN11IconStorage14clearIconCacheEv"                                @396    ; magicseg='TEXT32' len=35
+  "__ZN11IconStorage13staticStorageERK7QString"                        @397    ; magicseg='TEXT32' len=43
+  "__ZN11IconStorage15removeAnimationEPNS_16IconUpdateParamsE"         @398    ; magicseg='TEXT32' len=58
+  "__ZN11IconStorage12removeObjectEP7QObject"                          @399    ; magicseg='TEXT32' len=41
+  "__ZN11IconStorage17onObjectDestroyedEP7QObject"                     @400    ; magicseg='TEXT32' len=46
+  "__ZN11IconStorage14removeAutoIconEP7QObject"                        @401    ; magicseg='TEXT32' len=43
+  "__ZN11IconStorageD2Ev"                                              @402    ; magicseg='TEXT32' len=21
+  "__ZN11IconStorageD1Ev"                                              @403    ; magicseg='TEXT32' len=21
+  "__ZN11IconStorageD0Ev"                                              @404    ; magicseg='TEXT32' len=21
+  "__ZN11IconStorage13initAnimationEP7QObjectPNS_16IconUpdateParamsE"                      @405    ; magicseg='TEXT32' len=65
+  "__ZN11IconStorage12updateObjectEP7QObject"                          @406    ; magicseg='TEXT32' len=41
+  "__ZN11IconStorage14onAnimateTimerEv"                                @407    ; magicseg='TEXT32' len=35
+  "__ZN11IconStorage16onStorageChangedEv"                              @408    ; magicseg='TEXT32' len=37
+  "__ZN11IconStorage14insertAutoIconEP7QObjectRK7QStringiiS4_"         @409    ; magicseg='TEXT32' len=58
+  "__ZN5QHashIP6QTimerP7QObjectE11deleteNode2EPN9QHashData4NodeE"      @410    ; magicseg='TEXT32' len=61  weak
+  "__ZN5QHashIP7QObjectPN11IconStorage16IconUpdateParamsEE11deleteNode2EPN9QHashData4NodeE"                              @411    ; magicseg='TEXT32' len=87  weak
+  "__ZN5QHashIP7QObjectP11IconStorageE11deleteNode2EPN9QHashData4NodeE"                    @412    ; magicseg='TEXT32' len=67  weak
+  "__ZN5QHashI7QStringP11IconStorageE13duplicateNodeEPN9QHashData4NodeEPv"                 @413    ; magicseg='TEXT32' len=70  weak
+  "__ZN5QHashIP7QObjectP11IconStorageE13duplicateNodeEPN9QHashData4NodeEPv"                @414    ; magicseg='TEXT32' len=71  weak
+  "__ZN5QHashIP7QObjectPN11IconStorage16IconUpdateParamsEE13duplicateNodeEPN9QHashData4NodeEPv"                          @415    ; magicseg='TEXT32' len=91  weak
+  "__ZN5QHashIP6QTimerP7QObjectE13duplicateNodeEPN9QHashData4NodeEPv"                      @416    ; magicseg='TEXT32' len=65  weak
+  "__ZN5QHashI7QStringS_IS0_5QIconEE11deleteNode2EPN9QHashData4NodeE"                      @417    ; magicseg='TEXT32' len=65  weak
+  "__ZN5QHashI7QStringP11IconStorageE11deleteNode2EPN9QHashData4NodeE"                     @418    ; magicseg='TEXT32' len=66  weak
+  "__ZN5QHashI7QStringS_IS0_5QListIN11IconStorage16IconAnimateFrameEEEE11deleteNode2EPN9QHashData4NodeE"                 @419    ; magicseg='TEXT32' len=100  weak
+  "__ZN10QByteArrayD1Ev"                                               @420    ; magicseg='TEXT32' len=20  weak
+  "__ZN7QStringD1Ev"                                                   @421    ; magicseg='TEXT32' len=16  weak
+  "__ZN5QHashI7QString5QIconE11deleteNode2EPN9QHashData4NodeE"         @422    ; magicseg='TEXT32' len=58  weak
+  "__ZN5QHashI7QString5QListIN11IconStorage16IconAnimateFrameEEE11deleteNode2EPN9QHashData4NodeE"                        @423    ; magicseg='TEXT32' len=93  weak
+  "__ZN5QHashI7QString5QIconE13duplicateNodeEPN9QHashData4NodeEPv"     @424    ; magicseg='TEXT32' len=62  weak
+  "__ZN5QListI7QStringED1Ev"                                           @425    ; magicseg='TEXT32' len=24  weak
+  "__ZN5QListIN11IconStorage16IconAnimateFrameEED1Ev"                  @426    ; magicseg='TEXT32' len=49  weak
+  "__ZN5QHashIP6QTimerP7QObjectED1Ev"                                  @427    ; magicseg='TEXT32' len=33  weak
+  "__ZN5QHashIP7QObjectPN11IconStorage16IconUpdateParamsEED1Ev"        @428    ; magicseg='TEXT32' len=59  weak
+  "__ZN5QListIP7QObjectED1Ev"                                          @429    ; magicseg='TEXT32' len=25  weak
+  "__ZNK5QListI7QStringE8containsERKS0_"                               @430    ; magicseg='TEXT32' len=36  weak
+  "__ZN5QListI5QSizeED1Ev"                                             @431    ; magicseg='TEXT32' len=22  weak
+  "__ZNK5QListI5QSizeE5valueEi"                                        @432    ; magicseg='TEXT32' len=27  weak
+  "__ZN5QListI7QStringE18detach_helper_growEii"                        @433    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListI7QStringE6appendERKS0_"                                  @434    ; magicseg='TEXT32' len=33  weak
+  "__ZNK5QHashI7QStringS_IS0_5QIconEE8findNodeERKS0_Pj"                @435    ; magicseg='TEXT32' len=51  weak
+  "__ZN5QHashI7QString5QIconED1Ev"                                     @436    ; magicseg='TEXT32' len=30  weak
+  "__ZNK5QHashI7QString5QIconE8findNodeERKS0_Pj"                       @437    ; magicseg='TEXT32' len=44  weak
+  "__ZN5QHashI7QStringS_IS0_5QIconEED1Ev"                              @438    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QHashI7QStringS_IS0_5QListIN11IconStorage16IconAnimateFrameEEEED1Ev"               @439    ; magicseg='TEXT32' len=72  weak
+  "__ZNK5QHashI7QStringP11IconStorageE8findNodeERKS0_Pj"               @440    ; magicseg='TEXT32' len=52  weak
+  "__ZNK5QHashI7QStringS_IS0_5QListIN11IconStorage16IconAnimateFrameEEEE8findNodeERKS0_Pj"                               @441    ; magicseg='TEXT32' len=86  weak
+  "__ZN5QHashI7QString5QListIN11IconStorage16IconAnimateFrameEEED1Ev"                      @442    ; magicseg='TEXT32' len=65  weak
+  "__ZNK5QHashI7QString5QListIN11IconStorage16IconAnimateFrameEEE8findNodeERKS0_Pj"        @443    ; magicseg='TEXT32' len=79  weak
+  "__ZN5QListIN11IconStorage16IconAnimateFrameEE18detach_helper_growEii"                   @444    ; magicseg='TEXT32' len=68  weak
+  "__ZN5QListIN11IconStorage16IconAnimateFrameEE6appendERKS1_"         @445    ; magicseg='TEXT32' len=58  weak
+  "__ZN5QListI7QStringE13detach_helperEi"                              @446    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI7QStringE13detach_helperEv"                              @447    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListIP7QObjectE13detach_helperEi"                             @448    ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP7QObjectE7reserveEi"                                    @449    ; magicseg='TEXT32' len=31  weak
+  "__ZN5QListIP7QObjectE13detach_helperEv"                             @450    ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP7QObjectE18detach_helper_growEii"                       @451    ; magicseg='TEXT32' len=44  weak
+  "__ZN5QListIP7QObjectE6appendERKS1_"                                 @452    ; magicseg='TEXT32' len=34  weak
+  "__ZNK5QHashIP7QObjectPN11IconStorage16IconUpdateParamsEE4keysEv"    @453    ; magicseg='TEXT32' len=63  weak
+  "__ZN5QHashI7QStringS_IS0_5QIconEE13detach_helperEv"                 @454    ; magicseg='TEXT32' len=50  weak
+  "__ZN5QHashI7QStringS_IS0_5QIconEE13duplicateNodeEPN9QHashData4NodeEPv"                  @455    ; magicseg='TEXT32' len=69  weak
+  "__ZN5QHashI7QString5QIconE13detach_helperEv"                        @456    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QHashI7QStringS_IS0_5QListIN11IconStorage16IconAnimateFrameEEEE13detach_helperEv"                                @457    ; magicseg='TEXT32' len=85  weak
+  "__ZN5QHashI7QStringS_IS0_5QListIN11IconStorage16IconAnimateFrameEEEE13duplicateNodeEPN9QHashData4NodeEPv"             @458    ; magicseg='TEXT32' len=104  weak
+  "__ZN5QHashI7QStringP11IconStorageE13detach_helperEv"                @459    ; magicseg='TEXT32' len=51  weak
+  "__ZN5QHashIP7QObjectP11IconStorageE13detach_helperEv"               @460    ; magicseg='TEXT32' len=52  weak
+  "__ZN5QHashIP7QObjectP11IconStorageE6removeERKS1_"                   @461    ; magicseg='TEXT32' len=48  weak
+  "__ZTISt9bad_alloc"                                                  @462    ; magicseg='TEXT32' len=17  weak
+  "__ZN5QHashIP7QObjectPN11IconStorage16IconUpdateParamsEE13detach_helperEv"               @463    ; magicseg='TEXT32' len=72  weak
+  "__ZN5QHashIP7QObjectPN11IconStorage16IconUpdateParamsEE4takeERKS1_"                     @464    ; magicseg='TEXT32' len=66  weak
+  "__ZN5QListIN11IconStorage16IconAnimateFrameEE13detach_helperEi"     @465    ; magicseg='TEXT32' len=62  weak
+  "__ZN5QListIN11IconStorage16IconAnimateFrameEE13detach_helperEv"     @466    ; magicseg='TEXT32' len=62  weak
+  "__ZN5QHashI7QString5QListIN11IconStorage16IconAnimateFrameEEE13duplicateNodeEPN9QHashData4NodeEPv"                    @467    ; magicseg='TEXT32' len=97  weak
+  "__ZN5QHashIP6QTimerP7QObjectE13detach_helperEv"                     @468    ; magicseg='TEXT32' len=46  weak
+  "__ZN5QHashIP6QTimerP7QObjectE6removeERKS1_"                         @469    ; magicseg='TEXT32' len=42  weak
+  "__ZN5QHashI7QString5QListIN11IconStorage16IconAnimateFrameEEE13detach_helperEv"         @470    ; magicseg='TEXT32' len=78  weak
+  "__ZTSSt9bad_alloc"                                                  @471    ; magicseg='TEXT32' len=17  weak
+  "__ZTISt9exception"                                                  @472    ; magicseg='TEXT32' len=17  weak
+  "__ZTSSt9exception"                                                  @473    ; magicseg='TEXT32' len=17  weak
+
+  ; segment TEXT32
+  "__ZN12ImageManager10grayscaledERK6QImage"                           @474    ; magicseg='TEXT32' len=40
+  "__ZN12ImageManager7squaredERK6QImagei"                              @475    ; magicseg='TEXT32' len=37
+  "__ZN12ImageManager12roundSquaredERK6QImageii"                       @476    ; magicseg='TEXT32' len=44
+  "__ZN12ImageManager9addShadowERK6QImageRK6QColorRK6QPoint"           @477    ; magicseg='TEXT32' len=56
+  "__ZN12ImageManager9colorizedERK6QImageRK6QColor"                    @478    ; magicseg='TEXT32' len=47
+  "__ZN12ImageManager10opacitizedERK6QImaged"                          @479    ; magicseg='TEXT32' len=41
+  "__ZN12ImageManager8addSpaceERK6QImageiiii"                          @480    ; magicseg='TEXT32' len=41
+  "__ZN12ImageManager12rotatedImageERK6QImaged"                        @481    ; magicseg='TEXT32' len=43
+
+  ; segment BSS32
+  "_EscStrings"                                                        @482    ; magicseg='BSS32' len=11
+  "_EscChars"                                                          @483    ; magicseg='BSS32' len=9
+  "_JidCache"                                                          @484    ; magicseg='BSS32' len=9
+  "__ZN3Jid4nullE"                                                     @485    ; magicseg='BSS32' len=14
+  "__ZZN11QMetaTypeIdI3JidE14qt_metatype_idEvE11metatype_id"           @486    ; magicseg='BSS32' len=56  weak
+
+  ; segment TEXT32
+  "__Z13stringPreparePK16Stringprep_tableRK7QString"                   @487    ; magicseg='TEXT32' len=48
+  "__ZN7JidDataC2Ev"                                                   @488    ; magicseg='TEXT32' len=16
+  "__ZN7JidDataC1Ev"                                                   @489    ; magicseg='TEXT32' len=16
+  "__ZN7JidDataC2ERKS_"                                                @490    ; magicseg='TEXT32' len=19
+  "__ZN7JidDataC1ERKS_"                                                @491    ; magicseg='TEXT32' len=19
+  "__ZN3JidD2Ev"                                                       @492    ; magicseg='TEXT32' len=12
+  "__ZN3JidD1Ev"                                                       @493    ; magicseg='TEXT32' len=12
+  "__ZNK3Jid7isValidEv"                                                @494    ; magicseg='TEXT32' len=19
+  "__ZNK3Jid7isEmptyEv"                                                @495    ; magicseg='TEXT32' len=19
+  "__ZNK3Jid4nodeEv"                                                   @496    ; magicseg='TEXT32' len=16
+  "__ZNK3Jid5pNodeEv"                                                  @497    ; magicseg='TEXT32' len=17
+  "__ZNK3Jid6domainEv"                                                 @498    ; magicseg='TEXT32' len=18
+  "__ZNK3Jid7pDomainEv"                                                @499    ; magicseg='TEXT32' len=19
+  "__ZNK3Jid8resourceEv"                                               @500    ; magicseg='TEXT32' len=20
+  "__ZNK3Jid9pResourceEv"                                              @501    ; magicseg='TEXT32' len=21
+  "__ZNK3Jid4bareEv"                                                   @502    ; magicseg='TEXT32' len=16
+  "__ZNK3Jid5pBareEv"                                                  @503    ; magicseg='TEXT32' len=17
+  "__ZNK3Jid4fullEv"                                                   @504    ; magicseg='TEXT32' len=16
+  "__ZNK3Jid5pFullEv"                                                  @505    ; magicseg='TEXT32' len=17
+  "__ZNK3JideqERKS_"                                                   @506    ; magicseg='TEXT32' len=16
+  "__ZNK3JidneERKS_"                                                   @507    ; magicseg='TEXT32' len=16
+  "__ZNK3JidaaERKS_"                                                   @508    ; magicseg='TEXT32' len=16
+  "__ZNK3JidltERKS_"                                                   @509    ; magicseg='TEXT32' len=16
+  "__ZNK3JidgtERKS_"                                                   @510    ; magicseg='TEXT32' len=16
+  "__ZN3Jid6encodeERK7QString"                                         @511    ; magicseg='TEXT32' len=26
+  "__ZN3Jid6decodeERK7QString"                                         @512    ; magicseg='TEXT32' len=26
+  "__ZN3Jid11nodePrepareERK7QString"                                   @513    ; magicseg='TEXT32' len=32
+  "__ZN3Jid13domainPrepareERK7QString"                                 @514    ; magicseg='TEXT32' len=34
+  "__ZN3Jid15resourcePrepareERK7QString"                               @515    ; magicseg='TEXT32' len=36
+  "__Z5qHashRK3Jid"                                                    @516    ; magicseg='TEXT32' len=15
+  "__ZlsR11QDataStreamRK3Jid"                                          @517    ; magicseg='TEXT32' len=25
+  "__Z26registerJidStreamOperatorsv"                                   @518    ; magicseg='TEXT32' len=32
+  "__ZN3Jid8unescapeERK7QString"                                       @519    ; magicseg='TEXT32' len=28
+  "__ZNK3Jid5uBareEv"                                                  @520    ; magicseg='TEXT32' len=17
+  "__ZNK3Jid5uFullEv"                                                  @521    ; magicseg='TEXT32' len=17
+  "__ZNK3Jid5uNodeEv"                                                  @522    ; magicseg='TEXT32' len=17
+  "__ZN3Jid6escapeERK7QString"                                         @523    ; magicseg='TEXT32' len=26
+  "__ZN3Jid15parseFromStringERK7QString"                               @524    ; magicseg='TEXT32' len=36
+  "__ZN3JidC1ERK7QString"                                              @525    ; magicseg='TEXT32' len=21
+  "__ZN3JidaSERK7QString"                                              @526    ; magicseg='TEXT32' len=21
+  "__ZrsR11QDataStreamR3Jid"                                           @527    ; magicseg='TEXT32' len=24
+  "__ZN3Jid11setResourceERK7QString"                                   @528    ; magicseg='TEXT32' len=32
+  "__ZN3Jid9setDomainERK7QString"                                      @529    ; magicseg='TEXT32' len=29
+  "__ZN3Jid7setNodeERK7QString"                                        @530    ; magicseg='TEXT32' len=27
+  "__ZN3JidC2ERK7QStringS2_S2_"                                        @531    ; magicseg='TEXT32' len=27
+  "__ZN3JidC1ERK7QStringS2_S2_"                                        @532    ; magicseg='TEXT32' len=27
+  "__ZN3JidC2ERK7QString"                                              @533    ; magicseg='TEXT32' len=21
+  "__ZN3Jid13fromUserInputERK7QString"                                 @534    ; magicseg='TEXT32' len=34
+  "__ZNK3JidaaERK7QString"                                             @535    ; magicseg='TEXT32' len=22
+  "__ZNK3JideqERK7QString"                                             @536    ; magicseg='TEXT32' len=22
+  "__ZNK3JidneERK7QString"                                             @537    ; magicseg='TEXT32' len=22
+  "__ZN3JidC2EPKc"                                                     @538    ; magicseg='TEXT32' len=14
+  "__ZN3JidC1EPKc"                                                     @539    ; magicseg='TEXT32' len=14
+  "__ZN5QHashI7QString3JidE13duplicateNodeEPN9QHashData4NodeEPv"       @540    ; magicseg='TEXT32' len=60  weak
+  "__ZN10QByteArrayD1Ev"                                               @541    ; magicseg='TEXT32' len=20  weak
+  "__ZN7QStringD1Ev"                                                   @542    ; magicseg='TEXT32' len=16  weak
+  "__ZN5QHashI7QString3JidE11deleteNode2EPN9QHashData4NodeE"           @543    ; magicseg='TEXT32' len=56  weak
+  "__Z21qMetaTypeDeleteHelperI3JidEvPT_"                               @544    ; magicseg='TEXT32' len=36  weak
+  "__Z19qMetaTypeSaveHelperI3JidEvR11QDataStreamPKT_"                  @545    ; magicseg='TEXT32' len=49  weak
+  "__Z17qRegisterMetaTypeI3JidEiPKcPT_"                                @546    ; magicseg='TEXT32' len=35  weak
+  "__Z24qMetaTypeConstructHelperI3JidEPvPKT_"                          @547    ; magicseg='TEXT32' len=41  weak
+  "__Z19qMetaTypeLoadHelperI3JidEvR11QDataStreamPT_"                   @548    ; magicseg='TEXT32' len=48  weak
+  "__ZN5QListI5QCharED1Ev"                                             @549    ; magicseg='TEXT32' len=22  weak
+  "__ZN5QListI7QStringED1Ev"                                           @550    ; magicseg='TEXT32' len=24  weak
+  "__ZN18QSharedDataPointerI7JidDataED1Ev"                             @551    ; magicseg='TEXT32' len=38  weak
+  "__ZNK5QListI5QCharE7indexOfERKS0_i"                                 @552    ; magicseg='TEXT32' len=34  weak
+  "__ZNK5QListI7QStringE7indexOfERKS0_i"                               @553    ; magicseg='TEXT32' len=36  weak
+  "__ZNK5QHashI7QString3JidE8findNodeERKS0_Pj"                         @554    ; magicseg='TEXT32' len=42  weak
+  "__ZN5QHashI7QString3JidE13detach_helperEv"                          @555    ; magicseg='TEXT32' len=41  weak
+  "__ZN5QListI5QCharE18detach_helper_growEii"                          @556    ; magicseg='TEXT32' len=41  weak
+  "__ZN5QListI5QCharE6appendERKS0_"                                    @557    ; magicseg='TEXT32' len=31  weak
+  "__ZN5QListI5QCharE13detach_helperEi"                                @558    ; magicseg='TEXT32' len=35  weak
+  "__ZN5QListI5QCharE13detach_helperEv"                                @559    ; magicseg='TEXT32' len=35  weak
+  "__ZN5QListI7QStringE18detach_helper_growEii"                        @560    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListI7QStringE6appendERKS0_"                                  @561    ; magicseg='TEXT32' len=33  weak
+  "__ZN5QListI7QStringE13detach_helperEi"                              @562    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI7QStringE13detach_helperEv"                              @563    ; magicseg='TEXT32' len=37  weak
+  "__ZN18QSharedDataPointerI7JidDataE13detach_helperEv"                @564    ; magicseg='TEXT32' len=51  weak
+
+  ; segment TEXT32
+  "__ZNK4Menu7isEmptyEv"                                               @565    ; magicseg='TEXT32' len=20
+  "__ZNK4Menu10menuActionEv"                                           @566    ; magicseg='TEXT32' len=24
+  "__ZNK4Menu11actionGroupEPK6Action"                                  @567    ; magicseg='TEXT32' len=33
+  "__ZN4Menu7setIconERK7QStringS2_i"                                   @568    ; magicseg='TEXT32' len=32
+  "__ZN4Menu7setIconERK5QIcon"                                         @569    ; magicseg='TEXT32' len=26
+  "__ZN4Menu8setTitleERK7QString"                                      @570    ; magicseg='TEXT32' len=29
+  "__ZN4MenuD2Ev"                                                      @571    ; magicseg='TEXT32' len=13
+  "__ZN4MenuD1Ev"                                                      @572    ; magicseg='TEXT32' len=13
+  "__ZThn8_N4MenuD1Ev"                                                 @573    ; magicseg='TEXT32' len=18
+  "__ZN4MenuD0Ev"                                                      @574    ; magicseg='TEXT32' len=13
+  "__ZThn8_N4MenuD0Ev"                                                 @575    ; magicseg='TEXT32' len=18
+  "__ZN4MenuC2EP7QWidget"                                              @576    ; magicseg='TEXT32' len=21
+  "__ZN4MenuC1EP7QWidget"                                              @577    ; magicseg='TEXT32' len=21
+  "__ZNK4Menu18nextGroupSeparatorEi"                                   @578    ; magicseg='TEXT32' len=32
+  "__ZNK4Menu12groupActionsEi"                                         @579    ; magicseg='TEXT32' len=26
+  "__ZNK4Menu11findActionsERK10QMultiHashIi8QVariantEb"                @580    ; magicseg='TEXT32' len=51
+  "__ZN4Menu12removeActionEP6Action"                                   @581    ; magicseg='TEXT32' len=32
+  "__ZN4Menu17onActionDestroyedEP6Action"                              @582    ; magicseg='TEXT32' len=37
+  "__ZN4Menu5clearEv"                                                  @583    ; magicseg='TEXT32' len=17
+  "__ZN4Menu9addActionEP6Actionib"                                     @584    ; magicseg='TEXT32' len=30
+  "__ZN4Menu14addMenuActionsEPKS_ib"                                   @585    ; magicseg='TEXT32' len=32
+  "__ZN4Menu16copyStandardMenuEPS_P5QMenui"                            @586    ; magicseg='TEXT32' len=39
+  "__ZN7QStringD1Ev"                                                   @587    ; magicseg='TEXT32' len=16  weak
+  "__ZN4QMapIiP7QActionED1Ev"                                          @588    ; magicseg='TEXT32' len=25  weak
+  "__ZN4QMapIiP6ActionED2Ev"                                           @589    ; magicseg='TEXT32' len=24  weak
+  "__ZN5QListIP6ActionED1Ev"                                           @590    ; magicseg='TEXT32' len=24  weak
+  "__ZN5QListIiED1Ev"                                                  @591    ; magicseg='TEXT32' len=17  weak
+  "__ZN5QListI8QVariantED1Ev"                                          @592    ; magicseg='TEXT32' len=25  weak
+  "__ZNK5QListI8QVariantE8containsERKS0_"                              @593    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListIP7QActionED1Ev"                                          @594    ; magicseg='TEXT32' len=25  weak
+  "__ZNK4QMapIiP6ActionE15mutableFindNodeEPPN8QMapData4NodeERKi"       @595    ; magicseg='TEXT32' len=60  weak
+  "__ZN5QListIP6ActionE18detach_helper_growEii"                        @596    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListIP6ActionE6appendERKS1_"                                  @597    ; magicseg='TEXT32' len=33  weak
+  "__ZNK4QMapIiP6ActionE6valuesERKi"                                   @598    ; magicseg='TEXT32' len=32  weak
+  "__ZNK4QMapIiP7QActionE15mutableFindNodeEPPN8QMapData4NodeERKi"      @599    ; magicseg='TEXT32' len=61  weak
+  "__ZN5QListIP6ActionE13detach_helperEi"                              @600    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListIP6ActionE7reserveEi"                                     @601    ; magicseg='TEXT32' len=30  weak
+  "__ZNK4QMapIiP6ActionE6valuesEv"                                     @602    ; magicseg='TEXT32' len=30  weak
+  "__ZN5QListIP6ActionE13detach_helperEv"                              @603    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListIP6ActionEpLERKS2_"                                       @604    ; magicseg='TEXT32' len=28  weak
+  "__ZN5QListIiE13detach_helperEi"                                     @605    ; magicseg='TEXT32' len=30  weak
+  "__ZN5QListIiE7reserveEi"                                            @606    ; magicseg='TEXT32' len=23  weak
+  "__ZN5QListIiE13detach_helperEv"                                     @607    ; magicseg='TEXT32' len=30  weak
+  "__ZN5QListIiE18detach_helper_growEii"                               @608    ; magicseg='TEXT32' len=36  weak
+  "__ZN5QListIiE6appendERKi"                                           @609    ; magicseg='TEXT32' len=24  weak
+  "__ZNK5QHashIi8QVariantE4keysEv"                                     @610    ; magicseg='TEXT32' len=30  weak
+  "__ZN5QListI8QVariantE18detach_helper_growEii"                       @611    ; magicseg='TEXT32' len=44  weak
+  "__ZN5QListI8QVariantE6appendERKS0_"                                 @612    ; magicseg='TEXT32' len=34  weak
+  "__ZNK5QHashIi8QVariantE6valuesERKi"                                 @613    ; magicseg='TEXT32' len=34  weak
+  "__ZN4QMapIiP6ActionE13detach_helperEv"                              @614    ; magicseg='TEXT32' len=37  weak
+  "__ZN4QMapIiP6ActionE5eraseENS2_8iteratorE"                          @615    ; magicseg='TEXT32' len=41  weak
+  "__ZN4QMapIiP7QActionE13detach_helperEv"                             @616    ; magicseg='TEXT32' len=38  weak
+  "__ZN4QMapIiP7QActionE6removeERKi"                                   @617    ; magicseg='TEXT32' len=32  weak
+  "__ZN5QListIP7QActionE13detach_helperEi"                             @618    ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP7QActionE13detach_helperEv"                             @619    ; magicseg='TEXT32' len=38  weak
+
+  ; segment TEXT32
+  "__ZN14MenuBarChangerC2EP8QMenuBar"                                  @620    ; magicseg='TEXT32' len=33
+  "__ZN14MenuBarChangerC1EP8QMenuBar"                                  @621    ; magicseg='TEXT32' len=33
+  "__ZNK14MenuBarChanger7isEmptyEv"                                    @622    ; magicseg='TEXT32' len=31
+  "__ZNK14MenuBarChanger7menuBarEv"                                    @623    ; magicseg='TEXT32' len=31
+  "__ZNK14MenuBarChanger9menuGroupEP4Menu"                             @624    ; magicseg='TEXT32' len=38
+  "__ZN14MenuBarChangerD2Ev"                                           @625    ; magicseg='TEXT32' len=24
+  "__ZN14MenuBarChangerD1Ev"                                           @626    ; magicseg='TEXT32' len=24
+  "__ZN14MenuBarChangerD0Ev"                                           @627    ; magicseg='TEXT32' len=24
+  "__ZNK14MenuBarChanger10groupMenusEi"                                @628    ; magicseg='TEXT32' len=35
+  "__ZN14MenuBarChanger10removeMenuEP4Menu"                            @629    ; magicseg='TEXT32' len=39
+  "__ZN14MenuBarChanger15onMenuDestroyedEP4Menu"                       @630    ; magicseg='TEXT32' len=44
+  "__ZN14MenuBarChanger5clearEv"                                       @631    ; magicseg='TEXT32' len=28
+  "__ZN14MenuBarChanger10insertMenuEP4Menui"                           @632    ; magicseg='TEXT32' len=40
+  "__ZN4QMapIiP4MenuED2Ev"                                             @633    ; magicseg='TEXT32' len=22  weak
+  "__ZN5QListIP4MenuED1Ev"                                             @634    ; magicseg='TEXT32' len=22  weak
+  "__ZNK4QMapIiP4MenuE15mutableFindNodeEPPN8QMapData4NodeERKi"         @635    ; magicseg='TEXT32' len=58  weak
+  "__ZN5QListIP4MenuE13detach_helperEi"                                @636    ; magicseg='TEXT32' len=35  weak
+  "__ZN5QListIP4MenuE7reserveEi"                                       @637    ; magicseg='TEXT32' len=28  weak
+  "__ZN5QListIP4MenuE13detach_helperEv"                                @638    ; magicseg='TEXT32' len=35  weak
+  "__ZN5QListIP4MenuE18detach_helper_growEii"                          @639    ; magicseg='TEXT32' len=41  weak
+  "__ZN5QListIP4MenuE6appendERKS1_"                                    @640    ; magicseg='TEXT32' len=31  weak
+  "__ZNK4QMapIiP4MenuE6valuesEv"                                       @641    ; magicseg='TEXT32' len=28  weak
+  "__ZNK4QMapIiP4MenuE6valuesERKi"                                     @642    ; magicseg='TEXT32' len=30  weak
+  "__ZN4QMapIiP4MenuE13detach_helperEv"                                @643    ; magicseg='TEXT32' len=35  weak
+  "__ZN4QMapIiP4MenuE5eraseENS2_8iteratorE"                            @644    ; magicseg='TEXT32' len=39  weak
+
+  ; segment TEXT32
+  "__ZN11MessageData14updateDateTimeEv"                                @645    ; magicseg='TEXT32' len=35
+  "__ZN7MessageD2Ev"                                                   @646    ; magicseg='TEXT32' len=16
+  "__ZN7MessageD1Ev"                                                   @647    ; magicseg='TEXT32' len=16
+  "__ZNK7Message6stanzaEv"                                             @648    ; magicseg='TEXT32' len=22
+  "__ZNK7Message4dataEi"                                               @649    ; magicseg='TEXT32' len=20
+  "__ZNK7Message2idEv"                                                 @650    ; magicseg='TEXT32' len=18
+  "__ZNK7Message4fromEv"                                               @651    ; magicseg='TEXT32' len=20
+  "__ZNK7Message2toEv"                                                 @652    ; magicseg='TEXT32' len=18
+  "__ZNK7Message7defLangEv"                                            @653    ; magicseg='TEXT32' len=23
+  "__ZNK7Message4typeEv"                                               @654    ; magicseg='TEXT32' len=20
+  "__ZNK7Message9isDelayedEv"                                          @655    ; magicseg='TEXT32' len=25
+  "__ZNK7Message8dateTimeEv"                                           @656    ; magicseg='TEXT32' len=24
+  "__ZNK7Message8threadIdEv"                                           @657    ; magicseg='TEXT32' len=24
+  "__ZNK7Message14findChidByLangERK11QDomElementRK7QStringS5_"         @658    ; magicseg='TEXT32' len=58
+  "__ZNK7Message4bodyERK7QString"                                      @659    ; magicseg='TEXT32' len=29
+  "__ZNK7Message7subjectERK7QString"                                   @660    ; magicseg='TEXT32' len=32
+  "__ZNK7MessageltERKS_"                                               @661    ; magicseg='TEXT32' len=20
+  "__ZNK7Message13setTextToElemER11QDomElementRK7QString"              @662    ; magicseg='TEXT32' len=53
+  "__ZN11MessageDataC2ERK6Stanza"                                      @663    ; magicseg='TEXT32' len=29
+  "__ZN11MessageDataC1ERK6Stanza"                                      @664    ; magicseg='TEXT32' len=29
+  "__ZN11MessageDataC2Ev"                                              @665    ; magicseg='TEXT32' len=21
+  "__ZN11MessageDataC1Ev"                                              @666    ; magicseg='TEXT32' len=21
+  "__ZN7MessageC2ERK6Stanza"                                           @667    ; magicseg='TEXT32' len=24
+  "__ZN7MessageC1ERK6Stanza"                                           @668    ; magicseg='TEXT32' len=24
+  "__ZN7MessageC2Ev"                                                   @669    ; magicseg='TEXT32' len=16
+  "__ZN7MessageC1Ev"                                                   @670    ; magicseg='TEXT32' len=16
+  "__ZNK7Message14availableLangsERK11QDomElementRK7QString"            @671    ; magicseg='TEXT32' len=55
+  "__ZNK7Message9bodyLangsEv"                                          @672    ; magicseg='TEXT32' len=25
+  "__ZNK7Message12subjectLangsEv"                                      @673    ; magicseg='TEXT32' len=29
+  "__ZN11MessageDataC2ERKS_"                                           @674    ; magicseg='TEXT32' len=24
+  "__ZN11MessageDataC1ERKS_"                                           @675    ; magicseg='TEXT32' len=24
+  "__ZN7Message9setStanzaERK6Stanza"                                   @676    ; magicseg='TEXT32' len=32
+  "__ZN7Message10setDefLangERK7QString"                                @677    ; magicseg='TEXT32' len=35
+  "__ZN7Message5setToERK7QString"                                      @678    ; magicseg='TEXT32' len=29
+  "__ZN7Message7setFromERK7QString"                                    @679    ; magicseg='TEXT32' len=31
+  "__ZN7Message5setIdERK7QString"                                      @680    ; magicseg='TEXT32' len=29
+  "__ZN7Message6stanzaEv"                                              @681    ; magicseg='TEXT32' len=21
+  "__ZN7Message6detachEv"                                              @682    ; magicseg='TEXT32' len=21
+  "__ZN7Message7setDataEiRK8QVariant"                                  @683    ; magicseg='TEXT32' len=33
+  "__ZN7Message7setDataERK5QHashIi8QVariantE"                          @684    ; magicseg='TEXT32' len=41
+  "__ZN7Message11setThreadIdERK7QString"                               @685    ; magicseg='TEXT32' len=36
+  "__ZN7Message14addChildByLangERK11QDomElementRK7QStringS5_S5_"       @686    ; magicseg='TEXT32' len=60
+  "__ZN7Message7setBodyERK7QStringS2_"                                 @687    ; magicseg='TEXT32' len=34
+  "__ZN7Message10setSubjectERK7QStringS2_"                             @688    ; magicseg='TEXT32' len=38
+  "__ZN7Message11setDateTimeERK9QDateTimeb"                            @689    ; magicseg='TEXT32' len=39
+  "__ZN7Message7setTypeENS_11MessageTypeE"                             @690    ; magicseg='TEXT32' len=38
+  "__ZN5QHashIi8QVariantE11deleteNode2EPN9QHashData4NodeE"             @691    ; magicseg='TEXT32' len=54  weak
+  "__ZN5QHashIi8QVariantE13duplicateNodeEPN9QHashData4NodeEPv"         @692    ; magicseg='TEXT32' len=58  weak
+  "__ZN7QStringD1Ev"                                                   @693    ; magicseg='TEXT32' len=16  weak
+  "__ZN5QListI7QStringED2Ev"                                           @694    ; magicseg='TEXT32' len=24  weak
+  "__ZN5QHashIi8QVariantED1Ev"                                         @695    ; magicseg='TEXT32' len=26  weak
+  "__ZN18QSharedDataPointerI11MessageDataED1Ev"                        @696    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListI7QStringE18detach_helper_growEii"                        @697    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListI7QStringE6appendERKS0_"                                  @698    ; magicseg='TEXT32' len=33  weak
+  "__ZN5QHashIi8QVariantE13detach_helperEv"                            @699    ; magicseg='TEXT32' len=39  weak
+  "__ZN5QHashIi8QVariantE6removeERKi"                                  @700    ; magicseg='TEXT32' len=33  weak
+  "__ZTISt9bad_alloc"                                                  @701    ; magicseg='TEXT32' len=17  weak
+  "__ZN18QSharedDataPointerI11MessageDataE13detach_helperEv"           @702    ; magicseg='TEXT32' len=56  weak
+  "__ZTSSt9bad_alloc"                                                  @703    ; magicseg='TEXT32' len=17  weak
+  "__ZTISt9exception"                                                  @704    ; magicseg='TEXT32' len=17  weak
+  "__ZTSSt9exception"                                                  @705    ; magicseg='TEXT32' len=17  weak
+
+  ; segment DATA32
+  "__ZN6Action16staticMetaObjectE"                                     @706    ; magicseg='DATA32' len=30
+
+  ; segment TEXT32
+  "__ZNK6Action10metaObjectEv"                                         @707    ; magicseg='TEXT32' len=26
+  "__ZN6Action11qt_metacastEPKc"                                       @708    ; magicseg='TEXT32' len=28
+  "__ZN6Action15actionDestroyedEPS_"                                   @709    ; magicseg='TEXT32' len=32
+  "__ZN6Action11qt_metacallEN11QMetaObject4CallEiPPv"                  @710    ; magicseg='TEXT32' len=49
+  "__ZTV6Action"                                                       @711    ; magicseg='TEXT32' len=12  weak
+  "__ZTI6Action"                                                       @712    ; magicseg='TEXT32' len=12  weak
+  "__ZTS6Action"                                                       @713    ; magicseg='TEXT32' len=12  weak
+  "__ZTI7QAction"                                                      @714    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QAction"                                                      @715    ; magicseg='TEXT32' len=13  weak
+  "__ZTI7QObject"                                                      @716    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @717    ; magicseg='TEXT32' len=13  weak
+
+  ; segment DATA32
+  "__ZN20AdvancedItemDelegate16staticMetaObjectE"                      @718    ; magicseg='DATA32' len=45
+
+  ; segment TEXT32
+  "__ZNK20AdvancedItemDelegate10metaObjectEv"                          @719    ; magicseg='TEXT32' len=41
+  "__ZN20AdvancedItemDelegate11qt_metacastEPKc"                        @720    ; magicseg='TEXT32' len=43
+  "__ZN20AdvancedItemDelegate16updateBlinkItemsEv"                     @721    ; magicseg='TEXT32' len=46
+  "__ZN20AdvancedItemDelegate11qt_metacallEN11QMetaObject4CallEiPPv"   @722    ; magicseg='TEXT32' len=64
+  "__ZTV20AdvancedItemDelegate"                                        @723    ; magicseg='TEXT32' len=27  weak
+  "__ZTI20AdvancedItemDelegate"                                        @724    ; magicseg='TEXT32' len=27  weak
+  "__ZTS20AdvancedItemDelegate"                                        @725    ; magicseg='TEXT32' len=27  weak
+  "__ZTI19QStyledItemDelegate"                                         @726    ; magicseg='TEXT32' len=26  weak
+  "__ZTS19QStyledItemDelegate"                                         @727    ; magicseg='TEXT32' len=26  weak
+  "__ZTI21QAbstractItemDelegate"                                       @728    ; magicseg='TEXT32' len=28  weak
+  "__ZTS21QAbstractItemDelegate"                                       @729    ; magicseg='TEXT32' len=28  weak
+  "__ZTI7QObject"                                                      @730    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @731    ; magicseg='TEXT32' len=13  weak
+
+  ; segment DATA32
+  "__ZN19AnimatedTextBrowser16staticMetaObjectE"                       @732    ; magicseg='DATA32' len=44
+
+  ; segment TEXT32
+  "__ZNK19AnimatedTextBrowser10metaObjectEv"                           @733    ; magicseg='TEXT32' len=40
+  "__ZN19AnimatedTextBrowser11qt_metacastEPKc"                         @734    ; magicseg='TEXT32' len=42
+  "__ZN19AnimatedTextBrowser30visiblePositionBoundaryChangedEv"        @735    ; magicseg='TEXT32' len=59
+  "__ZN19AnimatedTextBrowser14resourceLoadedERK4QUrl"                  @736    ; magicseg='TEXT32' len=49
+  "__ZN19AnimatedTextBrowser15resourceUpdatedERK4QUrl"                 @737    ; magicseg='TEXT32' len=50
+  "__ZN19AnimatedTextBrowser11qt_metacallEN11QMetaObject4CallEiPPv"    @738    ; magicseg='TEXT32' len=63
+  "__ZN5QHashIP6QMovie15QHashDummyValueE11deleteNode2EPN9QHashData4NodeE"                  @739    ; magicseg='TEXT32' len=69  weak
+  "__ZN5QHashIP6QMovie4QUrlE11deleteNode2EPN9QHashData4NodeE"          @740    ; magicseg='TEXT32' len=57  weak
+  "__ZN5QHashI4QUrlP6QMovieE11deleteNode2EPN9QHashData4NodeE"          @741    ; magicseg='TEXT32' len=57  weak
+  "__ZN7QStringD1Ev"                                                   @742    ; magicseg='TEXT32' len=16  weak
+  "__ZN5QHashI7QString8QVariantE11deleteNode2EPN9QHashData4NodeE"      @743    ; magicseg='TEXT32' len=61  weak
+  "__ZN5QHashIP6QMovie15QHashDummyValueED1Ev"                          @744    ; magicseg='TEXT32' len=41  weak
+  "__ZN5QHashIP6QMovie4QUrlED1Ev"                                      @745    ; magicseg='TEXT32' len=29  weak
+  "__ZN5QHashI4QUrlP6QMovieED1Ev"                                      @746    ; magicseg='TEXT32' len=29  weak
+  "__ZN5QHashIP6QMovie5QListIiEED1Ev"                                  @747    ; magicseg='TEXT32' len=33  weak
+  "__ZN5QHashIP6QMovie5QListIiEE11deleteNode2EPN9QHashData4NodeE"      @748    ; magicseg='TEXT32' len=61  weak
+  "__ZN19AnimatedTextBrowserD1Ev"                                      @749    ; magicseg='TEXT32' len=29  weak
+  "__ZTV19AnimatedTextBrowser"                                         @750    ; magicseg='TEXT32' len=26  weak
+  "__ZThn8_N19AnimatedTextBrowserD1Ev"                                 @751    ; magicseg='TEXT32' len=34  weak
+  "__ZN19AnimatedTextBrowserD0Ev"                                      @752    ; magicseg='TEXT32' len=29  weak
+  "__ZThn8_N19AnimatedTextBrowserD0Ev"                                 @753    ; magicseg='TEXT32' len=34  weak
+  "__ZN5QListIiED1Ev"                                                  @754    ; magicseg='TEXT32' len=17  weak
+  "__ZTI19AnimatedTextBrowser"                                         @755    ; magicseg='TEXT32' len=26  weak
+  "__ZTS19AnimatedTextBrowser"                                         @756    ; magicseg='TEXT32' len=26  weak
+  "__ZTI12QTextBrowser"                                                @757    ; magicseg='TEXT32' len=19  weak
+  "__ZTS12QTextBrowser"                                                @758    ; magicseg='TEXT32' len=19  weak
+  "__ZTI9QTextEdit"                                                    @759    ; magicseg='TEXT32' len=15  weak
+  "__ZTS9QTextEdit"                                                    @760    ; magicseg='TEXT32' len=15  weak
+  "__ZTI19QAbstractScrollArea"                                         @761    ; magicseg='TEXT32' len=26  weak
+  "__ZTS19QAbstractScrollArea"                                         @762    ; magicseg='TEXT32' len=26  weak
+  "__ZTI6QFrame"                                                       @763    ; magicseg='TEXT32' len=12  weak
+  "__ZTS6QFrame"                                                       @764    ; magicseg='TEXT32' len=12  weak
+  "__ZTI7QWidget"                                                      @765    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QWidget"                                                      @766    ; magicseg='TEXT32' len=13  weak
+  "__ZTI7QObject"                                                      @767    ; magicseg='TEXT32' len=13  weak
+  "__ZTI12QPaintDevice"                                                @768    ; magicseg='TEXT32' len=19  weak
+  "__ZTS7QObject"                                                      @769    ; magicseg='TEXT32' len=13  weak
+  "__ZTS12QPaintDevice"                                                @770    ; magicseg='TEXT32' len=19  weak
+
+  ; segment DATA32
+  "__ZN11CloseButton16staticMetaObjectE"                               @771    ; magicseg='DATA32' len=36
+
+  ; segment TEXT32
+  "__ZNK11CloseButton10metaObjectEv"                                   @772    ; magicseg='TEXT32' len=32
+  "__ZN11CloseButton11qt_metacallEN11QMetaObject4CallEiPPv"            @773    ; magicseg='TEXT32' len=55
+  "__ZN11CloseButton11qt_metacastEPKc"                                 @774    ; magicseg='TEXT32' len=34
+  "__ZTV11CloseButton"                                                 @775    ; magicseg='TEXT32' len=18  weak
+  "__ZTI11CloseButton"                                                 @776    ; magicseg='TEXT32' len=18  weak
+  "__ZTS11CloseButton"                                                 @777    ; magicseg='TEXT32' len=18  weak
+  "__ZTI15QAbstractButton"                                             @778    ; magicseg='TEXT32' len=22  weak
+  "__ZTS15QAbstractButton"                                             @779    ; magicseg='TEXT32' len=22  weak
+  "__ZTI7QWidget"                                                      @780    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QWidget"                                                      @781    ; magicseg='TEXT32' len=13  weak
+  "__ZTI7QObject"                                                      @782    ; magicseg='TEXT32' len=13  weak
+  "__ZTI12QPaintDevice"                                                @783    ; magicseg='TEXT32' len=19  weak
+  "__ZTS7QObject"                                                      @784    ; magicseg='TEXT32' len=13  weak
+  "__ZTS12QPaintDevice"                                                @785    ; magicseg='TEXT32' len=19  weak
+
+  ; segment DATA32
+  "__ZN11FileStorage16staticMetaObjectE"                               @786    ; magicseg='DATA32' len=36
+
+  ; segment TEXT32
+  "__ZNK11FileStorage10metaObjectEv"                                   @787    ; magicseg='TEXT32' len=32
+  "__ZN11FileStorage11qt_metacastEPKc"                                 @788    ; magicseg='TEXT32' len=34
+  "__ZN11FileStorage14storageChangedEv"                                @789    ; magicseg='TEXT32' len=35
+  "__ZN11FileStorage11qt_metacallEN11QMetaObject4CallEiPPv"            @790    ; magicseg='TEXT32' len=55
+  "__ZTV11FileStorage"                                                 @791    ; magicseg='TEXT32' len=18  weak
+  "__ZTI11FileStorage"                                                 @792    ; magicseg='TEXT32' len=18  weak
+  "__ZTS11FileStorage"                                                 @793    ; magicseg='TEXT32' len=18  weak
+  "__ZTI7QObject"                                                      @794    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @795    ; magicseg='TEXT32' len=13  weak
+
+  ; segment TEXT32
+  "__ZNK11IconStorage10metaObjectEv"                                   @796    ; magicseg='TEXT32' len=32
+  "__ZN11IconStorage16staticMetaObjectE"                               @797    ; magicseg='TEXT32' len=36
+  "__ZN11IconStorage11qt_metacallEN11QMetaObject4CallEiPPv"            @798    ; magicseg='TEXT32' len=55
+  "__ZN11IconStorage11qt_metacastEPKc"                                 @799    ; magicseg='TEXT32' len=34
+  "__ZTV11IconStorage"                                                 @800    ; magicseg='TEXT32' len=18  weak
+  "__ZTI11IconStorage"                                                 @801    ; magicseg='TEXT32' len=18  weak
+  "__ZTS11IconStorage"                                                 @802    ; magicseg='TEXT32' len=18  weak
+  "__ZTI11FileStorage"                                                 @803    ; magicseg='TEXT32' len=18  weak
+  "__ZTS11FileStorage"                                                 @804    ; magicseg='TEXT32' len=18  weak
+  "__ZTI7QObject"                                                      @805    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @806    ; magicseg='TEXT32' len=13  weak
+
+  ; segment DATA32
+  "__ZN4Menu16staticMetaObjectE"                                       @807    ; magicseg='DATA32' len=28
+
+  ; segment TEXT32
+  "__ZNK4Menu10metaObjectEv"                                           @808    ; magicseg='TEXT32' len=24
+  "__ZN4Menu11qt_metacastEPKc"                                         @809    ; magicseg='TEXT32' len=26
+  "__ZN4Menu14actionInsertedEP7QActionP6Actionib"                      @810    ; magicseg='TEXT32' len=45
+  "__ZN4Menu13actionRemovedEP6Action"                                  @811    ; magicseg='TEXT32' len=33
+  "__ZN4Menu17separatorInsertedEP6ActionP7QAction"                     @812    ; magicseg='TEXT32' len=46
+  "__ZN4Menu16separatorRemovedEP7QAction"                              @813    ; magicseg='TEXT32' len=37
+  "__ZN4Menu13menuDestroyedEPS_"                                       @814    ; magicseg='TEXT32' len=28
+  "__ZN4Menu11qt_metacallEN11QMetaObject4CallEiPPv"                    @815    ; magicseg='TEXT32' len=47
+  "__ZTV4Menu"                                                         @816    ; magicseg='TEXT32' len=10  weak
+  "__ZTI4Menu"                                                         @817    ; magicseg='TEXT32' len=10  weak
+  "__ZTS4Menu"                                                         @818    ; magicseg='TEXT32' len=10  weak
+  "__ZTI5QMenu"                                                        @819    ; magicseg='TEXT32' len=11  weak
+  "__ZTS5QMenu"                                                        @820    ; magicseg='TEXT32' len=11  weak
+  "__ZTI7QWidget"                                                      @821    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QWidget"                                                      @822    ; magicseg='TEXT32' len=13  weak
+  "__ZTI7QObject"                                                      @823    ; magicseg='TEXT32' len=13  weak
+  "__ZTI12QPaintDevice"                                                @824    ; magicseg='TEXT32' len=19  weak
+  "__ZTS7QObject"                                                      @825    ; magicseg='TEXT32' len=13  weak
+  "__ZTS12QPaintDevice"                                                @826    ; magicseg='TEXT32' len=19  weak
+
+  ; segment DATA32
+  "__ZN14MenuBarChanger16staticMetaObjectE"                            @827    ; magicseg='DATA32' len=39
+
+  ; segment TEXT32
+  "__ZNK14MenuBarChanger10metaObjectEv"                                @828    ; magicseg='TEXT32' len=35
+  "__ZN14MenuBarChanger11qt_metacastEPKc"                              @829    ; magicseg='TEXT32' len=37
+  "__ZN14MenuBarChanger12menuInsertedEP4MenuS1_i"                      @830    ; magicseg='TEXT32' len=45
+  "__ZN14MenuBarChanger11menuRemovedEP4Menu"                           @831    ; magicseg='TEXT32' len=40
+  "__ZN14MenuBarChanger23menuBarChangerDestroyedEPS_"                  @832    ; magicseg='TEXT32' len=49
+  "__ZN14MenuBarChanger11qt_metacallEN11QMetaObject4CallEiPPv"         @833    ; magicseg='TEXT32' len=58
+  "__ZTV14MenuBarChanger"                                              @834    ; magicseg='TEXT32' len=21  weak
+  "__ZTI14MenuBarChanger"                                              @835    ; magicseg='TEXT32' len=21  weak
+  "__ZTS14MenuBarChanger"                                              @836    ; magicseg='TEXT32' len=21  weak
+  "__ZTI7QObject"                                                      @837    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @838    ; magicseg='TEXT32' len=13  weak
+
+  ; segment DATA32
+  "__ZN7Options16staticMetaObjectE"                                    @839    ; magicseg='DATA32' len=31
+
+  ; segment TEXT32
+  "__ZNK7Options10metaObjectEv"                                        @840    ; magicseg='TEXT32' len=27
+  "__ZN7Options11qt_metacastEPKc"                                      @841    ; magicseg='TEXT32' len=29
+  "__ZN7Options13optionsOpenedEv"                                      @842    ; magicseg='TEXT32' len=29
+  "__ZN7Options13optionsClosedEv"                                      @843    ; magicseg='TEXT32' len=29
+  "__ZN7Options14optionsCreatedERK11OptionsNode"                       @844    ; magicseg='TEXT32' len=44
+  "__ZN7Options14optionsChangedERK11OptionsNode"                       @845    ; magicseg='TEXT32' len=44
+  "__ZN7Options14optionsRemovedERK11OptionsNode"                       @846    ; magicseg='TEXT32' len=44
+  "__ZN7Options19defaultValueChangedERK7QStringRK8QVariant"            @847    ; magicseg='TEXT32' len=55
+  "__ZN7Options11qt_metacallEN11QMetaObject4CallEiPPv"                 @848    ; magicseg='TEXT32' len=50
+  "__ZN7OptionsD1Ev"                                                   @849    ; magicseg='TEXT32' len=16  weak
+  "__ZTV7Options"                                                      @850    ; magicseg='TEXT32' len=13  weak
+  "__ZN7OptionsD0Ev"                                                   @851    ; magicseg='TEXT32' len=16  weak
+  "__ZTI7Options"                                                      @852    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7Options"                                                      @853    ; magicseg='TEXT32' len=13  weak
+  "__ZTI7QObject"                                                      @854    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @855    ; magicseg='TEXT32' len=13  weak
+
+  ; segment DATA32
+  "__ZN14SearchLineEdit16staticMetaObjectE"                            @856    ; magicseg='DATA32' len=39
+
+  ; segment TEXT32
+  "__ZNK14SearchLineEdit10metaObjectEv"                                @857    ; magicseg='TEXT32' len=35
+  "__ZN14SearchLineEdit11qt_metacastEPKc"                              @858    ; magicseg='TEXT32' len=37
+  "__ZN14SearchLineEdit11searchStartEv"                                @859    ; magicseg='TEXT32' len=35
+  "__ZN14SearchLineEdit10searchNextEv"                                 @860    ; magicseg='TEXT32' len=34
+  "__ZN14SearchLineEdit11qt_metacallEN11QMetaObject4CallEiPPv"         @861    ; magicseg='TEXT32' len=58
+  "__ZTV14SearchLineEdit"                                              @862    ; magicseg='TEXT32' len=21  weak
+  "__ZTI14SearchLineEdit"                                              @863    ; magicseg='TEXT32' len=21  weak
+  "__ZTS14SearchLineEdit"                                              @864    ; magicseg='TEXT32' len=21  weak
+  "__ZTI9QLineEdit"                                                    @865    ; magicseg='TEXT32' len=15  weak
+  "__ZTS9QLineEdit"                                                    @866    ; magicseg='TEXT32' len=15  weak
+  "__ZTI7QWidget"                                                      @867    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QWidget"                                                      @868    ; magicseg='TEXT32' len=13  weak
+  "__ZTI7QObject"                                                      @869    ; magicseg='TEXT32' len=13  weak
+  "__ZTI12QPaintDevice"                                                @870    ; magicseg='TEXT32' len=19  weak
+  "__ZTS7QObject"                                                      @871    ; magicseg='TEXT32' len=13  weak
+  "__ZTS12QPaintDevice"                                                @872    ; magicseg='TEXT32' len=19  weak
+
+  ; segment DATA32
+  "__ZN9Shortcuts16staticMetaObjectE"                                  @873    ; magicseg='DATA32' len=33
+
+  ; segment TEXT32
+  "__ZNK9Shortcuts10metaObjectEv"                                      @874    ; magicseg='TEXT32' len=29
+  "__ZN9Shortcuts11qt_metacastEPKc"                                    @875    ; magicseg='TEXT32' len=31
+  "__ZN9Shortcuts13groupDeclaredERK7QString"                           @876    ; magicseg='TEXT32' len=40
+  "__ZN9Shortcuts16shortcutDeclaredERK7QString"                        @877    ; magicseg='TEXT32' len=43
+  "__ZN9Shortcuts15shortcutUpdatedERK7QString"                         @878    ; magicseg='TEXT32' len=42
+  "__ZN9Shortcuts14shortcutBindedERK7QStringP7QObject"                 @879    ; magicseg='TEXT32' len=50
+  "__ZN9Shortcuts16shortcutInsertedERK7QStringP7QWidget"               @880    ; magicseg='TEXT32' len=52
+  "__ZN9Shortcuts15shortcutRemovedERK7QStringP7QWidget"                @881    ; magicseg='TEXT32' len=51
+  "__ZN9Shortcuts15shortcutEnabledERK7QStringb"                        @882    ; magicseg='TEXT32' len=43
+  "__ZN9Shortcuts17shortcutActivatedERK7QStringP7QWidget"              @883    ; magicseg='TEXT32' len=53
+  "__ZN9Shortcuts11qt_metacallEN11QMetaObject4CallEiPPv"               @884    ; magicseg='TEXT32' len=52
+  "__ZN9ShortcutsD1Ev"                                                 @885    ; magicseg='TEXT32' len=18  weak
+  "__ZTV9Shortcuts"                                                    @886    ; magicseg='TEXT32' len=15  weak
+  "__ZN9ShortcutsD0Ev"                                                 @887    ; magicseg='TEXT32' len=18  weak
+  "__ZTI9Shortcuts"                                                    @888    ; magicseg='TEXT32' len=15  weak
+  "__ZTS9Shortcuts"                                                    @889    ; magicseg='TEXT32' len=15  weak
+  "__ZTI7QObject"                                                      @890    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @891    ; magicseg='TEXT32' len=13  weak
+
+  ; segment DATA32
+  "__ZN16StatusBarChanger16staticMetaObjectE"                          @892    ; magicseg='DATA32' len=41
+
+  ; segment TEXT32
+  "__ZNK16StatusBarChanger10metaObjectEv"                              @893    ; magicseg='TEXT32' len=37
+  "__ZN16StatusBarChanger11qt_metacastEPKc"                            @894    ; magicseg='TEXT32' len=39
+  "__ZN16StatusBarChanger14widgetInsertedEP7QWidgetS1_ibi"             @895    ; magicseg='TEXT32' len=54
+  "__ZN16StatusBarChanger13widgetRemovedEP7QWidget"                    @896    ; magicseg='TEXT32' len=47
+  "__ZN16StatusBarChanger25statusBarChangerDestroyedEPS_"              @897    ; magicseg='TEXT32' len=53
+  "__ZN16StatusBarChanger11qt_metacallEN11QMetaObject4CallEiPPv"       @898    ; magicseg='TEXT32' len=60
+  "__ZTV16StatusBarChanger"                                            @899    ; magicseg='TEXT32' len=23  weak
+  "__ZTI16StatusBarChanger"                                            @900    ; magicseg='TEXT32' len=23  weak
+  "__ZTS16StatusBarChanger"                                            @901    ; magicseg='TEXT32' len=23  weak
+  "__ZTI7QObject"                                                      @902    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @903    ; magicseg='TEXT32' len=13  weak
+
+  ; segment DATA32
+  "__ZN13SystemManager16staticMetaObjectE"                             @904    ; magicseg='DATA32' len=38
+
+  ; segment TEXT32
+  "__ZNK13SystemManager10metaObjectEv"                                 @905    ; magicseg='TEXT32' len=34
+  "__ZN13SystemManager11qt_metacastEPKc"                               @906    ; magicseg='TEXT32' len=36
+  "__ZN13SystemManager17systemIdleChangedEi"                           @907    ; magicseg='TEXT32' len=40
+  "__ZN13SystemManager11qt_metacallEN11QMetaObject4CallEiPPv"          @908    ; magicseg='TEXT32' len=57
+  "__ZN13SystemManagerD1Ev"                                            @909    ; magicseg='TEXT32' len=23  weak
+  "__ZTV13SystemManager"                                               @910    ; magicseg='TEXT32' len=20  weak
+  "__ZN13SystemManagerD0Ev"                                            @911    ; magicseg='TEXT32' len=23  weak
+  "__ZTI13SystemManager"                                               @912    ; magicseg='TEXT32' len=20  weak
+  "__ZTS13SystemManager"                                               @913    ; magicseg='TEXT32' len=20  weak
+  "__ZTI7QObject"                                                      @914    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @915    ; magicseg='TEXT32' len=13  weak
+
+  ; segment DATA32
+  "__ZN14ToolBarChanger16staticMetaObjectE"                            @916    ; magicseg='DATA32' len=39
+
+  ; segment TEXT32
+  "__ZNK14ToolBarChanger10metaObjectEv"                                @917    ; magicseg='TEXT32' len=35
+  "__ZN14ToolBarChanger11qt_metacastEPKc"                              @918    ; magicseg='TEXT32' len=37
+  "__ZN14ToolBarChanger12itemInsertedEP7QActionS1_P6ActionP7QWidgeti"                      @919    ; magicseg='TEXT32' len=65
+  "__ZN14ToolBarChanger11itemRemovedEP7QAction"                        @920    ; magicseg='TEXT32' len=43
+  "__ZN14ToolBarChanger23toolBarChangerDestroyedEPS_"                  @921    ; magicseg='TEXT32' len=49
+  "__ZN14ToolBarChanger11qt_metacallEN11QMetaObject4CallEiPPv"         @922    ; magicseg='TEXT32' len=58
+  "__ZTV14ToolBarChanger"                                              @923    ; magicseg='TEXT32' len=21  weak
+  "__ZTI14ToolBarChanger"                                              @924    ; magicseg='TEXT32' len=21  weak
+  "__ZTS14ToolBarChanger"                                              @925    ; magicseg='TEXT32' len=21  weak
+  "__ZTI7QObject"                                                      @926    ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @927    ; magicseg='TEXT32' len=13  weak
+
+  ; segment BSS32
+  "__ZN7Options1dE"                                                    @928    ; magicseg='BSS32' len=15
+  "__ZN11OptionsNode4nullE"                                            @929    ; magicseg='BSS32' len=23
+
+  ; segment TEXT32
+  "__Z16findChildElementRK11QDomElementRK7QStringS4_RS2_S5_S5_"        @930    ; magicseg='TEXT32' len=59
+  "__Z13findChildTextRK11QDomElement"                                  @931    ; magicseg='TEXT32' len=33
+  "__Z15fullOptionsPathRK7QStringS1_"                                  @932    ; magicseg='TEXT32' len=33
+  "__Z12fullFileNameRK7QStringS1_"                                     @933    ; magicseg='TEXT32' len=30
+  "__Z14xtea2_encipherjPjPKj"                                          @934    ; magicseg='TEXT32' len=25
+  "__Z14xtea2_decipherjPjPKj"                                          @935    ; magicseg='TEXT32' len=25
+  "__ZN11OptionsNodeC2ERK11QDomElement"                                @936    ; magicseg='TEXT32' len=35
+  "__ZN11OptionsNodeC1ERK11QDomElement"                                @937    ; magicseg='TEXT32' len=35
+  "__ZN11OptionsNodeD2Ev"                                              @938    ; magicseg='TEXT32' len=21
+  "__ZN11OptionsNodeD1Ev"                                              @939    ; magicseg='TEXT32' len=21
+  "__ZNK11OptionsNode6isNullEv"                                        @940    ; magicseg='TEXT32' len=27
+  "__ZNK11OptionsNode4nameEv"                                          @941    ; magicseg='TEXT32' len=25
+  "__ZNK11OptionsNode6nspaceEv"                                        @942    ; magicseg='TEXT32' len=27
+  "__ZNK11OptionsNode6parentEv"                                        @943    ; magicseg='TEXT32' len=27
+  "__ZNK11OptionsNode11isChildNodeERKS_"                               @944    ; magicseg='TEXT32' len=36
+  "__ZNK11OptionsNode9childPathERKS_"                                  @945    ; magicseg='TEXT32' len=33
+  "__ZNK11OptionsNode7hasNodeERK7QStringS2_"                           @946    ; magicseg='TEXT32' len=40
+  "__ZNK11OptionsNodeeqERKS_"                                          @947    ; magicseg='TEXT32' len=25
+  "__ZNK11OptionsNodeneERKS_"                                          @948    ; magicseg='TEXT32' len=25
+  "__ZN11OptionsNodeaSERKS_"                                           @949    ; magicseg='TEXT32' len=24
+  "__ZN11OptionsNodeC2ERKS_"                                           @950    ; magicseg='TEXT32' len=24
+  "__ZN11OptionsNodeC1ERKS_"                                           @951    ; magicseg='TEXT32' len=24
+  "__ZN11OptionsNodeC2Ev"                                              @952    ; magicseg='TEXT32' len=21
+  "__ZN11OptionsNodeC1Ev"                                              @953    ; magicseg='TEXT32' len=21
+  "__ZN7Options8instanceEv"                                            @954    ; magicseg='TEXT32' len=23
+  "__ZN11OptionsNode10removeNodeERK7QStringS2_"                        @955    ; magicseg='TEXT32' len=43
+  "__ZNK11OptionsNode4nodeERK7QStringS2_"                              @956    ; magicseg='TEXT32' len=37
+  "__ZNK11OptionsNode8hasValueERK7QStringS2_"                          @957    ; magicseg='TEXT32' len=41
+  "__ZN11OptionsNode12removeChildsERK7QStringS2_"                      @958    ; magicseg='TEXT32' len=45
+  "__ZN7Options6isNullEv"                                              @959    ; magicseg='TEXT32' len=21
+  "__ZN7Options9filesPathEv"                                           @960    ; magicseg='TEXT32' len=24
+  "__ZN7Options8cryptKeyEv"                                            @961    ; magicseg='TEXT32' len=23
+  "__ZN7Options12cleanNSpacesERK7QString"                              @962    ; magicseg='TEXT32' len=37
+  "__ZN7Options7hasNodeERK7QStringS2_"                                 @963    ; magicseg='TEXT32' len=34
+  "__ZN7Options4nodeERK7QStringS2_"                                    @964    ; magicseg='TEXT32' len=31
+  "__ZNK11OptionsNode4pathEv"                                          @965    ; magicseg='TEXT32' len=25
+  "__ZN7Options12setFileValueERK8QVariantRK7QStringS5_"                @966    ; magicseg='TEXT32' len=51
+  "__ZN7Options10setOptionsE12QDomDocumentRK7QStringRK10QByteArray"    @967    ; magicseg='TEXT32' len=63
+  "__Z15variantToStringRK8QVariant"                                    @968    ; magicseg='TEXT32' len=31
+  "__ZN7Options7encryptERK8QVariantRK10QByteArray"                     @969    ; magicseg='TEXT32' len=46
+  "__ZNK11OptionsNode12childNSpacesERK7QString"                        @970    ; magicseg='TEXT32' len=43
+  "__ZNK11OptionsNode10childNamesEv"                                   @971    ; magicseg='TEXT32' len=32
+  "__ZNK11OptionsNode13parentNSpacesEv"                                @972    ; magicseg='TEXT32' len=35
+  "__ZN7Options12defaultValueERK7QString"                              @973    ; magicseg='TEXT32' len=37
+  "__ZN7Options9fileValueERK7QStringS2_"                               @974    ; magicseg='TEXT32' len=36
+  "__Z15stringToVariantRK7QStringN8QVariant4TypeE"                     @975    ; magicseg='TEXT32' len=46
+  "__ZNK11OptionsNode5valueERK7QStringS2_"                             @976    ; magicseg='TEXT32' len=38
+  "__ZN11OptionsNode8setValueERK8QVariantRK7QStringS5_"                @977    ; magicseg='TEXT32' len=51
+  "__Z16exportOptionNodeRK11OptionsNodeR11QDomElement"                 @978    ; magicseg='TEXT32' len=50
+  "__ZN7Options10exportNodeERK7QStringR11QDomElement"                  @979    ; magicseg='TEXT32' len=49
+  "__ZN7Options7decryptERK10QByteArrayS2_"                             @980    ; magicseg='TEXT32' len=38
+  "__Z16importOptionNodeR11OptionsNodeRK11QDomElement"                 @981    ; magicseg='TEXT32' len=50
+  "__ZN7Options10importNodeERK7QStringRK11QDomElement"                 @982    ; magicseg='TEXT32' len=50
+  "__ZN7Options15setDefaultValueERK7QStringRK8QVariant"                @983    ; magicseg='TEXT32' len=51
+  "__ZN10QByteArrayD1Ev"                                               @984    ; magicseg='TEXT32' len=20  weak
+  "__ZN7QStringD1Ev"                                                   @985    ; magicseg='TEXT32' len=16  weak
+  "__ZN5QHashI7QString10OptionItemE11deleteNode2EPN9QHashData4NodeE"   @986    ; magicseg='TEXT32' len=64  weak
+  "__ZN5QHashI7QString10OptionItemE13duplicateNodeEPN9QHashData4NodeEPv"                   @987    ; magicseg='TEXT32' len=68  weak
+  "__ZN5QListI7QStringED2Ev"                                           @988    ; magicseg='TEXT32' len=24  weak
+  "__ZN5QListI7QStringED1Ev"                                           @989    ; magicseg='TEXT32' len=24  weak
+  "__ZNK5QListI7QStringE8containsERKS0_"                               @990    ; magicseg='TEXT32' len=36  weak
+  "__ZN5QListI10QByteArrayED1Ev"                                       @991    ; magicseg='TEXT32' len=28  weak
+  "__ZNK5QListI10QByteArrayE5valueEi"                                  @992    ; magicseg='TEXT32' len=33  weak
+  "__ZN5QListI7QStringE18detach_helper_growEii"                        @993    ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListI7QStringE6appendERKS0_"                                  @994    ; magicseg='TEXT32' len=33  weak
+  "__ZNK5QHashI7QString10OptionItemE8findNodeERKS0_Pj"                 @995    ; magicseg='TEXT32' len=50  weak
+  "__ZN5QListI7QStringE13detach_helperEi"                              @996    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI7QStringE13detach_helperEv"                              @997    ; magicseg='TEXT32' len=37  weak
+  "__ZN5QHashI7QString10OptionItemE13detach_helperEv"                  @998    ; magicseg='TEXT32' len=49  weak
+
+  ; segment TEXT32
+  "__ZNK10RingBuffer7isEmptyEv"                                        @999    ; magicseg='TEXT32' len=27
+  "__ZNK10RingBuffer4sizeEv"                                           @1000   ; magicseg='TEXT32' len=24
+  "__ZNK10RingBuffer11maximumSizeEv"                                   @1001   ; magicseg='TEXT32' len=32
+  "__ZNK10RingBuffer7indexOfEc"                                        @1002   ; magicseg='TEXT32' len=27
+  "__ZNK10RingBuffer11canReadLineEv"                                   @1003   ; magicseg='TEXT32' len=32
+  "__ZNK10RingBuffer17nextDataBlockSizeEv"                             @1004   ; magicseg='TEXT32' len=38
+  "__ZNK10RingBuffer11readPointerEv"                                   @1005   ; magicseg='TEXT32' len=32
+  "__ZNK10RingBuffer4peekEi"                                           @1006   ; magicseg='TEXT32' len=24
+  "__ZN10RingBuffer4chopEi"                                            @1007   ; magicseg='TEXT32' len=23
+  "__ZN10RingBuffer8truncateEi"                                        @1008   ; magicseg='TEXT32' len=27
+  "__ZN10RingBuffer5clearEv"                                           @1009   ; magicseg='TEXT32' len=24
+  "__ZN10RingBufferC2Eii"                                              @1010   ; magicseg='TEXT32' len=21
+  "__ZN10RingBufferC1Eii"                                              @1011   ; magicseg='TEXT32' len=21
+  "__ZN10RingBuffer7reserveEi"                                         @1012   ; magicseg='TEXT32' len=26
+  "__ZN10RingBuffer5writeEPKci"                                        @1013   ; magicseg='TEXT32' len=27
+  "__ZN10RingBuffer5writeE10QByteArray"                                @1014   ; magicseg='TEXT32' len=35
+  "__ZN10RingBuffer4freeEi"                                            @1015   ; magicseg='TEXT32' len=23
+  "__ZN10RingBuffer4readEPci"                                          @1016   ; magicseg='TEXT32' len=25
+  "__ZN10RingBuffer4readEi"                                            @1017   ; magicseg='TEXT32' len=23
+  "__ZN10RingBuffer4skipEi"                                            @1018   ; magicseg='TEXT32' len=23
+  "__ZN10RingBuffer8readLineEPci"                                      @1019   ; magicseg='TEXT32' len=29
+  "__ZN10QByteArrayD1Ev"                                               @1020   ; magicseg='TEXT32' len=20  weak
+  "__ZN5QListI10QByteArrayED1Ev"                                       @1021   ; magicseg='TEXT32' len=28  weak
+  "__ZN5QListI10QByteArrayE18detach_helper_growEii"                    @1022   ; magicseg='TEXT32' len=47  weak
+  "__ZN5QListI10QByteArrayE6appendERKS0_"                              @1023   ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI10QByteArrayE13detach_helperEi"                          @1024   ; magicseg='TEXT32' len=41  weak
+  "__ZN5QListI10QByteArrayE13detach_helperEv"                          @1025   ; magicseg='TEXT32' len=41  weak
+  "__ZN5QListI10QByteArrayE5clearEv"                                   @1026   ; magicseg='TEXT32' len=32  weak
+
+  ; segment TEXT32
+  "__ZN14SearchLineEditD2Ev"                                           @1027   ; magicseg='TEXT32' len=24
+  "__ZN14SearchLineEditD1Ev"                                           @1028   ; magicseg='TEXT32' len=24
+  "__ZThn8_N14SearchLineEditD1Ev"                                      @1029   ; magicseg='TEXT32' len=29
+  "__ZN14SearchLineEditD0Ev"                                           @1030   ; magicseg='TEXT32' len=24
+  "__ZThn8_N14SearchLineEditD0Ev"                                      @1031   ; magicseg='TEXT32' len=29
+  "__ZNK14SearchLineEdit10searchMenuEv"                                @1032   ; magicseg='TEXT32' len=35
+  "__ZNK14SearchLineEdit11clearButtonEv"                               @1033   ; magicseg='TEXT32' len=36
+  "__ZNK14SearchLineEdit16isStartingSearchEv"                          @1034   ; magicseg='TEXT32' len=41
+  "__ZN14SearchLineEdit14restartTimeoutEi"                             @1035   ; magicseg='TEXT32' len=38
+  "__ZNK14SearchLineEdit18startSearchTimeoutEv"                        @1036   ; magicseg='TEXT32' len=43
+  "__ZN14SearchLineEdit21setStartSearchTimeoutEi"                      @1037   ; magicseg='TEXT32' len=45
+  "__ZNK14SearchLineEdit19isSearchMenuVisibleEv"                       @1038   ; magicseg='TEXT32' len=44
+  "__ZNK14SearchLineEdit26isSelectTextOnFocusEnabledEv"                @1039   ; magicseg='TEXT32' len=51
+  "__ZN14SearchLineEdit27setSelectTextOnFocusEnabledEb"                @1040   ; magicseg='TEXT32' len=51
+  "__ZN14SearchLineEdit5eventEP6QEvent"                                @1041   ; magicseg='TEXT32' len=35
+  "__ZN14SearchLineEdit17updateTextMarginsEv"                          @1042   ; magicseg='TEXT32' len=41
+  "__ZN14SearchLineEdit9showEventEP10QShowEvent"                       @1043   ; magicseg='TEXT32' len=44
+  "__ZN14SearchLineEdit20setSearchMenuVisibleEb"                       @1044   ; magicseg='TEXT32' len=44
+  "__ZN14SearchLineEdit19updateLayoutMarginsEv"                        @1045   ; magicseg='TEXT32' len=43
+  "__ZN14SearchLineEditC2EP7QWidget"                                   @1046   ; magicseg='TEXT32' len=32
+  "__ZN14SearchLineEditC1EP7QWidget"                                   @1047   ; magicseg='TEXT32' len=32
+  "__ZN14SearchLineEdit19onStartTimerTimeoutEv"                        @1048   ; magicseg='TEXT32' len=43
+  "__ZN14SearchLineEdit20onClearButtonClickedEv"                       @1049   ; magicseg='TEXT32' len=44
+  "__ZN14SearchLineEdit23onLineEditReturnPressedEv"                    @1050   ; magicseg='TEXT32' len=47
+  "__ZN14SearchLineEdit21onLineEditTextChangedERK7QString"             @1051   ; magicseg='TEXT32' len=54
+  "__ZN7QStringD1Ev"                                                   @1052   ; magicseg='TEXT32' len=16  weak
+
+  ; segment BSS32
+  "__ZN9Shortcuts1dE"                                                  @1053   ; magicseg='BSS32' len=17
+
+  ; segment TEXT32
+  "__Z18correctKeySequenceRK12QKeySequence"                            @1054   ; magicseg='TEXT32' len=39
+  "__ZN9Shortcuts8instanceEv"                                          @1055   ; magicseg='TEXT32' len=25
+  "__ZN9Shortcuts14objectShortcutEP7QObject"                           @1056   ; magicseg='TEXT32' len=40
+  "__ZN9Shortcuts16activateShortcutERK7QStringP7QWidget"               @1057   ; magicseg='TEXT32' len=52
+  "__ZN9Shortcuts14convertContextENS_7ContextE"                        @1058   ; magicseg='TEXT32' len=43
+  "__ZN9Shortcuts19onShortcutActivatedEv"                              @1059   ; magicseg='TEXT32' len=37
+  "__ZN9Shortcuts25onGlobalShortcutActivatedEv"                        @1060   ; magicseg='TEXT32' len=43
+  "__ZN9Shortcuts10groupOrderERK7QString"                              @1061   ; magicseg='TEXT32' len=37
+  "__ZN9Shortcuts16groupDescriptionERK7QString"                        @1062   ; magicseg='TEXT32' len=43
+  "__ZN9Shortcuts12updateObjectEP7QObject"                             @1063   ; magicseg='TEXT32' len=38
+  "__ZN9Shortcuts18shortcutDescriptorERK7QString"                      @1064   ; magicseg='TEXT32' len=45
+  "__ZN9Shortcuts12updateGlobalEP17QxtGlobalShortcut"                  @1065   ; magicseg='TEXT32' len=49
+  "__ZN9Shortcuts12updateWidgetEP9QShortcut"                           @1066   ; magicseg='TEXT32' len=40
+  "__ZN9Shortcuts22isGlobalShortcutActiveERK7QString"                  @1067   ; magicseg='TEXT32' len=49
+  "__ZN9Shortcuts6groupsEv"                                            @1068   ; magicseg='TEXT32' len=23
+  "__ZN9Shortcuts9shortcutsEv"                                         @1069   ; magicseg='TEXT32' len=26
+  "__ZN9Shortcuts15globalShortcutsEv"                                  @1070   ; magicseg='TEXT32' len=33
+  "__ZN9Shortcuts12declareGroupERK7QStringS2_i"                        @1071   ; magicseg='TEXT32' len=43
+  "__ZN9Shortcuts15declareShortcutERK7QStringS2_RK12QKeySequenceNS_7ContextE"              @1072   ; magicseg='TEXT32' len=73
+  "__ZN9Shortcuts17onObjectDestroyedEP7QObject"                        @1073   ; magicseg='TEXT32' len=43
+  "__ZN9Shortcuts18bindObjectShortcutERK7QStringP7QObject"             @1074   ; magicseg='TEXT32' len=54
+  "__ZN9Shortcuts17setGlobalShortcutERK7QStringb"                      @1075   ; magicseg='TEXT32' len=45
+  "__ZN9Shortcuts17onWidgetDestroyedEP7QObject"                        @1076   ; magicseg='TEXT32' len=43
+  "__ZN9Shortcuts15widgetShortcutsEP7QWidget"                          @1077   ; magicseg='TEXT32' len=41
+  "__ZN9Shortcuts20insertWidgetShortcutERK7QStringP7QWidget"           @1078   ; magicseg='TEXT32' len=56
+  "__ZN9Shortcuts20removeWidgetShortcutERK7QStringP7QWidget"           @1079   ; magicseg='TEXT32' len=56
+  "__ZN9Shortcuts14updateShortcutERK7QStringRK12QKeySequence"          @1080   ; magicseg='TEXT32' len=57
+  "__ZN5QHashI7QString5QPairIS0_iEE13duplicateNodeEPN9QHashData4NodeEPv"                   @1081   ; magicseg='TEXT32' len=68  weak
+  "__ZN7QStringD1Ev"                                                   @1082   ; magicseg='TEXT32' len=16  weak
+  "__ZN5QHashI7QString5QPairIS0_iEE11deleteNode2EPN9QHashData4NodeE"   @1083   ; magicseg='TEXT32' len=64  weak
+  "__ZN5QHashI7QStringN9Shortcuts10DescriptorEE11deleteNode2EPN9QHashData4NodeE"           @1084   ; magicseg='TEXT32' len=76  weak
+  "__ZN5QHashI7QStringN9Shortcuts10DescriptorEE13duplicateNodeEPN9QHashData4NodeEPv"       @1085   ; magicseg='TEXT32' len=80  weak
+  "__ZN9Shortcuts10DescriptorD1Ev"                                     @1086   ; magicseg='TEXT32' len=30  weak
+  "__ZN5QListI7QStringED1Ev"                                           @1087   ; magicseg='TEXT32' len=24  weak
+  "__ZN5QListIP7QObjectED1Ev"                                          @1088   ; magicseg='TEXT32' len=25  weak
+  "__ZN5QListIP9QShortcutED1Ev"                                        @1089   ; magicseg='TEXT32' len=27  weak
+  "__ZN5QListIP17QxtGlobalShortcutED1Ev"                               @1090   ; magicseg='TEXT32' len=36  weak
+  "__ZNK5QListI7QStringE8containsERKS0_"                               @1091   ; magicseg='TEXT32' len=36  weak
+  "__ZN5QListIP7QWidgetED1Ev"                                          @1092   ; magicseg='TEXT32' len=25  weak
+  "__ZN5QListIP7QActionED1Ev"                                          @1093   ; magicseg='TEXT32' len=25  weak
+  "__ZN5QListI7QStringE18detach_helper_growEii"                        @1094   ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListI7QStringE6appendERKS0_"                                  @1095   ; magicseg='TEXT32' len=33  weak
+  "__ZNK5QHashI7QString5QPairIS0_iEE8findNodeERKS0_Pj"                 @1096   ; magicseg='TEXT32' len=50  weak
+  "__ZNK5QHashI7QStringN9Shortcuts10DescriptorEE8findNodeERKS0_Pj"     @1097   ; magicseg='TEXT32' len=62  weak
+  "__ZNK4QMapIP7QObject7QStringE15mutableFindNodeEPPN8QMapData4NodeERKS1_"                 @1098   ; magicseg='TEXT32' len=70  weak
+  "__ZNK4QMapIP9QShortcut7QStringE15mutableFindNodeEPPN8QMapData4NodeERKS1_"               @1099   ; magicseg='TEXT32' len=72  weak
+  "__ZNK4QMapIP9QShortcutP7QWidgetE15mutableFindNodeEPPN8QMapData4NodeERKS1_"              @1100   ; magicseg='TEXT32' len=73  weak
+  "__ZNK4QMapIP17QxtGlobalShortcut7QStringE3keyERKS2_RKS1_"            @1101   ; magicseg='TEXT32' len=55  weak
+  "__ZNK4QMapIP17QxtGlobalShortcut7QStringE3keyERKS2_"                 @1102   ; magicseg='TEXT32' len=50  weak
+  "__ZNK4QMapIP17QxtGlobalShortcut7QStringE15mutableFindNodeEPPN8QMapData4NodeERKS1_"      @1103   ; magicseg='TEXT32' len=81  weak
+  "__ZN5QListI7QStringE13detach_helperEi"                              @1104   ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI7QStringE7reserveEi"                                     @1105   ; magicseg='TEXT32' len=30  weak
+  "__ZNK5QHashI7QString5QPairIS0_iEE4keysEv"                           @1106   ; magicseg='TEXT32' len=40  weak
+  "__ZNK5QHashI7QStringN9Shortcuts10DescriptorEE4keysEv"               @1107   ; magicseg='TEXT32' len=52  weak
+  "__ZNK4QMapIP17QxtGlobalShortcut7QStringE6valuesEv"                  @1108   ; magicseg='TEXT32' len=49  weak
+  "__ZN5QHashI7QString5QPairIS0_iEE13detach_helperEv"                  @1109   ; magicseg='TEXT32' len=49  weak
+  "__ZN5QHashI7QStringN9Shortcuts10DescriptorEE13detach_helperEv"      @1110   ; magicseg='TEXT32' len=61  weak
+  "__ZN5QListIP7QObjectE18detach_helper_growEii"                       @1111   ; magicseg='TEXT32' len=44  weak
+  "__ZN5QListIP7QObjectE6appendERKS1_"                                 @1112   ; magicseg='TEXT32' len=34  weak
+  "__ZNK4QMapIP7QObject7QStringE4keysERKS2_"                           @1113   ; magicseg='TEXT32' len=40  weak
+  "__ZN5QListIP9QShortcutE18detach_helper_growEii"                     @1114   ; magicseg='TEXT32' len=46  weak
+  "__ZN5QListIP9QShortcutE6appendERKS1_"                               @1115   ; magicseg='TEXT32' len=36  weak
+  "__ZNK4QMapIP9QShortcutP7QWidgetE4keysERKS3_"                        @1116   ; magicseg='TEXT32' len=43  weak
+  "__ZNK4QMapIP9QShortcut7QStringE4keysERKS2_"                         @1117   ; magicseg='TEXT32' len=42  weak
+  "__ZN5QListIP17QxtGlobalShortcutE18detach_helper_growEii"            @1118   ; magicseg='TEXT32' len=55  weak
+  "__ZN5QListIP17QxtGlobalShortcutE6appendERKS1_"                      @1119   ; magicseg='TEXT32' len=45  weak
+  "__ZNK4QMapIP17QxtGlobalShortcut7QStringE4keysERKS2_"                @1120   ; magicseg='TEXT32' len=51  weak
+  "__ZN4QMapIP7QObject7QStringE13detach_helperEv"                      @1121   ; magicseg='TEXT32' len=45  weak
+  "__ZN4QMapIP7QObject7QStringE6removeERKS1_"                          @1122   ; magicseg='TEXT32' len=41  weak
+  "__ZN5QListIP7QWidgetE13detach_helperEi"                             @1123   ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP7QWidgetE7reserveEi"                                    @1124   ; magicseg='TEXT32' len=31  weak
+  "__ZN5QListIP7QWidgetE18detach_helper_growEii"                       @1125   ; magicseg='TEXT32' len=44  weak
+  "__ZN5QListIP7QWidgetE6appendERKS1_"                                 @1126   ; magicseg='TEXT32' len=34  weak
+  "__ZNK4QMapIP9QShortcutP7QWidgetE6valuesEv"                          @1127   ; magicseg='TEXT32' len=41  weak
+  "__ZN5QListIP7QWidgetE13detach_helperEv"                             @1128   ; magicseg='TEXT32' len=38  weak
+  "__ZN4QMapIP9QShortcut7QStringE13detach_helperEv"                    @1129   ; magicseg='TEXT32' len=47  weak
+  "__ZN4QMapIP9QShortcut7QStringE4takeERKS1_"                          @1130   ; magicseg='TEXT32' len=41  weak
+  "__ZN4QMapIP9QShortcut7QStringE6removeERKS1_"                        @1131   ; magicseg='TEXT32' len=43  weak
+  "__ZN4QMapIP9QShortcutP7QWidgetE13detach_helperEv"                   @1132   ; magicseg='TEXT32' len=48  weak
+  "__ZN4QMapIP9QShortcutP7QWidgetE6removeERKS1_"                       @1133   ; magicseg='TEXT32' len=44  weak
+  "__ZN4QMapIP17QxtGlobalShortcut7QStringE13detach_helperEv"           @1134   ; magicseg='TEXT32' len=56  weak
+  "__ZN4QMapIP17QxtGlobalShortcut7QStringE6removeERKS1_"               @1135   ; magicseg='TEXT32' len=52  weak
+  "__ZN5QListIP7QObjectE13detach_helperEi"                             @1136   ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP7QObjectE13detach_helperEv"                             @1137   ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP9QShortcutE13detach_helperEi"                           @1138   ; magicseg='TEXT32' len=40  weak
+  "__ZN5QListIP9QShortcutE13detach_helperEv"                           @1139   ; magicseg='TEXT32' len=40  weak
+  "__ZN5QListIP17QxtGlobalShortcutE13detach_helperEi"                  @1140   ; magicseg='TEXT32' len=49  weak
+  "__ZN5QListIP17QxtGlobalShortcutE13detach_helperEv"                  @1141   ; magicseg='TEXT32' len=49  weak
+
+  ; segment TEXT32
+  "__ZN10StanzaDataC2ERK7QString"                                      @1142   ; magicseg='TEXT32' len=29
+  "__ZN10StanzaDataC1ERK7QString"                                      @1143   ; magicseg='TEXT32' len=29
+  "__ZN10StanzaDataC2ERK11QDomElement"                                 @1144   ; magicseg='TEXT32' len=34
+  "__ZN10StanzaDataC1ERK11QDomElement"                                 @1145   ; magicseg='TEXT32' len=34
+  "__ZN10StanzaDataC2ERKS_"                                            @1146   ; magicseg='TEXT32' len=23
+  "__ZN10StanzaDataC1ERKS_"                                            @1147   ; magicseg='TEXT32' len=23
+  "__ZN6StanzaD2Ev"                                                    @1148   ; magicseg='TEXT32' len=15
+  "__ZN6StanzaD1Ev"                                                    @1149   ; magicseg='TEXT32' len=15
+  "__ZNK6Stanza8documentEv"                                            @1150   ; magicseg='TEXT32' len=23
+  "__ZNK6Stanza7elementEv"                                             @1151   ; magicseg='TEXT32' len=22
+  "__ZNK6Stanza9attributeERK7QString"                                  @1152   ; magicseg='TEXT32' len=33
+  "__ZNK6Stanza7tagNameEv"                                             @1153   ; magicseg='TEXT32' len=22
+  "__ZNK6Stanza4typeEv"                                                @1154   ; magicseg='TEXT32' len=19
+  "__ZNK6Stanza2idEv"                                                  @1155   ; magicseg='TEXT32' len=17
+  "__ZNK6Stanza2toEv"                                                  @1156   ; magicseg='TEXT32' len=17
+  "__ZNK6Stanza4fromEv"                                                @1157   ; magicseg='TEXT32' len=19
+  "__ZNK6Stanza12isFromServerEv"                                       @1158   ; magicseg='TEXT32' len=28
+  "__ZNK6Stanza4langEv"                                                @1159   ; magicseg='TEXT32' len=19
+  "__ZNK6Stanza8toStringEi"                                            @1160   ; magicseg='TEXT32' len=23
+  "__ZNK6Stanza11toByteArrayEv"                                        @1161   ; magicseg='TEXT32' len=27
+  "__ZN6Stanza11findElementERK11QDomElementRK7QStringS5_"              @1162   ; magicseg='TEXT32' len=53
+  "__ZNK6Stanza12firstElementERK7QStringS2_"                           @1163   ; magicseg='TEXT32' len=40
+  "__ZNK6Stanza7isValidEv"                                             @1164   ; magicseg='TEXT32' len=22
+  "__ZN6StanzaC2ERK11QDomElement"                                      @1165   ; magicseg='TEXT32' len=29
+  "__ZN6StanzaC1ERK11QDomElement"                                      @1166   ; magicseg='TEXT32' len=29
+  "__ZN6StanzaC2ERK7QString"                                           @1167   ; magicseg='TEXT32' len=24
+  "__ZN6StanzaC1ERK7QString"                                           @1168   ; magicseg='TEXT32' len=24
+  "__ZN6Stanza14createTextNodeERK7QString"                             @1169   ; magicseg='TEXT32' len=38
+  "__ZN6Stanza10setTagNameERK7QString"                                 @1170   ; magicseg='TEXT32' len=34
+  "__ZN6Stanza6detachEv"                                               @1171   ; magicseg='TEXT32' len=20
+  "__ZN6Stanza13createElementERK7QStringS2_"                           @1172   ; magicseg='TEXT32' len=40
+  "__ZN6Stanza10addElementERK7QStringS2_"                              @1173   ; magicseg='TEXT32' len=37
+  "__ZN6Stanza12setAttributeERK7QStringS2_"                            @1174   ; magicseg='TEXT32' len=39
+  "__ZN6Stanza7setLangERK7QString"                                     @1175   ; magicseg='TEXT32' len=30
+  "__ZN6Stanza7setFromERK7QString"                                     @1176   ; magicseg='TEXT32' len=30
+  "__ZN6Stanza5setToERK7QString"                                       @1177   ; magicseg='TEXT32' len=28
+  "__ZN6Stanza5setIdERK7QString"                                       @1178   ; magicseg='TEXT32' len=28
+  "__ZN6Stanza7setTypeERK7QString"                                     @1179   ; magicseg='TEXT32' len=30
+  "__ZN7QStringD1Ev"                                                   @1180   ; magicseg='TEXT32' len=16  weak
+  "__ZN18QSharedDataPointerI10StanzaDataED1Ev"                         @1181   ; magicseg='TEXT32' len=42  weak
+  "__ZN18QSharedDataPointerI10StanzaDataE13detach_helperEv"            @1182   ; magicseg='TEXT32' len=55  weak
+
+  ; segment TEXT32
+  "__ZNK16StatusBarChanger7isEmptyEv"                                  @1183   ; magicseg='TEXT32' len=33
+  "__ZNK16StatusBarChanger16manageVisibitilyEv"                        @1184   ; magicseg='TEXT32' len=43
+  "__ZNK16StatusBarChanger9statusBarEv"                                @1185   ; magicseg='TEXT32' len=35
+  "__ZNK16StatusBarChanger11widgetGroupEP7QWidget"                     @1186   ; magicseg='TEXT32' len=46
+  "__ZN16StatusBarChanger13updateVisibleEv"                            @1187   ; magicseg='TEXT32' len=39
+  "__ZN16StatusBarChanger19setManageVisibilityEb"                      @1188   ; magicseg='TEXT32' len=45
+  "__ZN16StatusBarChanger11eventFilterEP7QObjectP6QEvent"              @1189   ; magicseg='TEXT32' len=53
+  "__ZN16StatusBarChanger15onChangeVisibleEv"                          @1190   ; magicseg='TEXT32' len=41
+  "__ZN16StatusBarChangerD2Ev"                                         @1191   ; magicseg='TEXT32' len=26
+  "__ZN16StatusBarChangerD1Ev"                                         @1192   ; magicseg='TEXT32' len=26
+  "__ZN16StatusBarChangerD0Ev"                                         @1193   ; magicseg='TEXT32' len=26
+  "__ZN16StatusBarChangerC2EP10QStatusBar"                             @1194   ; magicseg='TEXT32' len=38
+  "__ZN16StatusBarChangerC1EP10QStatusBar"                             @1195   ; magicseg='TEXT32' len=38
+  "__ZNK16StatusBarChanger12groupWidgetsEi"                            @1196   ; magicseg='TEXT32' len=39
+  "__ZN16StatusBarChanger12insertWidgetEP7QWidgetibi"                  @1197   ; magicseg='TEXT32' len=49
+  "__ZN16StatusBarChanger17onWidgetDestroyedEP7QObject"                @1198   ; magicseg='TEXT32' len=51
+  "__ZN16StatusBarChanger12removeWidgetEP7QWidget"                     @1199   ; magicseg='TEXT32' len=46
+  "__ZN16StatusBarChanger5clearEv"                                     @1200   ; magicseg='TEXT32' len=30
+  "__ZN4QMapIiP7QWidgetED2Ev"                                          @1201   ; magicseg='TEXT32' len=25  weak
+  "__ZN5QListIP7QWidgetED1Ev"                                          @1202   ; magicseg='TEXT32' len=25  weak
+  "__ZNK5QListIP7QWidgetE7indexOfERKS1_i"                              @1203   ; magicseg='TEXT32' len=37  weak
+  "__ZNK4QMapIiP7QWidgetE15mutableFindNodeEPPN8QMapData4NodeERKi"      @1204   ; magicseg='TEXT32' len=61  weak
+  "__ZN5QListIP7QWidgetE13detach_helperEi"                             @1205   ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP7QWidgetE7reserveEi"                                    @1206   ; magicseg='TEXT32' len=31  weak
+  "__ZN5QListIP7QWidgetE13detach_helperEv"                             @1207   ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP7QWidgetE18detach_helper_growEii"                       @1208   ; magicseg='TEXT32' len=44  weak
+  "__ZN5QListIP7QWidgetE6appendERKS1_"                                 @1209   ; magicseg='TEXT32' len=34  weak
+  "__ZNK4QMapIiP7QWidgetE6valuesEv"                                    @1210   ; magicseg='TEXT32' len=31  weak
+  "__ZNK4QMapIiP7QWidgetE6valuesERKi"                                  @1211   ; magicseg='TEXT32' len=33  weak
+  "__ZN4QMapIiP7QWidgetE13detach_helperEv"                             @1212   ; magicseg='TEXT32' len=38  weak
+  "__ZN4QMapIiP7QWidgetE5eraseENS2_8iteratorE"                         @1213   ; magicseg='TEXT32' len=42  weak
+
+  ; segment BSS32
+  "__ZN13SystemManager1dE"                                             @1214   ; magicseg='BSS32' len=22
+
+  ; segment TEXT32
+  "__ZN13SystemManager8instanceEv"                                     @1215   ; magicseg='TEXT32' len=30
+  "__ZN13SystemManager10systemIdleEv"                                  @1216   ; magicseg='TEXT32' len=33
+  "__ZN13SystemManager18isSystemIdleActiveEv"                          @1217   ; magicseg='TEXT32' len=41
+  "__ZN13SystemManager15startSystemIdleEv"                             @1218   ; magicseg='TEXT32' len=38
+  "__ZN13SystemManager14stopSystemIdleEv"                              @1219   ; magicseg='TEXT32' len=37
+  "__ZN13SystemManager13onIdleChangedEi"                               @1220   ; magicseg='TEXT32' len=36
+
+  ; segment TEXT32
+  "__ZN11TextManager15getDocumentBodyERK13QTextDocument"               @1221   ; magicseg='TEXT32' len=52
+  "__ZN11TextManager19getTextFragmentHrefERK21QTextDocumentFragment"   @1222   ; magicseg='TEXT32' len=64
+  "__ZN11TextManager20insertQuotedFragmentE11QTextCursorRK21QTextDocumentFragment"         @1223   ; magicseg='TEXT32' len=78
+  "__ZN11TextManager22getTrimmedTextFragmentERK21QTextDocumentFragmentb"                   @1224   ; magicseg='TEXT32' len=68
+  "__ZN10QByteArrayD1Ev"                                               @1225   ; magicseg='TEXT32' len=20  weak
+  "__ZN7QStringD1Ev"                                                   @1226   ; magicseg='TEXT32' len=16  weak
+
+  ; segment TEXT32
+  "__ZNK14ToolBarChanger7isEmptyEv"                                    @1227   ; magicseg='TEXT32' len=31
+  "__ZNK14ToolBarChanger17separatorsVisibleEv"                         @1228   ; magicseg='TEXT32' len=42
+  "__ZNK14ToolBarChanger20autoHideEmptyToolbarEv"                      @1229   ; magicseg='TEXT32' len=45
+  "__ZNK14ToolBarChanger7toolBarEv"                                    @1230   ; magicseg='TEXT32' len=31
+  "__ZNK14ToolBarChanger9itemGroupEP7QAction"                          @1231   ; magicseg='TEXT32' len=41
+  "__ZNK14ToolBarChanger12widgetHandleEP7QWidget"                      @1232   ; magicseg='TEXT32' len=45
+  "__ZNK14ToolBarChanger12handleWidgetEP7QAction"                      @1233   ; magicseg='TEXT32' len=45
+  "__ZNK14ToolBarChanger12actionHandleEP6Action"                       @1234   ; magicseg='TEXT32' len=44
+  "__ZNK14ToolBarChanger12handleActionEP7QAction"                      @1235   ; magicseg='TEXT32' len=45
+  "__ZN14ToolBarChanger13updateVisibleEv"                              @1236   ; magicseg='TEXT32' len=37
+  "__ZN14ToolBarChanger23setAutoHideEmptyToolbarEb"                    @1237   ; magicseg='TEXT32' len=47
+  "__ZN14ToolBarChangerD2Ev"                                           @1238   ; magicseg='TEXT32' len=24
+  "__ZN14ToolBarChangerD1Ev"                                           @1239   ; magicseg='TEXT32' len=24
+  "__ZN14ToolBarChangerD0Ev"                                           @1240   ; magicseg='TEXT32' len=24
+  "__ZNK14ToolBarChanger18findGroupSeparatorEi"                        @1241   ; magicseg='TEXT32' len=43
+  "__ZN14ToolBarChanger22updateSeparatorVisibleEv"                     @1242   ; magicseg='TEXT32' len=46
+  "__ZN14ToolBarChanger20setSeparatorsVisibleEb"                       @1243   ; magicseg='TEXT32' len=44
+  "__ZNK14ToolBarChanger10groupItemsEi"                                @1244   ; magicseg='TEXT32' len=35
+  "__ZN14ToolBarChanger20insertGroupSeparatorEiP7QAction"              @1245   ; magicseg='TEXT32' len=53
+  "__ZN14ToolBarChanger12insertActionEP6Actioni"                       @1246   ; magicseg='TEXT32' len=44
+  "__ZN14ToolBarChanger12insertWidgetEP7QWidgeti"                      @1247   ; magicseg='TEXT32' len=45
+  "__ZN14ToolBarChangerC2EP8QToolBar"                                  @1248   ; magicseg='TEXT32' len=33
+  "__ZN14ToolBarChangerC1EP8QToolBar"                                  @1249   ; magicseg='TEXT32' len=33
+  "__ZN14ToolBarChanger20removeGroupSeparatorEi"                       @1250   ; magicseg='TEXT32' len=44
+  "__ZN14ToolBarChanger10removeItemEP7QAction"                         @1251   ; magicseg='TEXT32' len=42
+  "__ZN14ToolBarChanger17onWidgetDestroyedEP7QObject"                  @1252   ; magicseg='TEXT32' len=49
+  "__ZN14ToolBarChanger5clearEv"                                       @1253   ; magicseg='TEXT32' len=28
+  "__ZN16ToolButtonAction12createWidgetEP7QWidget"                     @1254   ; magicseg='TEXT32' len=46  weak
+  "__ZN16ToolButtonActionD1Ev"                                         @1255   ; magicseg='TEXT32' len=26  weak
+  "__ZTV16ToolButtonAction"                                            @1256   ; magicseg='TEXT32' len=23  weak
+  "__ZN16ToolButtonActionD0Ev"                                         @1257   ; magicseg='TEXT32' len=26  weak
+  "__ZN4QMapIiP7QActionED1Ev"                                          @1258   ; magicseg='TEXT32' len=25  weak
+  "__ZN4QMapIP7QWidgetP7QActionED1Ev"                                  @1259   ; magicseg='TEXT32' len=33  weak
+  "__ZN4QMapIiP7QWidgetED2Ev"                                          @1260   ; magicseg='TEXT32' len=25  weak
+  "__ZN4QMapIP6ActionP11QToolButtonED1Ev"                              @1261   ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListIP7QActionED1Ev"                                          @1262   ; magicseg='TEXT32' len=25  weak
+  "__ZN5QListIP7QWidgetED1Ev"                                          @1263   ; magicseg='TEXT32' len=25  weak
+  "__ZN5QListIiED1Ev"                                                  @1264   ; magicseg='TEXT32' len=17  weak
+  "__ZN5QListIP7QActionE18detach_helper_growEii"                       @1265   ; magicseg='TEXT32' len=44  weak
+  "__ZN5QListIP7QActionE6appendERKS1_"                                 @1266   ; magicseg='TEXT32' len=34  weak
+  "__ZNK4QMapIiP7QWidgetE15mutableFindNodeEPPN8QMapData4NodeERKi"      @1267   ; magicseg='TEXT32' len=61  weak
+  "__ZNK4QMapIP7QWidgetP7QActionE15mutableFindNodeEPPN8QMapData4NodeERKS1_"                @1268   ; magicseg='TEXT32' len=71  weak
+  "__ZNK4QMapIP6ActionP11QToolButtonE15mutableFindNodeEPPN8QMapData4NodeERKS1_"            @1269   ; magicseg='TEXT32' len=75  weak
+  "__ZNK4QMapIiP7QActionE15mutableFindNodeEPPN8QMapData4NodeERKi"      @1270   ; magicseg='TEXT32' len=61  weak
+  "__ZN5QListIP7QActionE13detach_helperEi"                             @1271   ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP7QActionE7reserveEi"                                    @1272   ; magicseg='TEXT32' len=31  weak
+  "__ZNK4QMapIiP7QActionE6valuesEv"                                    @1273   ; magicseg='TEXT32' len=31  weak
+  "__ZNK4QMapIP7QWidgetP7QActionE6valuesEv"                            @1274   ; magicseg='TEXT32' len=39  weak
+  "__ZN5QListIP7QActionE13detach_helperEv"                             @1275   ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP7QWidgetE18detach_helper_growEii"                       @1276   ; magicseg='TEXT32' len=44  weak
+  "__ZN5QListIP7QWidgetE6appendERKS1_"                                 @1277   ; magicseg='TEXT32' len=34  weak
+  "__ZNK4QMapIiP7QWidgetE6valuesERKi"                                  @1278   ; magicseg='TEXT32' len=33  weak
+  "__ZN5QListIP7QWidgetE13detach_helperEi"                             @1279   ; magicseg='TEXT32' len=38  weak
+  "__ZN5QListIP7QWidgetE7reserveEi"                                    @1280   ; magicseg='TEXT32' len=31  weak
+  "__ZNK4QMapIiP7QWidgetE6valuesEv"                                    @1281   ; magicseg='TEXT32' len=31  weak
+  "__ZN5QListIP7QWidgetE13detach_helperEv"                             @1282   ; magicseg='TEXT32' len=38  weak
+  "__ZN4QMapIiP7QWidgetE13detach_helperEv"                             @1283   ; magicseg='TEXT32' len=38  weak
+  "__ZN4QMapIiP7QWidgetE5eraseENS2_8iteratorE"                         @1284   ; magicseg='TEXT32' len=42  weak
+  "__ZN4QMapIP7QWidgetP7QActionE13detach_helperEv"                     @1285   ; magicseg='TEXT32' len=46  weak
+  "__ZN4QMapIP7QWidgetP7QActionE4takeERKS1_"                           @1286   ; magicseg='TEXT32' len=40  weak
+  "__ZN4QMapIP6ActionP11QToolButtonE13detach_helperEv"                 @1287   ; magicseg='TEXT32' len=50  weak
+  "__ZN4QMapIP6ActionP11QToolButtonE5eraseENS4_8iteratorE"             @1288   ; magicseg='TEXT32' len=54  weak
+  "__ZN4QMapIiP7QActionE13detach_helperEv"                             @1289   ; magicseg='TEXT32' len=38  weak
+  "__ZN4QMapIiP7QActionE4takeERKi"                                     @1290   ; magicseg='TEXT32' len=30  weak
+  "__ZN5QListIiE13detach_helperEi"                                     @1291   ; magicseg='TEXT32' len=30  weak
+  "__ZN5QListIiE7reserveEi"                                            @1292   ; magicseg='TEXT32' len=23  weak
+  "__ZN5QListIiE18detach_helper_growEii"                               @1293   ; magicseg='TEXT32' len=36  weak
+  "__ZN5QListIiE6appendERKi"                                           @1294   ; magicseg='TEXT32' len=24  weak
+  "__ZNK4QMapIiP7QWidgetE4keysEv"                                      @1295   ; magicseg='TEXT32' len=29  weak
+  "__ZN5QListIiE13detach_helperEv"                                     @1296   ; magicseg='TEXT32' len=30  weak
+  "__ZTI16ToolButtonAction"                                            @1297   ; magicseg='TEXT32' len=23  weak
+  "__ZTS16ToolButtonAction"                                            @1298   ; magicseg='TEXT32' len=23  weak
+  "__ZTI13QWidgetAction"                                               @1299   ; magicseg='TEXT32' len=20  weak
+  "__ZTS13QWidgetAction"                                               @1300   ; magicseg='TEXT32' len=20  weak
+  "__ZTI7QAction"                                                      @1301   ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QAction"                                                      @1302   ; magicseg='TEXT32' len=13  weak
+  "__ZTI7QObject"                                                      @1303   ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @1304   ; magicseg='TEXT32' len=13  weak
+
+  ; segment TEXT32
+  "__ZN13UnzipFileDataC2Ev"                                            @1305   ; magicseg='TEXT32' len=23
+  "__ZN13UnzipFileDataC1Ev"                                            @1306   ; magicseg='TEXT32' len=23
+  "__ZNK9UnzipFile7isValidEv"                                          @1307   ; magicseg='TEXT32' len=25
+  "__ZNK9UnzipFile11zipFileNameEv"                                     @1308   ; magicseg='TEXT32' len=30
+  "__ZN13UnzipFileDataC2ERKS_"                                         @1309   ; magicseg='TEXT32' len=26
+  "__ZN13UnzipFileDataC1ERKS_"                                         @1310   ; magicseg='TEXT32' len=26
+  "__ZN13UnzipFileDataD2Ev"                                            @1311   ; magicseg='TEXT32' len=23
+  "__ZN13UnzipFileDataD1Ev"                                            @1312   ; magicseg='TEXT32' len=23
+  "__ZN9UnzipFileD2Ev"                                                 @1313   ; magicseg='TEXT32' len=18
+  "__ZN9UnzipFileD1Ev"                                                 @1314   ; magicseg='TEXT32' len=18
+  "__ZN9UnzipFileC2Ev"                                                 @1315   ; magicseg='TEXT32' len=18
+  "__ZN9UnzipFileC1Ev"                                                 @1316   ; magicseg='TEXT32' len=18
+  "__ZNK9UnzipFile8fileSizeERK7QString"                                @1317   ; magicseg='TEXT32' len=35
+  "__ZNK9UnzipFile18loadZippedFileDataERK7QString"                     @1318   ; magicseg='TEXT32' len=46
+  "__ZNK9UnzipFile8fileDataERK7QString"                                @1319   ; magicseg='TEXT32' len=35
+  "__ZN9UnzipFile19loadZippedFilesInfoEb"                              @1320   ; magicseg='TEXT32' len=37
+  "__ZN9UnzipFile8openFileERK7QStringb"                                @1321   ; magicseg='TEXT32' len=35
+  "__ZN9UnzipFileC2ERK7QStringb"                                       @1322   ; magicseg='TEXT32' len=28
+  "__ZN9UnzipFileC1ERK7QStringb"                                       @1323   ; magicseg='TEXT32' len=28
+  "__ZNK9UnzipFile9fileNamesEv"                                        @1324   ; magicseg='TEXT32' len=27
+  "__ZN5QHashI7QStringPN13UnzipFileData10ZippedFileEE13duplicateNodeEPN9QHashData4NodeEPv"                               @1325   ; magicseg='TEXT32' len=86  weak
+  "__ZN5QHashI7QStringPN13UnzipFileData10ZippedFileEE11deleteNode2EPN9QHashData4NodeE"     @1326   ; magicseg='TEXT32' len=82  weak
+  "__ZN10QByteArrayD1Ev"                                               @1327   ; magicseg='TEXT32' len=20  weak
+  "__ZN7QStringD1Ev"                                                   @1328   ; magicseg='TEXT32' len=16  weak
+  "__ZN5QHashI7QStringPN13UnzipFileData10ZippedFileEED1Ev"             @1329   ; magicseg='TEXT32' len=54  weak
+  "__ZN5QListI7QStringED1Ev"                                           @1330   ; magicseg='TEXT32' len=24  weak
+  "__ZN5QHashI7QStringPN13UnzipFileData10ZippedFileEE13detach_helperEv"                    @1331   ; magicseg='TEXT32' len=67  weak
+  "__Z10qDeleteAllIN5QHashI7QStringPN13UnzipFileData10ZippedFileEE14const_iteratorEEvT_S7_"                              @1332   ; magicseg='TEXT32' len=87  weak
+  "__ZN18QSharedDataPointerI13UnzipFileDataED1Ev"                      @1333   ; magicseg='TEXT32' len=45  weak
+  "__ZNK5QHashI7QStringPN13UnzipFileData10ZippedFileEE8findNodeERKS0_Pj"                   @1334   ; magicseg='TEXT32' len=68  weak
+  "__ZN18QSharedDataPointerI13UnzipFileDataE13detach_helperEv"         @1335   ; magicseg='TEXT32' len=58  weak
+  "__ZN5QListI7QStringE13detach_helperEi"                              @1336   ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI7QStringE7reserveEi"                                     @1337   ; magicseg='TEXT32' len=30  weak
+  "__ZN5QListI7QStringE18detach_helper_growEii"                        @1338   ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListI7QStringE6appendERKS0_"                                  @1339   ; magicseg='TEXT32' len=33  weak
+  "__ZNK5QHashI7QStringPN13UnzipFileData10ZippedFileEE4keysEv"         @1340   ; magicseg='TEXT32' len=58  weak
+
+  ; segment TEXT32
+  "__ZN13VersionParserC2Essss"                                         @1341   ; magicseg='TEXT32' len=26
+  "__ZN13VersionParserC1Essss"                                         @1342   ; magicseg='TEXT32' len=26
+  "__ZN13VersionParserD2Ev"                                            @1343   ; magicseg='TEXT32' len=23
+  "__ZN13VersionParserD1Ev"                                            @1344   ; magicseg='TEXT32' len=23
+  "__ZNK13VersionParser12majorVersionEv"                               @1345   ; magicseg='TEXT32' len=36
+  "__ZNK13VersionParser12minorVersionEv"                               @1346   ; magicseg='TEXT32' len=36
+  "__ZNK13VersionParser13releaseNumberEv"                              @1347   ; magicseg='TEXT32' len=37
+  "__ZNK13VersionParser11buildNumberEv"                                @1348   ; magicseg='TEXT32' len=35
+  "__ZNK13VersionParser13versionNumberEv"                              @1349   ; magicseg='TEXT32' len=37
+  "__ZNK13VersionParser8toStringENS_4PartE"                            @1350   ; magicseg='TEXT32' len=39
+  "__ZN13VersionParseraSERKS_"                                         @1351   ; magicseg='TEXT32' len=26
+  "__ZNK13VersionParsereqERKS_"                                        @1352   ; magicseg='TEXT32' len=27
+  "__ZNK13VersionParserneERKS_"                                        @1353   ; magicseg='TEXT32' len=27
+  "__ZNK13VersionParserltERKS_"                                        @1354   ; magicseg='TEXT32' len=27
+  "__ZNK13VersionParserleERKS_"                                        @1355   ; magicseg='TEXT32' len=27
+  "__ZNK13VersionParsergtERKS_"                                        @1356   ; magicseg='TEXT32' len=27
+  "__ZNK13VersionParsergeERKS_"                                        @1357   ; magicseg='TEXT32' len=27
+  "__ZN13VersionParserC2ERK7QString"                                   @1358   ; magicseg='TEXT32' len=32
+  "__ZN13VersionParserC1ERK7QString"                                   @1359   ; magicseg='TEXT32' len=32
+  "__ZN7QStringD1Ev"                                                   @1360   ; magicseg='TEXT32' len=16  weak
+  "__ZN5QListI7QStringED2Ev"                                           @1361   ; magicseg='TEXT32' len=24  weak
+  "__ZN5QListI7QStringE13detach_helperEi"                              @1362   ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI7QStringE13detach_helperEv"                              @1363   ; magicseg='TEXT32' len=37  weak
+
+  ; segment TEXT32
+  "__ZN13WindowSticker11eventFilterEP7QObjectP6QEvent"                 @1364   ; magicseg='TEXT32' len=50
+  "__ZN13WindowStickerC2Ev"                                            @1365   ; magicseg='TEXT32' len=23
+  "__ZN13WindowStickerC1Ev"                                            @1366   ; magicseg='TEXT32' len=23
+  "__ZN13WindowSticker8instanceEv"                                     @1367   ; magicseg='TEXT32' len=30
+  "__ZN13WindowSticker12insertWindowEP7QWidget"                        @1368   ; magicseg='TEXT32' len=43
+  "__ZN13WindowSticker12removeWindowEP7QWidget"                        @1369   ; magicseg='TEXT32' len=43
+  "__ZN13WidgetManager11raiseWidgetEP7QWidget"                         @1370   ; magicseg='TEXT32' len=42
+  "__ZN13WidgetManager14isActiveWindowEPK7QWidget"                     @1371   ; magicseg='TEXT32' len=46
+  "__ZN13WidgetManager23showActivateRaiseWindowEP7QWidget"             @1372   ; magicseg='TEXT32' len=54
+  "__ZN13WidgetManager15setWindowStickyEP7QWidgetb"                    @1373   ; magicseg='TEXT32' len=47
+  "__ZN13WidgetManager11alertWidgetEP7QWidget"                         @1374   ; magicseg='TEXT32' len=42
+  "__ZN13WidgetManager20isWidgetAlertEnabledEv"                        @1375   ; magicseg='TEXT32' len=43
+  "__ZN13WidgetManager21setWidgetAlertEnabledEb"                       @1376   ; magicseg='TEXT32' len=44
+  "__ZN13WidgetManager15windowAlignmentEPK7QWidget"                    @1377   ; magicseg='TEXT32' len=47
+  "__ZN13WidgetManager9alignRectERK5QRectS2_6QFlagsIN2Qt13AlignmentFlagEE"                 @1378   ; magicseg='TEXT32' len=70
+  "__ZN13WidgetManager11alignWindowEP7QWidget6QFlagsIN2Qt13AlignmentFlagEE"                @1379   ; magicseg='TEXT32' len=71
+  "__ZN13WidgetManager13alignGeometryERK5QSizePK7QWidget6QFlagsIN2Qt13AlignmentFlagEE"     @1380   ; magicseg='TEXT32' len=82
+  "__ZN13WindowStickerD1Ev"                                            @1381   ; magicseg='TEXT32' len=23  weak
+  "__ZTV13WindowSticker"                                               @1382   ; magicseg='TEXT32' len=20  weak
+  "__ZN13WindowStickerD0Ev"                                            @1383   ; magicseg='TEXT32' len=23  weak
+  "__ZTI13WindowSticker"                                               @1384   ; magicseg='TEXT32' len=20  weak
+  "__ZTS13WindowSticker"                                               @1385   ; magicseg='TEXT32' len=20  weak
+  "__ZTI7QObject"                                                      @1386   ; magicseg='TEXT32' len=13  weak
+  "__ZTS7QObject"                                                      @1387   ; magicseg='TEXT32' len=13  weak
+
+  ; segment BSS32
+  "__ZN15XmppStreamError16FErrorConditionsE"                           @1388   ; magicseg='BSS32' len=40
+  "__ZN15XmppStanzaError11FErrorTypesE"                                @1389   ; magicseg='BSS32' len=35
+  "__ZN15XmppStanzaError15FConditionTypesE"                            @1390   ; magicseg='BSS32' len=39
+  "__ZN15XmppStanzaError16FErrorConditionsE"                           @1391   ; magicseg='BSS32' len=40
+  "__ZN15XmppStanzaError4nullE"                                        @1392   ; magicseg='BSS32' len=27
+  "__ZN15XmppStreamError4nullE"                                        @1393   ; magicseg='BSS32' len=27
+  "__ZN9XmppError7FErrorsE"                                            @1394   ; magicseg='BSS32' len=23
+  "__ZN9XmppError4nullE"                                               @1395   ; magicseg='BSS32' len=20
+
+  ; segment TEXT32
+  "__ZNK9XmppError6isNullEv"                                           @1396   ; magicseg='TEXT32' len=24
+  "__ZNK9XmppError13isStreamErrorEv"                                   @1397   ; magicseg='TEXT32' len=32
+  "__ZNK9XmppError13isStanzaErrorEv"                                   @1398   ; magicseg='TEXT32' len=32
+  "__ZNK9XmppError15isInternalErrorEv"                                 @1399   ; magicseg='TEXT32' len=34
+  "__ZNK9XmppError7errorNsEv"                                          @1400   ; magicseg='TEXT32' len=25
+  "__ZNK9XmppError9conditionEv"                                        @1401   ; magicseg='TEXT32' len=27
+  "__ZNK9XmppError13conditionTextEv"                                   @1402   ; magicseg='TEXT32' len=32
+  "__ZNK9XmppError9errorTextERK7QString"                               @1403   ; magicseg='TEXT32' len=36
+  "__ZNK9XmppError12appConditionERK7QString"                           @1404   ; magicseg='TEXT32' len=40
+  "__ZN9XmppError15getErrorMessageERK7QStringS2_"                      @1405   ; magicseg='TEXT32' len=45
+  "__ZN15XmppStreamError15conditionByCodeENS_14ErrorConditionE"        @1406   ; magicseg='TEXT32' len=59
+  "__ZNK15XmppStanzaError7errorByEv"                                   @1407   ; magicseg='TEXT32' len=32
+  "__ZNK15XmppStanzaError9errorTypeEv"                                 @1408   ; magicseg='TEXT32' len=34
+  "__ZN15XmppStanzaError10typeByCodeENS_9ErrorTypeE"                   @1409   ; magicseg='TEXT32' len=48
+  "__ZN15XmppStanzaError15typeByConditionENS_14ErrorConditionE"        @1410   ; magicseg='TEXT32' len=59
+  "__ZN15XmppStanzaError15conditionByCodeENS_14ErrorConditionE"        @1411   ; magicseg='TEXT32' len=59
+  "__ZN9XmppErrorC2ERK18QSharedDataPointerI13XmppErrorDataE"           @1412   ; magicseg='TEXT32' len=56
+  "__ZN9XmppErrorC1ERK18QSharedDataPointerI13XmppErrorDataE"           @1413   ; magicseg='TEXT32' len=56
+  "__ZN15XmppStanzaErrorC2ERK18QSharedDataPointerI13XmppErrorDataE"    @1414   ; magicseg='TEXT32' len=63
+  "__ZN15XmppStanzaErrorC1ERK18QSharedDataPointerI13XmppErrorDataE"    @1415   ; magicseg='TEXT32' len=63
+  "__ZNK9XmppError13toStanzaErrorEv"                                   @1416   ; magicseg='TEXT32' len=32
+  "__ZN15XmppStreamErrorC2ERK18QSharedDataPointerI13XmppErrorDataE"    @1417   ; magicseg='TEXT32' len=63
+  "__ZN15XmppStreamErrorC1ERK18QSharedDataPointerI13XmppErrorDataE"    @1418   ; magicseg='TEXT32' len=63
+  "__ZNK9XmppError13toStreamErrorEv"                                   @1419   ; magicseg='TEXT32' len=32
+  "__ZN15XmppStreamError15codeByConditionERK7QString"                  @1420   ; magicseg='TEXT32' len=49
+  "__ZNK15XmppStreamError13conditionCodeEv"                            @1421   ; magicseg='TEXT32' len=39
+  "__ZN15XmppStanzaError10codeByTypeERK7QString"                       @1422   ; magicseg='TEXT32' len=44
+  "__ZNK15XmppStanzaError13errorTypeCodeEv"                            @1423   ; magicseg='TEXT32' len=39
+  "__ZN15XmppStanzaError15codeByConditionERK7QString"                  @1424   ; magicseg='TEXT32' len=49
+  "__ZNK15XmppStanzaError13conditionCodeEv"                            @1425   ; magicseg='TEXT32' len=39
+  "__ZNK9XmppError18appConditionNsListEv"                              @1426   ; magicseg='TEXT32' len=37
+  "__ZNK9XmppError14errorTextLangsEv"                                  @1427   ; magicseg='TEXT32' len=33
+  "__ZN15XmppStanzaError12setErrorTypeENS_9ErrorTypeE"                 @1428   ; magicseg='TEXT32' len=50
+  "__ZN15XmppStanzaError10setErrorByERK7QString"                       @1429   ; magicseg='TEXT32' len=44
+  "__ZN9XmppError16setConditionTextERK7QString"                        @1430   ; magicseg='TEXT32' len=43
+  "__ZN9XmppError12setConditionERK7QString"                            @1431   ; magicseg='TEXT32' len=39
+  "__ZN15XmppStanzaError12setConditionENS_14ErrorConditionE"           @1432   ; magicseg='TEXT32' len=56
+  "__ZN15XmppStreamError12setConditionENS_14ErrorConditionE"           @1433   ; magicseg='TEXT32' len=56
+  "__ZN9XmppError10setErrorNsERK7QString"                              @1434   ; magicseg='TEXT32' len=37
+  "__ZN9XmppError15setAppConditionERK7QStringS2_"                      @1435   ; magicseg='TEXT32' len=45
+  "__ZN9XmppError12setErrorTextERK7QStringS2_"                         @1436   ; magicseg='TEXT32' len=42
+  "__ZN9XmppErrorC2ERK7QStringS2_S2_"                                  @1437   ; magicseg='TEXT32' len=33
+  "__ZN9XmppErrorC1ERK7QStringS2_S2_"                                  @1438   ; magicseg='TEXT32' len=33
+  "__ZN15XmppStanzaErrorC2ENS_14ErrorConditionERK7QStringNS_9ErrorTypeES3_"                @1439   ; magicseg='TEXT32' len=71
+  "__ZN15XmppStanzaErrorC1ENS_14ErrorConditionERK7QStringNS_9ErrorTypeES3_"                @1440   ; magicseg='TEXT32' len=71
+  "__ZN15XmppStreamErrorC2ENS_14ErrorConditionERK7QString"             @1441   ; magicseg='TEXT32' len=54
+  "__ZN15XmppStreamErrorC1ENS_14ErrorConditionERK7QString"             @1442   ; magicseg='TEXT32' len=54
+  "__ZN9XmppErrorC2E11QDomElementRK7QString"                           @1443   ; magicseg='TEXT32' len=40
+  "__ZN9XmppErrorC1E11QDomElementRK7QString"                           @1444   ; magicseg='TEXT32' len=40
+  "__ZN15XmppStanzaErrorC2E11QDomElement"                              @1445   ; magicseg='TEXT32' len=37
+  "__ZN15XmppStanzaErrorC1E11QDomElement"                              @1446   ; magicseg='TEXT32' len=37
+  "__ZN15XmppStreamErrorC2E11QDomElement"                              @1447   ; magicseg='TEXT32' len=37
+  "__ZN15XmppStreamErrorC1E11QDomElement"                              @1448   ; magicseg='TEXT32' len=37
+  "__ZN9XmppError13registerErrorERK7QStringS2_S2_S2_"                  @1449   ; magicseg='TEXT32' len=49
+  "__ZN15XmppStanzaError20registerStanzaErrorsEv"                      @1450   ; magicseg='TEXT32' len=45
+  "__ZN15XmppStreamError20registerStreamErrorsEv"                      @1451   ; magicseg='TEXT32' len=45
+  "__ZN9XmppError14registerErrorsEv"                                   @1452   ; magicseg='TEXT32' len=32
+  "__ZN9XmppError14getErrorStringERK7QStringS2_S2_"                    @1453   ; magicseg='TEXT32' len=47
+  "__ZNK9XmppError11errorStringERK7QString"                            @1454   ; magicseg='TEXT32' len=39
+  "__ZNK9XmppError12errorMessageERK7QStringS2_"                        @1455   ; magicseg='TEXT32' len=43
+  "__ZN15XmppStreamError10initializeEv"                                @1456   ; magicseg='TEXT32' len=35
+  "__ZN15XmppStanzaError10initializeEv"                                @1457   ; magicseg='TEXT32' len=35
+  "__ZN9XmppError10initializeEv"                                       @1458   ; magicseg='TEXT32' len=28
+  "__ZN9XmppErrorC2Ev"                                                 @1459   ; magicseg='TEXT32' len=18
+  "__ZN9XmppErrorC1Ev"                                                 @1460   ; magicseg='TEXT32' len=18
+  "__ZN15XmppStanzaErrorC2ERK6Stanza"                                  @1461   ; magicseg='TEXT32' len=33
+  "__ZN15XmppStanzaErrorC1ERK6Stanza"                                  @1462   ; magicseg='TEXT32' len=33
+  "__ZN15XmppStanzaErrorC2Ev"                                          @1463   ; magicseg='TEXT32' len=25
+  "__ZN15XmppStanzaErrorC1Ev"                                          @1464   ; magicseg='TEXT32' len=25
+  "__ZN15XmppStreamErrorC2Ev"                                          @1465   ; magicseg='TEXT32' len=25
+  "__ZN15XmppStreamErrorC1Ev"                                          @1466   ; magicseg='TEXT32' len=25
+  "__ZN7QStringD1Ev"                                                   @1467   ; magicseg='TEXT32' len=16  weak
+  "__ZN4QMapI7QStringS0_ED1Ev"                                         @1468   ; magicseg='TEXT32' len=26  weak
+  "__ZN18QSharedDataPointerI13XmppErrorDataED1Ev"                      @1469   ; magicseg='TEXT32' len=45  weak
+  "__ZN15XmppStanzaErrorD1Ev"                                          @1470   ; magicseg='TEXT32' len=25  weak
+  "__ZN5QListI7QStringED1Ev"                                           @1471   ; magicseg='TEXT32' len=24  weak
+  "__ZN4QMapI7QStringS_IS0_S0_EED1Ev"                                  @1472   ; magicseg='TEXT32' len=33  weak
+  "__ZNK4QMapIN15XmppStreamError14ErrorConditionE7QStringE3keyERKS2_RKS1_"                 @1473   ; magicseg='TEXT32' len=70  weak
+  "__ZNK4QMapIN15XmppStanzaError9ErrorTypeE7QStringE3keyERKS2_RKS1_"   @1474   ; magicseg='TEXT32' len=64  weak
+  "__ZNK4QMapIN15XmppStanzaError14ErrorConditionE7QStringE3keyERKS2_RKS1_"                 @1475   ; magicseg='TEXT32' len=70  weak
+  "__ZNK4QMapI7QStringS0_E15mutableFindNodeEPPN8QMapData4NodeERKS0_"   @1476   ; magicseg='TEXT32' len=64  weak
+  "__ZNK4QMapI7QStringS_IS0_S_IS0_S0_EEE15mutableFindNodeEPPN8QMapData4NodeERKS0_"         @1477   ; magicseg='TEXT32' len=78  weak
+  "__ZNK4QMapI7QStringS_IS0_S0_EE15mutableFindNodeEPPN8QMapData4NodeERKS0_"                @1478   ; magicseg='TEXT32' len=71  weak
+  "__ZNK4QMapIN15XmppStreamError14ErrorConditionE7QStringE15mutableFindNodeEPPN8QMapData4NodeERKS1_"                     @1479   ; magicseg='TEXT32' len=96  weak
+  "__ZNK4QMapIN15XmppStanzaError9ErrorTypeE7QStringE15mutableFindNodeEPPN8QMapData4NodeERKS1_"                           @1480   ; magicseg='TEXT32' len=90  weak
+  "__ZNK4QMapIN15XmppStanzaError14ErrorConditionENS0_9ErrorTypeEE15mutableFindNodeEPPN8QMapData4NodeERKS1_"              @1481   ; magicseg='TEXT32' len=103  weak
+  "__ZNK4QMapIN15XmppStanzaError14ErrorConditionE7QStringE15mutableFindNodeEPPN8QMapData4NodeERKS1_"                     @1482   ; magicseg='TEXT32' len=96  weak
+  "__ZN5QListI7QStringE13detach_helperEi"                              @1483   ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI7QStringE13detach_helperEv"                              @1484   ; magicseg='TEXT32' len=37  weak
+  "__ZN5QListI7QStringE7reserveEi"                                     @1485   ; magicseg='TEXT32' len=30  weak
+  "__ZN5QListI7QStringE18detach_helper_growEii"                        @1486   ; magicseg='TEXT32' len=43  weak
+  "__ZN5QListI7QStringE6appendERKS0_"                                  @1487   ; magicseg='TEXT32' len=33  weak
+  "__ZNK4QMapI7QStringS0_E4keysEv"                                     @1488   ; magicseg='TEXT32' len=30  weak
+  "__ZN4QMapI7QStringS0_E13detach_helperEv"                            @1489   ; magicseg='TEXT32' len=39  weak
+  "__ZN4QMapI7QStringS0_E6removeERKS0_"                                @1490   ; magicseg='TEXT32' len=35  weak
+  "__ZN18QSharedDataPointerI13XmppErrorDataE13detach_helperEv"         @1491   ; magicseg='TEXT32' len=58  weak
+  "__ZN4QMapI7QStringS_IS0_S0_EE11node_createEP8QMapDataPPNS3_4NodeERKS0_RKS1_"            @1492   ; magicseg='TEXT32' len=75  weak
+  "__ZN4QMapI7QStringS_IS0_S0_EE13detach_helperEv"                     @1493   ; magicseg='TEXT32' len=46  weak
+  "__ZN4QMapI7QStringS_IS0_S_IS0_S0_EEE11node_createEP8QMapDataPPNS4_4NodeERKS0_RKS2_"     @1494   ; magicseg='TEXT32' len=82  weak
+  "__ZN4QMapI7QStringS_IS0_S_IS0_S0_EEE13detach_helperEv"              @1495   ; magicseg='TEXT32' len=53  weak
+  "__ZN4QMapIN15XmppStreamError14ErrorConditionE7QStringE13detach_helperEv"                @1496   ; magicseg='TEXT32' len=71  weak
+  "__ZN4QMapIN15XmppStanzaError9ErrorTypeE7QStringE13detach_helperEv"                      @1497   ; magicseg='TEXT32' len=65  weak
+  "__ZN4QMapIN15XmppStanzaError14ErrorConditionENS0_9ErrorTypeEE13detach_helperEv"         @1498   ; magicseg='TEXT32' len=78  weak
+  "__ZN4QMapIN15XmppStanzaError14ErrorConditionE7QStringE13detach_helperEv"                @1499   ; magicseg='TEXT32' len=71  weak
+

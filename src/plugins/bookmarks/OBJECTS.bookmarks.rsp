@@ -1,0 +1,6 @@
+editbookmarkdialog.obj
+editbookmarksdialog.obj
+bookmarks.obj
+moc_editbookmarkdialog.obj
+moc_editbookmarksdialog.obj
+moc_bookmarks.obj

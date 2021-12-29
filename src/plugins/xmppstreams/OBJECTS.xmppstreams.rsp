@@ -1,0 +1,6 @@
+xmppstreams.obj
+xmppstream.obj
+streamparser.obj
+moc_xmppstreams.obj
+moc_xmppstream.obj
+moc_streamparser.obj

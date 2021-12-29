@@ -1,0 +1,3 @@
+-DPLUGINS_DIR='"'././plugins'"'
+-DRESOURCES_DIR='"'././resources'"'
+-DTRANSLATIONS_DIR='"'././translations'"'
